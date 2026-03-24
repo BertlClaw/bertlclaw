@@ -461,7 +461,7 @@
       <div class="contact-shell">
         <article class="contact-form">
           <h3>Kontaktformular</h3>
-          <form id="contactForm">
+          <form id="contactForm" action="https://formspree.io/f/xnjoapve" method="POST">
             <div class="form-grid">
               <div class="field">
                 <label for="name">Name</label>
@@ -471,6 +471,7 @@
                 <label for="email">E-Mail</label>
                 <input id="email" name="email" type="email" placeholder="deine@email.at" required />
               </div>
+              <input type="hidden" name="_subject" value="Neue BertlClaw Anfrage" />
               <div class="field full">
                 <label for="topic">Thema</label>
                 <select id="topic" name="topic">
@@ -486,11 +487,11 @@
               </div>
             </div>
             <div class="cta">
-              <button class="btn btn-primary" type="submit">Anfrage per E-Mail öffnen</button>
+              <button class="btn btn-primary" type="submit">Anfrage absenden</button>
               <a class="btn btn-secondary" href="mailto:dominic-reisenbichler@gmx.at">Direkt mailen</a>
             </div>
             <div class="form-note">
-              Aktuell funktioniert das Formular sofort als <strong>Mailto-Version</strong>. Die Struktur ist bewusst schon so gebaut, dass wir sie später leicht auf <strong>Formspree</strong> umstellen können.
+Das Formular ist jetzt direkt mit <strong>Formspree</strong> verbunden und kann Anfragen ohne eigenes Backend verarbeiten.
             </div>
           </form>
         </article>
@@ -527,32 +528,7 @@
     BertlClaw · premium tech company feel · structured like a product, useful like a system.
   </footer>
 
-  <script>
-    const form = document.getElementById('contactForm');
-    if (form) {
-      form.addEventListener('submit', function (e) {
-        e.preventDefault();
-        const name = document.getElementById('name').value.trim();
-        const email = document.getElementById('email').value.trim();
-        const topic = document.getElementById('topic').value.trim();
-        const message = document.getElementById('message').value.trim();
-        const subject = encodeURIComponent('BertlClaw Anfrage – ' + topic);
-        const body = encodeURIComponent(
-          'Name: ' + name + '
-' +
-          'E-Mail: ' + email + '
-' +
-          'Thema: ' + topic + '
-
-' +
-          'Nachricht:
-' + message + '
-'
-        );
-        window.location.href = 'mailto:dominic-reisenbichler@gmx.at?subject=' + subject + '&body=' + body;
-      });
-    }
-  </script>
+  
 </body>
 </html>
 >
