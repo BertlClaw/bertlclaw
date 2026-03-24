@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hangar 54 — Motorsportverein</title>
+  <meta name="description" content="Hangar 54 ist ein moderner Motorsportverein mit Fokus auf Community, Cars & Coffee, Events und automobile Leidenschaft." />
+  <style>
+    :root {
+      --bg: #060606;
+      --bg-soft: #0d0d0d;
+      --panel: rgba(255,255,255,0.04);
+      --panel-2: rgba(255,255,255,0.06);
+      --line: rgba(203, 181, 132, 0.2);
+      --gold: #cbb584;
+      --gold-strong: #dfc994;
+      --red: #a12b22;
+      --text: #f4efe4;
+      --muted: #c8c1b2;
+      --shadow: 0 20px 60px rgba(0,0,0,.34);
+      --radius: 24px;
+      --max: 1240px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 10% 0%, rgba(161,43,34,.18), transparent 26%),
+        radial-gradient(circle at 90% 8%, rgba(203,181,132,.10), transparent 30%),
+        linear-gradient(180deg, #050505 0%, #0a0a0a 45%, #060606 100%);
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .wrap { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(16px);
+      background: rgba(6,6,6,.82);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 14px 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .brand-mark {
+      width: 46px;
+      height: 46px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      background: linear-gradient(145deg, rgba(203,181,132,.18), rgba(161,43,34,.10));
+      color: var(--gold-strong);
+      box-shadow: var(--shadow);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: var(--muted);
+      font-size: .95rem;
+    }
+
+    .hero {
+      padding: 32px 0 24px;
+    }
+
+    .hero-card {
+      position: relative;
+      min-height: 720px;
+      border-radius: 32px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      background: #111;
+    }
+
+    .hero-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(0,0,0,.76) 0%, rgba(0,0,0,.56) 35%, rgba(0,0,0,.18) 64%, rgba(0,0,0,.42) 100%),
+        linear-gradient(180deg, rgba(0,0,0,.10) 0%, rgba(0,0,0,.25) 100%);
+      z-index: 1;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 60%;
+      filter: saturate(1.02) contrast(1.02);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 26px;
+      align-items: end;
+      min-height: 720px;
+      padding: 42px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      margin-bottom: 18px;
+      border: 1px solid rgba(223,201,148,.28);
+      background: rgba(203,181,132,.08);
+      color: var(--gold-strong);
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: .76rem;
+    }
+
+    h1,h2,h3 { margin: 0 0 14px; line-height: 1.02; }
+    h1 { font-size: clamp(3rem, 7vw, 6.2rem); letter-spacing: -0.06em; max-width: 8ch; }
+    h2 { font-size: clamp(1.8rem, 3vw, 2.7rem); letter-spacing: -0.04em; }
+    h3 { font-size: 1.12rem; }
+
+    .lead {
+      max-width: 62ch;
+      color: #dfd7c8;
+      font-size: 1.08rem;
+      line-height: 1.82;
+      margin-top: 12px;
+    }
+
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 18px;
+      border-radius: 14px;
+      font-weight: 700;
+      border: 1px solid transparent;
+      transition: .2s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--gold), #ead8ab);
+      color: #121212;
+    }
+
+    .btn-secondary {
+      background: rgba(255,255,255,.05);
+      color: var(--text);
+      border-color: rgba(255,255,255,.14);
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .hero-side {
+      display: grid;
+      gap: 16px;
+      align-self: end;
+    }
+
+    .glass {
+      background: rgba(10,10,10,.48);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: 22px;
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+    }
+
+    .feature-box {
+      padding: 20px;
+    }
+
+    .feature-box strong {
+      display: block;
+      color: var(--gold-strong);
+      font-size: 1.2rem;
+      margin-bottom: 6px;
+    }
+
+    .feature-box p {
+      margin: 0;
+      color: #d0c8bb;
+      line-height: 1.72;
+    }
+
+    .logo-float {
+      padding: 18px;
+      display: grid;
+      place-items: center;
+    }
+
+    .logo-float img {
+      max-width: 100%;
+      width: 360px;
+      border-radius: 22px;
+      border: 1px solid rgba(203,181,132,.22);
+      background: rgba(0,0,0,.45);
+    }
+
+    .section {
+      padding: 34px 0 12px;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: end;
+      margin-bottom: 22px;
+    }
+
+    .section-head p {
+      margin: 0;
+      max-width: 64ch;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .grid-3, .grid-4, .split { display: grid; gap: 18px; }
+    .grid-3 { grid-template-columns: repeat(3, 1fr); }
+    .grid-4 { grid-template-columns: repeat(4, 1fr); }
+    .split { grid-template-columns: 1fr 1fr; }
+
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 15px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 14px;
+      background: linear-gradient(145deg, rgba(203,181,132,.18), rgba(161,43,34,.12));
+      border: 1px solid var(--line);
+      color: var(--gold-strong);
+      font-size: 1.15rem;
+    }
+
+    .card p, .timeline p, .contact-list li, .quote { color: var(--muted); line-height: 1.75; }
+
+    .timeline { display: grid; gap: 14px; }
+    .step {
+      padding: 16px 18px;
+      border-left: 3px solid var(--gold);
+      background: rgba(255,255,255,.03);
+      border-radius: 0 16px 16px 0;
+    }
+
+    .image-panel {
+      border-radius: 22px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      min-height: 100%;
+      background: #111;
+    }
+
+    .image-panel img {
+      width: 100%;
+      height: 100%;
+      min-height: 420px;
+      object-fit: cover;
+      object-position: center center;
+    }
+
+    .quote {
+      margin-top: 18px;
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: rgba(161,43,34,.10);
+      border: 1px solid rgba(161,43,34,.22);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 1fr;
+      gap: 16px;
+    }
+
+    .shot {
+      position: relative;
+      overflow: hidden;
+      border-radius: 24px;
+      border: 1px solid var(--line);
+      background: #111;
+      box-shadow: var(--shadow);
+      min-height: 280px;
+    }
+
+    .shot.tall { min-height: 580px; }
+    .shot.medium { min-height: 280px; }
+    .shot.wide { min-height: 320px; }
+
+    .shot img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .45s ease;
+    }
+
+    .shot:hover img { transform: scale(1.03); }
+
+    .shot::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,.03), rgba(0,0,0,.42));
+      pointer-events: none;
+    }
+
+    .shot-label {
+      position: absolute;
+      left: 16px;
+      bottom: 16px;
+      z-index: 2;
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: rgba(0,0,0,.48);
+      border: 1px solid rgba(255,255,255,.10);
+      backdrop-filter: blur(10px);
+      font-size: .92rem;
+    }
+
+    .gallery-stack {
+      display: grid;
+      gap: 16px;
+    }
+
+    .sponsor {
+      min-height: 110px;
+      border-radius: 18px;
+      display: grid;
+      place-items: center;
+      border: 1px dashed rgba(203,181,132,.28);
+      background: rgba(255,255,255,.02);
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: .78rem;
+    }
+
+    .contact-box { padding: 26px; }
+    .contact-list {
+      list-style: none;
+      margin: 18px 0 0;
+      padding: 0;
+      display: grid;
+      gap: 12px;
+    }
+
+    .contact-list li {
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.03);
+    }
+
+    .footer {
+      padding: 36px 0 62px;
+      color: var(--muted);
+      text-align: center;
+      font-size: .94rem;
+    }
+
+    @media (max-width: 1100px) {
+      .hero-content, .split, .grid-3, .grid-4, .gallery {
+        grid-template-columns: 1fr;
+      }
+      .shot.tall, .shot.medium, .shot.wide { min-height: 320px; }
+    }
+
+    @media (max-width: 860px) {
+      .nav-links { display: none; }
+      .section-head { display: block; }
+      .hero-card, .hero-content { min-height: auto; }
+      .hero-content { padding: 24px; }
+      h1 { max-width: 100%; }
+      .logo-float img { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <div class="brand">
+        <div class="brand-mark">🏁</div>
+        <div>Hangar 54</div>
+      </div>
+      <div class="nav-links">
+        <a href="#about">Verein</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#events">Events</a>
+        <a href="#sponsors">Sponsoren</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero wrap">
+    <div class="hero-card">
+      <img class="hero-bg" src="hangar54-assets/gallery-10.jpg" alt="Hangar 54 Cars & Coffee" />
+      <div class="hero-content">
+        <div>
+          <div class="eyebrow">Motorsportverein · Cars & Coffee · Community</div>
+          <h1>Motorsport lebt von Menschen.</h1>
+          <p class="lead">
+            Hangar 54 verbindet automobile Leidenschaft, entspannte Treffen und echten Community-Spirit.
+            Von klassischen Fahrzeugen bis zu modernen Performance-Cars entsteht hier ein Ort für Menschen,
+            die Szene, Stil und gemeinsame Erlebnisse schätzen.
+          </p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#contact">Mitgliedschaft & Kontakt</a>
+            <a class="btn btn-secondary" href="https://www.instagram.com/hangar.54?igsh=MTA2b3Y3YmVyeWFqaQ==" target="_blank" rel="noreferrer">Instagram ansehen</a>
+          </div>
+        </div>
+
+        <div class="hero-side">
+          <div class="glass logo-float">
+            <img src="hangar54-assets/logo.webp" alt="Hangar 54 Logo" />
+          </div>
+          <div class="glass feature-box">
+            <strong>Cars & Coffee mit Charakter</strong>
+            <p>Eine moderne Vereinspräsenz für Fahrzeuge, Leute, Treffen, Sponsoren und Events — mit genau dem Look, den das Logo vorgibt.</p>
+          </div>
+          <div class="glass feature-box">
+            <strong>Passender Bildschnitt</strong>
+            <p>Die Fotos sind bewusst so eingebunden, dass Autos, Details, Atmosphäre und Community im Layout sauber wirken.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section" id="about">
+      <div class="section-head">
+        <div><h2>Über Hangar 54</h2></div>
+        <p>
+          Hangar 54 steht für Motorsportkultur mit entspannter Energie: Fahrzeuge, Gespräche, Begegnungen,
+          besondere Locations und das gemeinsame Erleben rund um Autos, Bikes und Szene-Momente.
+        </p>
+      </div>
+
+      <div class="split">
+        <div class="card">
+          <div class="icon">⚙️</div>
+          <h3>Wofür wir stehen</h3>
+          <p>
+            Nicht nur Leistung zählt, sondern auch Atmosphäre, Respekt für Fahrzeuge und die Freude daran,
+            Menschen mit derselben Leidenschaft zusammenzubringen.
+          </p>
+          <div class="timeline">
+            <div class="step"><strong>Community</strong><p>Treffen, Austausch und gelebter Zusammenhalt.</p></div>
+            <div class="step"><strong>Fahrzeuge</strong><p>Vom Klassiker bis zum modernen Performance-Car.</p></div>
+            <div class="step"><strong>Momente</strong><p>Cars & Coffee, Rückblicke, besondere Orte und echter Vereinscharakter.</p></div>
+          </div>
+          <div class="quote">
+            „Zeit für einen kleinen Rückblick – in den letzten Jahren war unser Cars & Coffee immer ein Highlight.“
+          </div>
+        </div>
+        <div class="image-panel">
+          <img src="hangar54-assets/gallery-02.jpg" alt="Hangar 54 Fahrzeugreihe" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="section-head">
+        <div><h2>Galerie</h2></div>
+        <p>
+          Aus den gelieferten Motiven habe ich einen ersten visuellen Mix gebaut: Autos, Details, Bikes,
+          Community und Standortgefühl. So wirkt die Seite direkt nach echter Szene — nicht nach Platzhalter.
+        </p>
+      </div>
+
+      <div class="gallery">
+        <div class="shot tall">
+          <img src="hangar54-assets/gallery-09.jpg" alt="BMW bei Hangar 54" style="object-position:center 44%;" />
+          <div class="shot-label">Modern Performance</div>
+        </div>
+
+        <div class="gallery-stack">
+          <div class="shot medium">
+            <img src="hangar54-assets/gallery-07.jpg" alt="Mazda MX-5 Reihe" style="object-position:center 58%;" />
+            <div class="shot-label">Klassiker & Roadster</div>
+          </div>
+          <div class="shot medium">
+            <img src="hangar54-assets/gallery-04.jpg" alt="Harley-Davidson Detail" style="object-position:center 38%;" />
+            <div class="shot-label">Bikes & Charakter</div>
+          </div>
+        </div>
+
+        <div class="gallery-stack">
+          <div class="shot medium">
+            <img src="hangar54-assets/gallery-03.jpg" alt="Cars & Coffee Community" style="object-position:center 32%;" />
+            <div class="shot-label">Community</div>
+          </div>
+          <div class="shot medium">
+            <img src="hangar54-assets/gallery-05.jpg" alt="Lotus in Garage" style="object-position:center 32%;" />
+            <div class="shot-label">Motorsport-Mood</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery" style="margin-top:16px; grid-template-columns: 1fr 1fr 1fr;">
+        <div class="shot wide">
+          <img src="hangar54-assets/gallery-01.jpg" alt="Klassische BMWs und Mazda" style="object-position:center 35%;" />
+          <div class="shot-label">Vintage Line-up</div>
+        </div>
+        <div class="shot wide">
+          <img src="hangar54-assets/gallery-08.jpg" alt="Mopeds bei Hangar 54" style="object-position:center 40%;" />
+          <div class="shot-label">Zweirad-Nostalgie</div>
+        </div>
+        <div class="shot wide">
+          <img src="hangar54-assets/gallery-10.jpg" alt="Toyota Yaris GR" style="object-position:center 50%;" />
+          <div class="shot-label">Contemporary Icons</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="events">
+      <div class="section-head">
+        <div><h2>Events & Vereinsleben</h2></div>
+        <p>
+          Die Seite ist so vorbereitet, dass du künftig Rückblicke, Treffen, Ausfahrten und zukünftige Events sehr leicht ergänzen kannst.
+        </p>
+      </div>
+      <div class="grid-3">
+        <article class="card">
+          <div class="icon">☕</div>
+          <h3>Cars & Coffee</h3>
+          <p>Entspannte Treffen mit starken Fahrzeugen, guten Gesprächen und echter Szene-Atmosphäre.</p>
+        </article>
+        <article class="card">
+          <div class="icon">📸</div>
+          <h3>Rückblicke</h3>
+          <p>Fotostrecken, Impressionen und Highlights vergangener Jahre machen den Verein nach außen greifbar.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🏁</div>
+          <h3>Ausbau bereit</h3>
+          <p>Nächster Schritt: fixe Termine, Ort, Ansprechpartner, Sponsoren und Mitgliedschaft sauber ergänzen.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="sponsors">
+      <div class="section-head">
+        <div><h2>Sponsoren & Partner</h2></div>
+        <p>
+          Für Förderer und Partner kann diese Präsenz auch als professionelles Aushängeschild funktionieren.
+          Logos, Leistungen und Kooperationen lassen sich direkt ergänzen.
+        </p>
+      </div>
+      <div class="grid-4">
+        <div class="sponsor">Sponsor Slot</div>
+        <div class="sponsor">Partner Slot</div>
+        <div class="sponsor">Supporter Slot</div>
+        <div class="sponsor">Brand Slot</div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-head">
+        <div><h2>Kontakt</h2></div>
+        <p>
+          Für die finale Live-Version ergänze ich dir gerne noch echten Kontakt, Ansprechpartner,
+          Mitgliedsanfrage und ein sauberes Formular.
+        </p>
+      </div>
+      <div class="split">
+        <div class="card contact-box">
+          <h3>Aktuell eingebunden</h3>
+          <ul class="contact-list">
+            <li><strong>Instagram</strong><br /><a href="https://www.instagram.com/hangar.54?igsh=MTA2b3Y3YmVyeWFqaQ==" target="_blank" rel="noreferrer">@hangar.54</a></li>
+            <li><strong>Look & Feel</strong><br />Auf Logo abgestimmte Motorsport-Ästhetik mit echten Vereinsbildern</li>
+            <li><strong>Status</strong><br />Visuelle Version mit Galerie steht – Inhalte können jetzt finalisiert werden</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="icon">🔥</div>
+          <h3>Was ich dir als Nächstes ergänzen kann</h3>
+          <div class="timeline">
+            <div class="step"><strong>Texte schärfen</strong><p>Kurzer echter Vereins-Text, Standort, Ziele und Kernbotschaft.</p></div>
+            <div class="step"><strong>Kontakt ergänzen</strong><p>E-Mail, Ansprechpartner, Socials, Mitgliedsanfrage und Sponsorenkontakt.</p></div>
+            <div class="step"><strong>Final live stellen</strong><p>Die Seite kann danach direkt sauber veröffentlicht oder erweitert werden.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    Hangar 54 · Motorsportverein · Community, Fahrzeuge und Szene mit Charakter.
+  </footer>
+</body>
+</html>

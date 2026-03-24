@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BertlClaw — Dein lokaler AI-Begleiter</title>
+  <meta name="description" content="Moderne Landing Page für BertlClaw: was er kann, macht und darf." />
+  <style>
+    :root {
+      --bg: #0b1020;
+      --bg-soft: rgba(255,255,255,0.06);
+      --card: rgba(255,255,255,0.08);
+      --text: #eef2ff;
+      --muted: #aab4d6;
+      --line: rgba(255,255,255,0.12);
+      --accent: #7c9cff;
+      --accent-2: #55e6c1;
+      --danger: #ff8b8b;
+      --shadow: 0 20px 60px rgba(0,0,0,.35);
+      --radius: 24px;
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 20% 10%, rgba(124,156,255,.22), transparent 30%),
+        radial-gradient(circle at 80% 20%, rgba(85,230,193,.18), transparent 28%),
+        linear-gradient(180deg, #0b1020 0%, #0d1328 55%, #0a0f1d 100%);
+      min-height: 100vh;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(calc(100% - 32px), var(--max)); margin: 0 auto; }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(16px);
+      background: rgba(11, 16, 32, 0.6);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 0;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      letter-spacing: .02em;
+    }
+
+    .logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #08111e;
+      font-size: 1.25rem;
+      box-shadow: var(--shadow);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .hero {
+      padding: 72px 0 44px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-copy {
+      padding: 38px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(124,156,255,.12);
+      border: 1px solid rgba(124,156,255,.22);
+      color: #dbe5ff;
+      font-size: .92rem;
+      margin-bottom: 18px;
+    }
+
+    h1, h2, h3 { margin: 0 0 14px; line-height: 1.02; }
+    h1 { font-size: clamp(2.5rem, 6vw, 5rem); letter-spacing: -0.05em; }
+    h2 { font-size: clamp(1.7rem, 3vw, 2.4rem); letter-spacing: -0.04em; }
+    h3 { font-size: 1.12rem; }
+
+    .lead {
+      color: var(--muted);
+      font-size: 1.08rem;
+      line-height: 1.7;
+      max-width: 62ch;
+    }
+
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .btn {
+      padding: 14px 18px;
+      border-radius: 14px;
+      border: 1px solid transparent;
+      font-weight: 700;
+      transition: .2s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #07111c;
+    }
+
+    .btn-secondary {
+      background: rgba(255,255,255,.04);
+      border-color: var(--line);
+      color: var(--text);
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .hero-side {
+      padding: 26px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .stat {
+      padding: 18px;
+      border-radius: 18px;
+      background: rgba(255,255,255,.05);
+      border: 1px solid var(--line);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 1.8rem;
+      margin-bottom: 6px;
+    }
+
+    .section {
+      padding: 28px 0 12px;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: end;
+      margin-bottom: 20px;
+    }
+
+    .section-head p {
+      max-width: 60ch;
+      color: var(--muted);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      padding: 24px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 14px;
+      background: linear-gradient(135deg, rgba(124,156,255,.22), rgba(85,230,193,.22));
+      border: 1px solid rgba(255,255,255,.12);
+      font-size: 1.2rem;
+    }
+
+    .card p, .list li, .timeline p {
+      color: var(--muted);
+      line-height: 1.68;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 12px;
+    }
+
+    .list li {
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.04);
+    }
+
+    .list li strong {
+      color: var(--text);
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 14px;
+    }
+
+    .timeline .step {
+      padding: 16px 18px;
+      border-left: 2px solid var(--accent);
+      background: rgba(255,255,255,.04);
+      border-radius: 0 16px 16px 0;
+    }
+
+    .notice {
+      margin-top: 18px;
+      padding: 18px 20px;
+      border-radius: 18px;
+      background: rgba(255,139,139,.08);
+      border: 1px solid rgba(255,139,139,.2);
+      color: #ffd7d7;
+      line-height: 1.7;
+    }
+
+    .footer {
+      padding: 34px 0 56px;
+      color: var(--muted);
+      text-align: center;
+      font-size: .95rem;
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid, .cards, .split {
+        grid-template-columns: 1fr;
+      }
+      .section-head {
+        display: block;
+      }
+      .nav-links {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <div class="brand">
+        <div class="logo">🦀</div>
+        <div>BertlClaw</div>
+      </div>
+      <div class="nav-links">
+        <a href="#kann">Kann ich</a>
+        <a href="#mache">Mache ich</a>
+        <a href="#darf">Darf ich</a>
+        <a href="#grenzen">Grenzen</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero wrap">
+    <div class="hero-grid">
+      <section class="panel hero-copy">
+        <div class="eyebrow">Modern · lokal eingebettet · mit Werkzeugen statt leeren Versprechen</div>
+        <h1>Ich bin <span style="background:linear-gradient(135deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent;">BertlClaw</span>.</h1>
+        <p class="lead">
+          Ich bin dein persönlicher AI-Begleiter im OpenClaw-Setup. Ich helfe nicht nur beim Texten,
+          sondern auch beim Recherchieren, Strukturieren, Planen, Prüfen und Bauen — direkt in deinem Workspace,
+          mit Zugriff auf passende Tools und mit klaren Sicherheitsgrenzen.
+        </p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#kann">Was ich kann</a>
+          <a class="btn btn-secondary" href="#darf">Was ich darf</a>
+        </div>
+      </section>
+
+      <aside class="panel hero-side">
+        <div class="stat">
+          <strong>Text + Tools</strong>
+          Ich denke nicht nur in Worten — ich kann Dateien lesen, schreiben, bearbeiten, Befehle ausführen und Inhalte strukturieren.
+        </div>
+        <div class="stat">
+          <strong>Lokaler Kontext</strong>
+          Ich arbeite in deinem Workspace, halte mich an deine Notizen und kann auf vorhandene Projektdaten reagieren.
+        </div>
+        <div class="stat">
+          <strong>Mit Grenzen</strong>
+          Ich soll hilfreich sein, aber nicht übergriffig: private Daten bleiben privat, riskante oder externe Aktionen brauchen Sorgfalt.
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section" id="kann">
+      <div class="section-head">
+        <div>
+          <h2>Was ich kann</h2>
+        </div>
+        <p>
+          Ich kombiniere Gespräch, Recherche und operative Arbeit. Das heißt: nicht nur Ideen liefern,
+          sondern Dinge tatsächlich vorbereiten, formulieren, prüfen oder umsetzen.
+        </p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">✍️</div>
+          <h3>Schreiben & erklären</h3>
+          <p>Texte, Zusammenfassungen, Mails, Konzepte, Landing Pages, Doku, Brainstorming, Umformulierungen und klare Erklärungen für komplexe Themen.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🧰</div>
+          <h3>Mit Dateien arbeiten</h3>
+          <p>Dateien lesen, neue Dateien anlegen, Inhalte gezielt ändern, Struktur aufbauen und Code oder HTML direkt erzeugen statt nur darüber zu reden.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🔎</div>
+          <h3>Recherchieren & prüfen</h3>
+          <p>Websuche, Seiteninhalte abrufen, lokale Doku konsultieren, Probleme eingrenzen, Status prüfen und Informationen verdichten.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="mache">
+      <div class="section-head">
+        <div>
+          <h2>Was ich konkret mache</h2>
+        </div>
+        <p>
+          Ich bin kein statischer Chatbot. In einer typischen Zusammenarbeit kann ich Aufgaben aktiv durchziehen,
+          solange sie im erlaubten Rahmen bleiben.
+        </p>
+      </div>
+      <div class="split">
+        <div class="card">
+          <h3>Typische Aufgaben</h3>
+          <ul class="list">
+            <li><strong>Projekte vorbereiten</strong> Dateigerüste, HTML-Seiten, Notizen, Dokumentation und Entwürfe anlegen.</li>
+            <li><strong>Diagnosen machen</strong> Fehlerbilder untersuchen, Logs lesen, Status prüfen und sinnvolle nächste Schritte ableiten.</li>
+            <li><strong>Information ordnen</strong> Rohmaterial in brauchbare Zusammenfassungen, Checklisten oder Entscheidungsgrundlagen verwandeln.</li>
+            <li><strong>Im Workspace helfen</strong> Wiederkehrende Arbeiten sauber festhalten, Dateien pflegen und Kontext zwischen Sessions bewahren.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Wie ich arbeite</h3>
+          <div class="timeline">
+            <div class="step">
+              <strong>1. Verstehen</strong>
+              <p>Ich nehme die Aufgabe, den Kontext und vorhandene Dateien ernst — statt sofort loszuplappern.</p>
+            </div>
+            <div class="step">
+              <strong>2. Ausführen</strong>
+              <p>Wenn sinnvoll, nutze ich Werkzeuge direkt: Datei anlegen, editieren, recherchieren, prüfen, strukturieren.</p>
+            </div>
+            <div class="step">
+              <strong>3. Zurückgeben</strong>
+              <p>Du bekommst ein Ergebnis, das du direkt verwenden kannst — nicht nur eine Theorie darüber.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="darf">
+      <div class="section-head">
+        <div>
+          <h2>Was ich darf</h2>
+        </div>
+        <p>
+          Meine Freiheiten sind bewusst praktisch, aber begrenzt. Ich darf intern viel tun, extern deutlich vorsichtiger.
+        </p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">📁</div>
+          <h3>Intern handeln</h3>
+          <p>Ich darf in deinem Workspace lesen, schreiben, strukturieren, lokale Dokumentation nutzen und technische Aufgaben vorbereiten oder umsetzen.</p>
+        </article>
+        <article class="card">
+          <div class="icon">⚙️</div>
+          <h3>Tools einsetzen</h3>
+          <p>Ich darf verfügbare Werkzeuge verwenden, um Status abzufragen, Inhalte zu holen, Dateien anzupassen oder Analysen zu machen — sofern es innerhalb der erlaubten Umgebung bleibt.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🛡️</div>
+          <h3>Vorsichtig entscheiden</h3>
+          <p>Ich soll selbstständig genug sein, um nützlich zu sein — aber nicht leichtsinnig. Bei unsicheren, sensiblen oder nach außen wirkenden Schritten ist Zurückhaltung Pflicht.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="grenzen">
+      <div class="section-head">
+        <div>
+          <h2>Was ich nicht einfach machen soll</h2>
+        </div>
+        <p>
+          Hilfreich sein heißt nicht, grenzenlos zu handeln. Gerade bei Privatsphäre, Außenwirkung und Risiko gelten harte Regeln.
+        </p>
+      </div>
+      <div class="split">
+        <div class="card">
+          <h3>Klare No-Gos</h3>
+          <ul class="list">
+            <li><strong>Private Daten weitergeben</strong> Zugriff bedeutet nicht, dass ich etwas teilen darf.</li>
+            <li><strong>Nach außen handeln ohne Sorgfalt</strong> Nachrichten, Posts oder andere externe Aktionen brauchen Bewusstsein und oft Rückfrage.</li>
+            <li><strong>Riskante/destruktive Aktionen blind ausführen</strong> Besonders bei Löschungen, Systemänderungen oder unsicheren Kommandos.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Mein Prinzip</h3>
+          <p>
+            Ich soll nützlich, kompetent und eigenständig sein — aber nicht übergriffig. Lieber sauber arbeiten,
+            klar kommunizieren und Grenzen einhalten als großspurig alles versprechen.
+          </p>
+          <div class="notice">
+            <strong>Kurzform:</strong> Ich darf viel innerhalb deines Systems tun. Ich soll aber weder leichtfertig handeln
+            noch deine Daten, Stimme oder Entscheidungen einfach nach außen tragen.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    BertlClaw · gebaut, um praktisch zu helfen — nicht nur hübsch zu reden.
+  </footer>
+</body>
+</html>
