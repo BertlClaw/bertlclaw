@@ -111,6 +111,11 @@
     .package.featured{border-color:var(--line-strong);box-shadow:var(--shadow), var(--glow)}
     .package .tag{display:inline-flex;padding:6px 10px;border-radius:999px;background:rgba(124,156,255,.12);border:1px solid rgba(124,156,255,.24);font-size:.78rem;color:#dce6ff;margin-bottom:12px}
     .package ul{margin:14px 0 0;padding-left:18px;display:grid;gap:8px}
+    .offer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+    .offer-card{padding:26px;border-radius:24px;border:1px solid var(--line);background:linear-gradient(180deg, rgba(18,26,47,.84), rgba(10,15,28,.76));box-shadow:var(--shadow);position:relative}
+    .offer-card.featured{border-color:var(--line-strong);box-shadow:var(--shadow), var(--glow)}
+    .offer-kicker{display:inline-flex;padding:6px 10px;border-radius:999px;background:rgba(89,225,191,.10);border:1px solid rgba(89,225,191,.18);font-size:.78rem;color:#d8fff2;margin-bottom:12px}
+    .offer-result{margin-top:16px;padding:14px 16px;border-radius:16px;border:1px solid rgba(124,156,255,.18);background:rgba(124,156,255,.06);color:#dfe8ff;line-height:1.7}
     .card{padding:24px;border-radius:22px;border:1px solid var(--line);background:linear-gradient(180deg, rgba(18,26,47,.76), rgba(10,15,28,.72));box-shadow:var(--shadow);backdrop-filter:blur(8px)}
     .icon{width:46px;height:46px;border-radius:15px;display:grid;place-items:center;margin-bottom:14px;border:1px solid rgba(124,156,255,.22);background:linear-gradient(135deg, rgba(124,156,255,.18), rgba(89,225,191,.14));color:#e8f0ff;font-size:1.15rem}
     .card p,.sublist li,.principles li,.contact-list li{color:var(--muted);line-height:1.74}
@@ -130,7 +135,7 @@
     .cta-band{margin-top:18px;padding:28px;border-radius:26px;border:1px solid var(--line-strong);background:linear-gradient(135deg, rgba(124,156,255,.10), rgba(89,225,191,.08)),linear-gradient(180deg, rgba(18,26,47,.92), rgba(10,15,28,.88));box-shadow:var(--shadow),var(--glow)}
     .cta-band p{color:var(--muted);line-height:1.8;margin:0 0 16px;max-width:72ch}
     .footer{padding:38px 0 62px;text-align:center;color:var(--muted);font-size:.94rem}
-    @media (max-width:1080px){.hero-grid,.grid-2,.grid-3,.feature-strip,.usecase-grid,.proof-grid,.split-feature,.package-grid{grid-template-columns:1fr}.section-head{display:block}}
+    @media (max-width:1080px){.hero-grid,.grid-2,.grid-3,.feature-strip,.usecase-grid,.proof-grid,.split-feature,.package-grid,.offer-grid{grid-template-columns:1fr}.section-head{display:block}}
     @media (max-width:860px){.nav-links{display:none}.hero-grid{padding:24px;min-height:auto}.hero-card{min-height:auto}.hero-metrics{grid-template-columns:1fr}.pill-row{display:none}h1{max-width:100%}}
   </style>
   <script type="application/ld+json">
@@ -338,64 +343,61 @@
 
     <section class="section" id="proof">
       <div class="section-head">
-        <div><h2>Warum BertlClaw bei Websites, Struktur und digitalen Projekten hilft</h2></div>
+        <div><h2>Wie du mit BertlClaw starten kannst</h2></div>
         <p>
-          Premium-Anmutung entsteht nicht nur über gutes Design, sondern über Fokusführung, klare Kommunikation und die Fähigkeit,
-          aus Ideen, Texten, Seiten und Systemen echte digitale Ergebnisse zu machen.
+          Damit sich BertlClaw gut verkauft, braucht es nicht nur starke Markenwirkung, sondern auch klare Einstiegsangebote.
+          Deshalb sind hier drei konkrete Startpunkte formuliert, die man sofort versteht und direkt anfragen kann.
         </p>
       </div>
-      <div class="proof-grid">
-        <div class="visual-slab">
-          <img src="bertlclaw-assets/system-map.jpg" alt="BertlClaw system map visual" style="object-position:center center;" />
-          <div class="visual-caption"><strong>Connected intelligence</strong><br />Research, systems, workflows, structure</div>
-        </div>
-        <div class="stack">
-          <article class="card">
-            <div class="icon">📡</div>
-            <h3>Visual storytelling with intent</h3>
-            <p>Die Bilder sind nicht zufällig gewählt, sondern erfüllen unterschiedliche Rollen: Hero, Plattformgefühl, AI-Core, Interface-Layer und Markenidentität.</p>
-          </article>
-          <article class="card">
-            <div class="icon">🧩</div>
-            <h3>Warum das hochwertiger und glaubwürdiger wirkt</h3>
-            <p>Weil die Seite nicht nur „KI“ behauptet, sondern ein digitales System mit Richtung, Tiefe, Klarheit, Nutzen und Wiedererkennbarkeit inszeniert.</p>
-          </article>
-        </div>
+      <div class="offer-grid">
+        <article class="offer-card featured">
+          <div class="offer-kicker">Am einfachsten verkaufbar</div>
+          <h3>Landingpage Sprint</h3>
+          <p>Für Selbstständige, Dienstleister und kleine Unternehmen, die eine klarere, professionellere und überzeugendere Angebotsseite brauchen.</p>
+          <ul>
+            <li>Landingpage-Struktur und Hero</li>
+            <li>Website-Texte und Nutzenkommunikation</li>
+            <li>CTA-Logik und Seitenaufbau</li>
+            <li>moderne Angebotsseite mit klarer Leserführung</li>
+          </ul>
+          <div class="offer-result"><strong>Ergebnis:</strong> eine Landingpage, die dein Angebot verständlicher, professioneller und anfrageorientierter macht.</div>
+        </article>
+        <article class="offer-card">
+          <div class="offer-kicker">Stark für unklare Angebote</div>
+          <h3>Positionierung & Website-Texte</h3>
+          <p>Für Menschen, deren Angebot gut ist, aber auf der Website noch zu vage, zu schwach oder zu generisch klingt.</p>
+          <ul>
+            <li>Positionierung schärfen</li>
+            <li>Angebot verständlicher formulieren</li>
+            <li>Website-Texte und Leistungsseiten verbessern</li>
+            <li>klare Nutzenargumente und FAQ-Struktur</li>
+          </ul>
+          <div class="offer-result"><strong>Ergebnis:</strong> eine verständlichere Außendarstellung, stärkere Texte und mehr Vertrauen in dein Angebot.</div>
+        </article>
+        <article class="offer-card">
+          <div class="offer-kicker">Perfekt bei digitalem Chaos</div>
+          <h3>Digital Clarity Setup</h3>
+          <p>Für Selbstständige, Gründer und kleine Teams, die Ideen, Dateien, Projekte und Prozesse endlich in ein sauberes System bringen wollen.</p>
+          <ul>
+            <li>digitale Themen und Projekte ordnen</li>
+            <li>Prioritäten und nächste Schritte festlegen</li>
+            <li>Datei-/Dokulogik strukturieren</li>
+            <li>klare Arbeits- und Umsetzungsbasis schaffen</li>
+          </ul>
+          <div class="offer-result"><strong>Ergebnis:</strong> weniger Chaos, mehr Klarheit, bessere Entscheidungen und eine realistischere Umsetzung.</div>
+        </article>
       </div>
-      <div class="package-grid">
-        <article class="package">
-          <div class="tag">Core</div>
-          <h3>Clarity Layer</h3>
-          <p>Für Ideen, Angebote und Projekte, die zuerst Richtung, Struktur und sprachliche Schärfe brauchen.</p>
-          <ul>
-            <li>Positionierung</li>
-            <li>Strukturierung</li>
-            <li>Textschärfung</li>
-            <li>Entscheidungslogik</li>
-          </ul>
-        </article>
-        <article class="package featured">
-          <div class="tag">Most Valuable</div>
-          <h3>Build Layer</h3>
-          <p>Für Landingpages, digitale Präsenz, Produktgrundgerüste und umsetzbare erste Versionen mit Substanz.</p>
-          <ul>
-            <li>Landingpages & Unterseiten</li>
-            <li>Services & CTA-Logik</li>
-            <li>MVP-/Tool-Struktur</li>
-            <li>Publishing & Rollout</li>
-          </ul>
-        </article>
-        <article class="package">
-          <div class="tag">Ops</div>
-          <h3>System Layer</h3>
-          <p>Für Wissen, Dokumentation, Prozesse und operative Ordnung, damit aus Fragmenten ein System wird.</p>
-          <ul>
-            <li>Dokumentation</li>
-            <li>SOPs & Checklisten</li>
-            <li>Datei- & Wissensordnung</li>
-            <li>Arbeitsfähige Zustände</li>
-          </ul>
-        </article>
+      <div class="cta-band">
+        <h3>Drei klare Einstiegsangebote statt diffuser Gesamtlösung</h3>
+        <p>
+          Genau dadurch wird BertlClaw leichter verständlich und besser verkaufbar: Menschen sehen sofort,
+          welches Problem gelöst wird, für wen das Angebot gedacht ist und welches Ergebnis am Ende entsteht.
+        </p>
+        <div class="cta">
+          <a class="btn btn-primary" href="mailto:dominic-reisenbichler@gmx.at">Einstiegsangebot anfragen</a>
+          <a class="btn btn-secondary" href="services.html">Leistungen ansehen</a>
+          <a class="btn btn-secondary" href="use-cases.html">Anwendungsfälle ansehen</a>
+        </div>
       </div>
     </section>
 
