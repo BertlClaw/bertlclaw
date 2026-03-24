@@ -97,6 +97,11 @@
     .feature-strip{grid-template-columns:repeat(4,1fr)}
     .usecase-grid{grid-template-columns:repeat(3,1fr)}
     .proof-grid{grid-template-columns:1.2fr .8fr}
+    .package-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+    .package{padding:24px;border-radius:24px;border:1px solid var(--line);background:linear-gradient(180deg, rgba(18,26,47,.84), rgba(10,15,28,.76));box-shadow:var(--shadow);position:relative;overflow:hidden}
+    .package.featured{border-color:var(--line-strong);box-shadow:var(--shadow), var(--glow)}
+    .package .tag{display:inline-flex;padding:6px 10px;border-radius:999px;background:rgba(124,156,255,.12);border:1px solid rgba(124,156,255,.24);font-size:.78rem;color:#dce6ff;margin-bottom:12px}
+    .package ul{margin:14px 0 0;padding-left:18px;display:grid;gap:8px}
     .card{padding:24px;border-radius:22px;border:1px solid var(--line);background:linear-gradient(180deg, rgba(18,26,47,.76), rgba(10,15,28,.72));box-shadow:var(--shadow);backdrop-filter:blur(8px)}
     .icon{width:46px;height:46px;border-radius:15px;display:grid;place-items:center;margin-bottom:14px;border:1px solid rgba(124,156,255,.22);background:linear-gradient(135deg, rgba(124,156,255,.18), rgba(89,225,191,.14));color:#e8f0ff;font-size:1.15rem}
     .card p,.sublist li,.principles li,.contact-list li{color:var(--muted);line-height:1.74}
@@ -116,7 +121,7 @@
     .cta-band{margin-top:18px;padding:28px;border-radius:26px;border:1px solid var(--line-strong);background:linear-gradient(135deg, rgba(124,156,255,.10), rgba(89,225,191,.08)),linear-gradient(180deg, rgba(18,26,47,.92), rgba(10,15,28,.88));box-shadow:var(--shadow),var(--glow)}
     .cta-band p{color:var(--muted);line-height:1.8;margin:0 0 16px;max-width:72ch}
     .footer{padding:38px 0 62px;text-align:center;color:var(--muted);font-size:.94rem}
-    @media (max-width:1080px){.hero-grid,.grid-2,.grid-3,.feature-strip,.usecase-grid,.proof-grid,.split-feature{grid-template-columns:1fr}.section-head{display:block}}
+    @media (max-width:1080px){.hero-grid,.grid-2,.grid-3,.feature-strip,.usecase-grid,.proof-grid,.split-feature,.package-grid{grid-template-columns:1fr}.section-head{display:block}}
     @media (max-width:860px){.nav-links{display:none}.hero-grid{padding:24px;min-height:auto}.hero-card{min-height:auto}.hero-metrics{grid-template-columns:1fr}.pill-row{display:none}h1{max-width:100%}}
   </style>
 </head>
@@ -153,9 +158,10 @@
             <div style="color:var(--muted); font-size:.95rem; line-height:1.6; max-width:34ch;">BertlClaw als eigenständige Produktmarke: klar, futuristisch, systemisch und nicht wie ein generischer AI-Chat.</div>
           </div>
           <p class="lead">
-            BertlClaw ist als persönliche Premium-AI gedacht, aber mit der Stringenz einer kleinen Tech-Company aufgebaut:
-            mit klarer Positionierung, sauberer Struktur, hoher Umsetzungsnähe und echter Produktlogik. Nicht für unverbindliches Herumchatten,
-            sondern für Menschen, die bessere Seiten, bessere Systeme, bessere Kommunikation und klarere digitale Ergebnisse wollen.
+            BertlClaw ist als persönliche Premium-AI gedacht, aber wie ein kompaktes AI-Product-System aufgebaut:
+            mit klarer Positionierung, sauberer Informationsarchitektur, hoher Umsetzungsnähe und echter Produktlogik.
+            Nicht für unverbindliches Herumchatten, sondern für Menschen, die bessere Seiten, bessere Systeme,
+            bessere Kommunikation und klarere digitale Resultate wollen — schneller, strukturierter und auf einem höheren Qualitätsniveau.
           </p>
           <div class="cta">
             <a class="btn btn-primary" href="#services">Explore Services</a>
@@ -309,6 +315,41 @@
             <p>Weil die Seite nicht nur „AI“ zeigt, sondern ein digitales System mit Richtung, Tiefe, Klarheit und Wiedererkennbarkeit inszeniert.</p>
           </article>
         </div>
+      </div>
+      <div class="package-grid">
+        <article class="package">
+          <div class="tag">Core</div>
+          <h3>Clarity Layer</h3>
+          <p>Für Ideen, Angebote und Projekte, die zuerst Richtung, Struktur und sprachliche Schärfe brauchen.</p>
+          <ul>
+            <li>Positionierung</li>
+            <li>Strukturierung</li>
+            <li>Textschärfung</li>
+            <li>Entscheidungslogik</li>
+          </ul>
+        </article>
+        <article class="package featured">
+          <div class="tag">Most Valuable</div>
+          <h3>Build Layer</h3>
+          <p>Für Landingpages, digitale Präsenz, Produktgrundgerüste und umsetzbare erste Versionen mit Substanz.</p>
+          <ul>
+            <li>Landingpages & Unterseiten</li>
+            <li>Services & CTA-Logik</li>
+            <li>MVP-/Tool-Struktur</li>
+            <li>Publishing & Rollout</li>
+          </ul>
+        </article>
+        <article class="package">
+          <div class="tag">Ops</div>
+          <h3>System Layer</h3>
+          <p>Für Wissen, Dokumentation, Prozesse und operative Ordnung, damit aus Fragmenten ein System wird.</p>
+          <ul>
+            <li>Dokumentation</li>
+            <li>SOPs & Checklisten</li>
+            <li>Datei- & Wissensordnung</li>
+            <li>Arbeitsfähige Zustände</li>
+          </ul>
+        </article>
       </div>
     </section>
 
