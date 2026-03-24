@@ -335,6 +335,15 @@
       padding: 28px 0 12px;
     }
 
+    .micro-label {
+      display: inline-block;
+      margin-bottom: 10px;
+      color: #d7e3ff;
+      font-size: .78rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
     .section-head {
       display: flex;
       justify-content: space-between;
@@ -424,6 +433,34 @@
       margin-top: 18px;
     }
 
+    .usecase-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .feature-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .feature-tile {
+      padding: 18px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      min-height: 150px;
+    }
+
+    .feature-tile strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
     .service-mini {
       padding: 16px;
       border-radius: 18px;
@@ -463,7 +500,7 @@
     }
 
     @media (max-width: 1080px) {
-      .hero-shell, .grid-2, .grid-3, .split-feature, .service-grid { grid-template-columns: 1fr; }
+      .hero-shell, .grid-2, .grid-3, .split-feature, .service-grid, .usecase-grid, .feature-strip { grid-template-columns: 1fr; }
       .hero-metrics { grid-template-columns: 1fr 1fr 1fr; }
       .section-head { display: block; }
     }
@@ -508,6 +545,7 @@
         <div class="cta">
           <a class="btn btn-primary" href="#services">Services ansehen</a>
           <a class="btn btn-secondary" href="services.html">Unterseite öffnen</a>
+          <a class="btn btn-secondary" href="#kontakt">Kontakt aufnehmen</a>
         </div>
         <div class="hero-metrics">
           <div class="metric"><strong>5+</strong><span>Kernbereiche</span></div>
@@ -620,7 +658,13 @@
           Hier wird es praktisch: nicht nur Fähigkeiten, sondern konkrete Dinge, die du von mir anstoßen, bauen oder strukturieren lassen kannst.
         </p>
       </div>
-      <div class="grid-2">
+      <div class="feature-strip">
+        <div class="feature-tile"><span class="micro-label">Positionierung</span><strong>Klar sagen, was du anbietest</strong><span>Für Seiten, Produkte, Services und Business-Ideen.</span></div>
+        <div class="feature-tile"><span class="micro-label">Build</span><strong>Digitale Dinge wirklich aufsetzen</strong><span>Von Landingpages bis zu ersten MVP-Grundgerüsten.</span></div>
+        <div class="feature-tile"><span class="micro-label">System</span><strong>Ordnung statt Reibung</strong><span>Dokumentation, Abläufe, Wissen und Strukturen.</span></div>
+        <div class="feature-tile"><span class="micro-label">Decision</span><strong>Bessere Entscheidungen</strong><span>Recherche, Analyse, Abwägung und Priorisierung.</span></div>
+      </div>
+      <div class="grid-2" style="margin-top:18px;">
         <article class="card">
           <div class="icon">🚀</div>
           <h3>Digitale Produktivität</h3>
@@ -629,6 +673,7 @@
             <li><strong>Website-Texte:</strong> Positionierung, Nutzen, Klarheit, CTA</li>
             <li><strong>Projektstarts:</strong> klare erste Version statt vagem Anfang</li>
             <li><strong>Dokumentation:</strong> verständlich, geordnet, anschlussfähig</li>
+            <li><strong>Unterseiten & Flows:</strong> Services, FAQ, Impressum, Kontakt, Use Cases</li>
           </ul>
         </article>
         <article class="card">
@@ -639,6 +684,7 @@
             <li><strong>Selbstständigkeit:</strong> Modelle, Angebote, Services, App-Ideen</li>
             <li><strong>Marktblick:</strong> Optionen vergleichen und sinnvoll priorisieren</li>
             <li><strong>Klarheit:</strong> aus Gedankennebel einen belastbaren Plan machen</li>
+            <li><strong>Strategische Verdichtung:</strong> aus Möglichkeiten eine Richtung entwickeln</li>
           </ul>
         </article>
       </div>
@@ -647,6 +693,11 @@
         <div class="service-mini"><strong>Apps & MVPs</strong><span>einfache Tools, Prototypen, saubere Grundgerüste</span></div>
         <div class="service-mini"><strong>Business-Ideen</strong><span>prüfen, schärfen, priorisieren, anbieten</span></div>
         <div class="service-mini"><strong>Systeme & Ordnung</strong><span>Wissen, Dateien, Abläufe und Dokumente strukturieren</span></div>
+      </div>
+      <div class="usecase-grid">
+        <article class="card"><div class="icon">💼</div><h3>Use Case: Selbstständigkeit</h3><p>Vom diffusen Gedanken zu Angebot, Zielgruppe, Seite, Texten und realistischem Startpunkt.</p></article>
+        <article class="card"><div class="icon">🖥️</div><h3>Use Case: Digitale Präsenz</h3><p>Wenn eine Seite professionell wirken, sauber gegliedert sein und Vertrauen erzeugen soll.</p></article>
+        <article class="card"><div class="icon">🧩</div><h3>Use Case: Interne Systeme</h3><p>Wenn Notizen, Prozesse oder Projektstände in eine klare und benutzbare Form überführt werden sollen.</p></article>
       </div>
       <div class="cta-band">
         <h3>Wenn du etwas Digitales bauen, erklären, ordnen oder veröffentlichen willst</h3>
@@ -767,12 +818,12 @@
           </ul>
         </article>
         <article class="card">
-          <h3>Was ich daraus machen kann</h3>
+          <h3>Kontakt</h3>
           <ul class="contact-list">
-            <li><strong>eine klare Seite</strong> statt einer schwammigen Idee</li>
-            <li><strong>einen Plan</strong> statt losem Herumdenken</li>
-            <li><strong>ein Grundgerüst</strong> statt leerem Anfang</li>
-            <li><strong>ein benutzbares Ergebnis</strong> statt nur einer netten Antwort</li>
+            <li><strong>E-Mail</strong><br />dominic-reisenbichler@gmx.at</li>
+            <li><strong>Services-Unterseite</strong><br /><a href="services.html">services.html</a></li>
+            <li><strong>Impressum</strong><br /><a href="impressum.html">impressum.html</a></li>
+            <li><strong>Arbeitsmodus</strong><br />klar, strukturiert, digital, umsetzungsorientiert</li>
           </ul>
         </article>
       </div>
@@ -784,6 +835,7 @@
         <div class="cta">
           <a class="btn btn-primary" href="services.html">Zu den Services</a>
           <a class="btn btn-secondary" href="impressum.html">Zum Impressum</a>
+          <a class="btn btn-secondary" href="mailto:dominic-reisenbichler@gmx.at">E-Mail öffnen</a>
         </div>
       </div>
     </section>
