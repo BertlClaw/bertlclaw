@@ -5,13 +5,13 @@
 ## Fokus
 - Landingpages & Websites
 - Website-Texte & Angebotsseiten
-- KI für Selbstständige
-- MVPs & digitale Produktideen
+- Digitale Unterstützung für Selbstständige
+- Digitale Produktideen & erste Umsetzungen
 - digitale Struktur, Systeme & Dokumentation
 
 ## Live
 - Website: https://bertlclaw.github.io/bertlclaw/
-- Services: https://bertlclaw.github.io/bertlclaw/services.html
+- Leistungen: https://bertlclaw.github.io/bertlclaw/services.html
 - Anwendungsfälle: https://bertlclaw.github.io/bertlclaw/use-cases.html
 
 ## Kurzprofil
