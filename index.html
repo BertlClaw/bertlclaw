@@ -147,6 +147,19 @@
     .footer{padding:38px 0 62px;text-align:center;color:var(--muted);font-size:.94rem}
     @media (max-width:1080px){.hero-grid,.grid-2,.grid-3,.feature-strip,.usecase-grid,.proof-grid,.split-feature,.package-grid,.offer-grid,.contact-shell,.form-grid{grid-template-columns:1fr}.section-head{display:block}}
     @media (max-width:860px){.nav-links{display:none}.hero-grid{padding:24px;min-height:auto}.hero-card{min-height:auto}.hero-metrics{grid-template-columns:1fr}.pill-row{display:none}h1{max-width:100%}}
+  
+    .chatbot-toggle{position:fixed;right:22px;bottom:22px;z-index:9999;border:none;border-radius:999px;padding:15px 18px;font:inherit;font-weight:800;cursor:pointer;color:#08111f;background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 20px 44px rgba(0,0,0,.34)}
+    .chatbot-panel{position:fixed;right:22px;bottom:88px;z-index:9999;width:min(380px,calc(100vw - 28px));max-height:min(72vh,680px);display:none;flex-direction:column;border:1px solid var(--line);border-radius:24px;background:linear-gradient(180deg, rgba(18,26,47,.97), rgba(10,15,28,.96));box-shadow:0 28px 80px rgba(0,0,0,.40);overflow:hidden}
+    .chatbot-panel.open{display:flex}
+    .chatbot-head{padding:16px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:12px}
+    .chatbot-head strong{display:block}.chatbot-head span{color:var(--muted);font-size:.92rem}
+    .chatbot-close{border:none;background:transparent;color:var(--text);font-size:1.3rem;cursor:pointer}
+    .chatbot-body{padding:16px;display:grid;gap:14px;overflow:auto}.chatbot-msg{padding:14px 15px;border-radius:18px;line-height:1.65}.chatbot-msg.bot{background:rgba(124,156,255,.10);border:1px solid rgba(124,156,255,.18)}.chatbot-msg.user{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
+    .chatbot-quick{display:flex;flex-wrap:wrap;gap:10px}.chatbot-quick button{border:1px solid rgba(124,156,255,.24);background:rgba(124,156,255,.10);color:var(--text);border-radius:999px;padding:9px 12px;font:inherit;cursor:pointer}
+    .chatbot-input{display:grid;gap:10px}.chatbot-input textarea{width:100%;min-height:110px;resize:vertical;border-radius:16px;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--text);padding:14px 15px;font:inherit;line-height:1.6}.chatbot-row{display:flex;gap:10px;flex-wrap:wrap}.chatbot-row button{flex:1 1 160px;display:flex;justify-content:center;align-items:center;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--text);font:inherit;font-weight:700;cursor:pointer}
+    .chatbot-links{display:grid;gap:10px}.chatbot-links a{display:flex;justify-content:center;align-items:center;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.03);font-weight:700}
+    @media (max-width:720px){.chatbot-toggle{right:14px;bottom:14px}.chatbot-panel{right:14px;bottom:76px}}
+
   </style>
   <script type="application/ld+json">
   {
@@ -639,7 +652,7 @@ Das Formular ist jetzt direkt mit <strong>Formspree</strong> verbunden und kann 
       close.addEventListener('click',()=>setOpen(false));
       ask.addEventListener('click',()=>submitQuestion(input.value));
       input.addEventListener('keydown',e=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); submitQuestion(input.value); } });
-      toForm.addEventListener('click',()=>{ const form=document.getElementById('contactForm'); const textarea=form ? form.querySelector('textarea[name="message"]') : null; if(textarea){ textarea.value=input.value || 'Hallo, ich habe eine Frage zu BertlClaw.'; location.hash='contact'; }});
+      toForm.addEventListener('click',()=>{ const form=document.getElementById('contactForm'); const textarea=form ? form.querySelector('textarea[name="message"]') : null; if(textarea){ textarea.value=input.value || 'Hallo, ich habe eine Frage zu BertlClaw.'; location.hash='kontakt'; }});
       document.querySelectorAll('[data-answer]').forEach(btn=>{ btn.addEventListener('click',()=>submitQuestion(btn.textContent)); });
     })();
   </script>
