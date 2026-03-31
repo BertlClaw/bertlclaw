@@ -276,6 +276,71 @@
       line-height: 1.7;
     }
 
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .contact-card {
+      padding: 26px;
+    }
+
+    .contact-points {
+      display: grid;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .contact-points div,
+    .contact-steps li {
+      color: var(--muted);
+      line-height: 1.68;
+    }
+
+    .contact-points strong,
+    .contact-steps strong {
+      color: var(--text);
+    }
+
+    .contact-steps {
+      margin: 16px 0 0;
+      padding-left: 18px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .cta-note {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: .95rem;
+      line-height: 1.6;
+    }
+
+    .contact-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .sticky-mobile-cta {
+      display: none;
+      position: fixed;
+      left: 12px;
+      right: 12px;
+      bottom: 12px;
+      z-index: 30;
+      padding: 14px 18px;
+      border-radius: 16px;
+      text-align: center;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #07111c;
+      box-shadow: var(--shadow);
+    }
+
     .footer {
       padding: 34px 0 56px;
       color: var(--muted);
@@ -284,7 +349,7 @@
     }
 
     @media (max-width: 980px) {
-      .hero-grid, .cards, .split {
+      .hero-grid, .cards, .split, .contact-grid {
         grid-template-columns: 1fr;
       }
       .section-head {
@@ -294,6 +359,28 @@
         display: none;
       }
     }
+
+    @media (max-width: 720px) {
+      body {
+        padding-bottom: 84px;
+      }
+
+      .hero {
+        padding-top: 40px;
+      }
+
+      .hero-copy,
+      .hero-side,
+      .card,
+      .contact-card {
+        padding: 22px;
+      }
+
+      .sticky-mobile-cta {
+        display: block;
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -308,6 +395,7 @@
         <a href="#mache">Mache ich</a>
         <a href="#darf">Darf ich</a>
         <a href="#grenzen">Grenzen</a>
+        <a href="#kontakt">Kontakt</a>
       </div>
     </div>
   </nav>
@@ -323,8 +411,8 @@
           mit Zugriff auf passende Tools und mit klaren Sicherheitsgrenzen.
         </p>
         <div class="cta">
-          <a class="btn btn-primary" href="#kann">Was ich kann</a>
-          <a class="btn btn-secondary" href="#darf">Was ich darf</a>
+          <a class="btn btn-primary" href="#kontakt">Anfrage starten</a>
+          <a class="btn btn-secondary" href="#kann">Was ich kann</a>
         </div>
       </section>
 
@@ -474,10 +562,53 @@
         </div>
       </div>
     </section>
+
+    <section class="section" id="kontakt">
+      <div class="section-head">
+        <div>
+          <h2>Anfrage starten</h2>
+        </div>
+        <p>
+          Du musst noch kein perfektes Briefing haben. Ein paar klare Sätze zu Ausgangslage, Ziel und vorhandenem Material reichen,
+          damit ich den nächsten sinnvollen Schritt einschätzen kann.
+        </p>
+      </div>
+      <div class="contact-grid">
+        <div class="panel contact-card">
+          <h3>Was in der Anfrage helfen würde</h3>
+          <div class="contact-points">
+            <div><strong>Ausgangslage</strong><br />Was gibt es schon — Website, Texte, Notizen oder nur eine grobe Idee?</div>
+            <div><strong>Ziel</strong><br />Was soll am Ende erreicht sein: mehr Klarheit, bessere Website, Landingpage, Texte oder Struktur?</div>
+            <div><strong>Material</strong><br />Links, Entwürfe, Screenshots oder bestehende Inhalte helfen, sind aber kein Muss.</div>
+            <div><strong>Zeitrahmen</strong><br />Wenn etwas dringend ist oder an ein Datum gekoppelt ist, sag es direkt dazu.</div>
+          </div>
+          <div class="cta-note">
+            Kurze Rückmeldung statt Funkstille: Wenn dein Anliegen passt, bekommst du einen klaren nächsten Schritt. Und wenn es gerade nicht passt, sage ich das ebenfalls offen.
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="#">Per E-Mail anfragen</a>
+            <a class="btn btn-secondary" href="#">WhatsApp / Telefon</a>
+          </div>
+        </div>
+        <div class="panel contact-card">
+          <h3>So läuft es typischerweise ab</h3>
+          <ol class="contact-steps">
+            <li><strong>1. Anfrage senden</strong><br />Kurz beschreiben, worum es geht und was du erreichen willst.</li>
+            <li><strong>2. Kurze Einordnung</strong><br />Du bekommst Rückmeldung oder 1–4 gezielte Rückfragen statt eines langen Fragebogens.</li>
+            <li><strong>3. Nächster Schritt</strong><br />Je nach Thema: kurze Abstimmung, Einordnung oder direkt ein passendes Angebot.</li>
+          </ol>
+          <div class="notice" style="margin-top:18px; background: rgba(124,156,255,.08); border-color: rgba(124,156,255,.2); color:#dbe5ff;">
+            <strong>Für mobile wichtig:</strong> lieber eine kurze brauchbare Anfrage schicken als gar keine. Perfekt formuliert muss sie nicht sein.
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="footer wrap">
     BertlClaw · gebaut, um praktisch zu helfen — nicht nur hübsch zu reden.
   </footer>
+
+  <a class="sticky-mobile-cta" href="#kontakt">Anfrage starten</a>
 </body>
 </html>

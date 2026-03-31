@@ -577,6 +577,10 @@
                 <label for="email">E-Mail</label>
                 <input id="email" name="email" type="email" placeholder="deine@email.at" required />
               </div>
+              <div class="field">
+                <label for="phone">Telefon / WhatsApp <span style="color:var(--muted2);">(optional)</span></label>
+                <input id="phone" name="phone" type="text" inputmode="tel" autocomplete="tel" placeholder="+43 … für Rückruf oder WhatsApp" />
+              </div>
               <input type="hidden" name="_subject" value="Neue BertlClaw Anfrage" />
               <input type="hidden" name="_next" value="https://bertlclaw.github.io/bertlclaw/danke.html" />
               <div class="field full">
@@ -589,16 +593,25 @@
                 </select>
               </div>
               <div class="field full">
+                <label for="contactPreference">Bevorzugter Rückweg</label>
+                <select id="contactPreference" name="contact_preference">
+                  <option>E-Mail</option>
+                  <option>Telefon</option>
+                  <option>WhatsApp</option>
+                  <option>Kein Unterschied</option>
+                </select>
+              </div>
+              <div class="field full">
                 <label for="message">Nachricht</label>
-                <textarea id="message" name="message" placeholder="Worum geht es? Was ist deine Ausgangslage und was soll besser werden?" required></textarea>
+                <textarea id="message" name="message" placeholder="2–4 Sätze genügen: Worum geht es, was blockiert gerade und was soll besser werden?" required></textarea>
               </div>
             </div>
             <div class="cta">
-              <button class="btn btn-primary" type="submit">Anfrage absenden</button>
+              <button class="btn btn-primary" type="submit">Erstkontakt anfragen</button>
               <a class="btn btn-secondary" href="mailto:dominic.reisenbichler@gmx.at">Per E-Mail anfragen</a>
             </div>
             <div class="form-note">
-Das Formular ist jetzt direkt mit <strong>Formspree</strong> verbunden und kann Anfragen ohne eigenes Backend verarbeiten.
+              2–4 Sätze genügen. Wenn du lieber kurz per WhatsApp oder Telefon starten willst, geht das genauso.
             </div>
           </form>
         </article>
@@ -610,7 +623,8 @@ Das Formular ist jetzt direkt mit <strong>Formspree</strong> verbunden und kann 
             <li><strong>Ein System, das Ordnung und Struktur braucht</strong></li>
             <li><strong>Eine App-, Produkt- oder Service-Idee, die Richtung braucht</strong></li>
             <li><strong>E-Mail</strong><br />dominic.reisenbichler@gmx.at</li>
-            <li><strong>Telefon & WhatsApp</strong><br /><a href="tel:+436781299919">+43 678 1299919</a></li>
+            <li><strong>Telefon</strong><br /><a href="tel:+436781299919">+43 678 1299919</a></li>
+            <li><strong>WhatsApp</strong><br /><a href="https://wa.me/436781299919" target="_blank" rel="noopener">Chat auf WhatsApp öffnen</a></li>
           </ul>
         </article>
       </div>
@@ -644,7 +658,7 @@ Das Formular ist jetzt direkt mit <strong>Formspree</strong> verbunden und kann 
     </div>
     <div class="chatbot-body" id="chatbotBody">
       <div class="chatbot-msg bot">Hi — ich bin der BertlClaw-Website-Chat. Ich beantworte typische Rückfragen zu BertlClaw, den Angeboten und dem nächsten sinnvollen Schritt.</div>
-      <div class="chatbot-msg bot">Du kannst direkt etwas schreiben oder eine Schnellfrage auswählen.</div>
+      <div class="chatbot-msg bot">Du kannst direkt etwas schreiben oder eine Schnellfrage auswählen. Wenn du magst, übernehme ich deine Nachricht gleich ins Kontaktformular.</div>
       <div class="chatbot-quick">
         <button type="button" data-answer="start">Wie kann ich starten?</button>
         <button type="button" data-answer="landingpage">Was ist der Landingpage Sprint?</button>
@@ -652,10 +666,10 @@ Das Formular ist jetzt direkt mit <strong>Formspree</strong> verbunden und kann 
         <button type="button" data-answer="ordnung">Was ist Digitale Ordnung & Klarheit?</button>
       </div>
       <div class="chatbot-input">
-        <textarea id="chatbotMessage" placeholder="Schreib deine Frage an BertlClaw..."></textarea>
+        <textarea id="chatbotMessage" placeholder="Schreib kurz, worum es geht – 1 bis 3 Sätze reichen."></textarea>
         <div class="chatbot-row">
           <button type="button" id="chatbotAsk">Antwort anzeigen</button>
-          <button type="button" id="chatbotToForm">Anfrage im Formular senden</button>
+          <button type="button" id="chatbotToForm">Frage ins Formular übernehmen</button>
         </div>
       </div>
       <div class="chatbot-links">
@@ -675,6 +689,8 @@ Das Formular ist jetzt direkt mit <strong>Formspree</strong> verbunden und kann 
       const input=document.getElementById('chatbotMessage');
       const ask=document.getElementById('chatbotAsk');
       const toForm=document.getElementById('chatbotToForm');
+      const params=new URLSearchParams(window.location.search);
+      const prefillMessage=params.get('chat');
       const knowledge=[
         { keys:['was kannst du','kannst du alles','was machst du','was kann bertlclaw','leistungen','was kannst du alles','alles was du kannst','was bietet bertlclaw'], answer:'BertlClaw hilft dabei, Angebote klarer zu zeigen, Websites verständlicher zu machen und digitale Struktur so aufzubauen, dass daraus echte Fortschritte entstehen. Konkret geht es um Landingpages, Website-Texte, Positionierung, digitale Ordnung und erste digitale Projekte. Wenn ein Angebot gut ist, aber online noch nicht stark genug wirkt, ist das oft genau der Punkt, an dem BertlClaw am meisten bringt.' },
         { keys:['start','wie starten','anfrage','kontakt','beginn','angebot','wie kann ich starten'], answer:'Der einfachste Start ist eine kurze Beschreibung deiner Ausgangslage. Danach lässt sich meist schnell einordnen, ob eher der Landingpage Sprint, Positionierung & Website-Texte oder Digitale Ordnung & Klarheit passt. So kommt man ohne Umwege zum sinnvollsten Einstieg.' },
@@ -695,11 +711,29 @@ Das Formular ist jetzt direkt mit <strong>Formspree</strong> verbunden und kann 
       function addMsg(text, cls){ const div=document.createElement('div'); div.className='chatbot-msg '+cls; div.textContent=text; body.appendChild(div); body.scrollTop=body.scrollHeight; }
       function getAnswer(question){ const q=(question||'').toLowerCase().replace(/[?!.,]/g,' ').replace(/\s+/g,' ').trim(); if(q.includes('was kannst du alles') || q.includes('kannst du alles')) return 'BertlClaw hilft dabei, Angebote klarer zu zeigen, Websites verständlicher zu machen und digitale Struktur so aufzubauen, dass daraus echte Fortschritte entstehen. Konkret geht es um Landingpages, Website-Texte, Positionierung, digitale Ordnung und erste digitale Projekte. Wenn ein Angebot gut ist, aber online noch nicht stark genug wirkt, ist das oft genau der Punkt, an dem BertlClaw am meisten bringt.'; for(const item of knowledge){ if(item.keys.some(k => q.includes(k))) return item.answer; } return 'Dazu habe ich hier noch keine ganz genaue Detailantwort hinterlegt. Wenn du willst, kannst du deine Situation kurz beschreiben, dann lässt sich der passende Einstieg meist trotzdem gut einordnen — oder du übernimmst die Frage direkt ins Kontaktformular.'; }
       function submitQuestion(text){ const q=(text||'').trim(); if(!q) return; addMsg(q,'user'); addMsg(getAnswer(q),'bot'); }
+      function moveQuestionToContact(text){
+        const message=(text||input.value||'').trim() || 'Hallo, ich habe eine Frage zu BertlClaw.';
+        const form=document.getElementById('contactForm');
+        const textarea=form ? form.querySelector('textarea[name="message"]') : null;
+        if(textarea){
+          textarea.value=message;
+          textarea.focus();
+          location.hash='kontakt';
+          return;
+        }
+        window.location.href='index.html?chat='+encodeURIComponent(message)+'#kontakt';
+      }
       toggle.addEventListener('click',()=>setOpen(!panel.classList.contains('open')));
       close.addEventListener('click',()=>setOpen(false));
       ask.addEventListener('click',()=>submitQuestion(input.value));
+      if(prefillMessage){
+        const form=document.getElementById('contactForm');
+        const textarea=form ? form.querySelector('textarea[name="message"]') : null;
+        if(textarea && !textarea.value.trim()) textarea.value=prefillMessage;
+        history.replaceState(null,'', window.location.pathname + window.location.hash);
+      }
       input.addEventListener('keydown',e=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); submitQuestion(input.value); } });
-      toForm.addEventListener('click',()=>{ const form=document.getElementById('contactForm'); const textarea=form ? form.querySelector('textarea[name="message"]') : null; if(textarea){ textarea.value=input.value || 'Hallo, ich habe eine Frage zu BertlClaw.'; location.hash='kontakt'; }});
+      toForm.addEventListener('click',()=>moveQuestionToContact(input.value));
       document.querySelectorAll('[data-answer]').forEach(btn=>{ btn.addEventListener('click',()=>submitQuestion(btn.textContent)); });
     })();
   </script>
