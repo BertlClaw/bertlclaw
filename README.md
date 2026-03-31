@@ -9,7 +9,7 @@ Dieses Repository dient aktuell vor allem als **öffentliche Brand-, Profil- und
 Damit GitHub, Suchmaschinen und Menschen das Projekt sauber einordnen können, sollte BertlClaw konsistent als Folgendes beschrieben werden:
 
 - **Markenname:** BertlClaw
-- **Betreiber / natürliche Person:** Dominic Reisenbichler
+- **Betreiber / natürliche Person:** Dominic Reisenbichler, MSc.
 - **Typ:** Personennahe Marke / Projektmarke
 - **Sprache:** Deutsch
 - **Schwerpunkt:** Landingpages, Website-Texte, Positionierung, digitale Struktur, KI-gestützte Unterstützung
@@ -43,12 +43,12 @@ Die sauberste Linie ist:
 
 > **BertlClaw ist die Marke.**  
 > Unter dieser Marke erscheinen Web-Präsenz, Inhalte, KI-gestützte Unterstützung und digitale Angebote.  
-> **Dominic Reisenbichler** ist der Betreiber / die zugeordnete Person hinter dem Projekt.
+> **Dominic Reisenbichler, MSc.** ist der Betreiber / die zugeordnete Person hinter dem Projekt.
 
 ## Brand-Signale
 
 - Einheitliche Schreibweise: **BertlClaw**
-- Betreibername konsistent nennen: **Dominic Reisenbichler**
+- Betreibername konsistent nennen: **Dominic Reisenbichler, MSc.**
 - Dasselbe Logo / dieselben Assets auf Website und GitHub verwenden
 - Dieselbe Kurzbeschreibung in Repo, Profil und Website-Metadaten nutzen
 - Die Beziehung zwischen **Marke**, **Person** und **Angebot** explizit machen
