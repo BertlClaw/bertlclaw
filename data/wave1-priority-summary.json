@@ -1,0 +1,492 @@
+{
+  "count": 708,
+  "markets": {
+    "AT": 37,
+    "DE_or_other": 635,
+    "CH": 36
+  },
+  "top_professions": [
+    [
+      "berater",
+      165
+    ],
+    [
+      "it-berater",
+      138
+    ],
+    [
+      "unternehmensberater",
+      83
+    ],
+    [
+      "projektmanager",
+      80
+    ],
+    [
+      "hr-berater",
+      79
+    ],
+    [
+      "ki-berater",
+      79
+    ],
+    [
+      "seo-berater",
+      42
+    ],
+    [
+      "interim-manager",
+      5
+    ],
+    [
+      "poelten-berater",
+      1
+    ],
+    [
+      "poelten-projektmanager",
+      1
+    ],
+    [
+      "poelten-unternehmensberater",
+      1
+    ],
+    [
+      "neustadt-berater",
+      1
+    ],
+    [
+      "neustadt-unternehmensberater",
+      1
+    ],
+    [
+      "ch-hr-berater",
+      1
+    ],
+    [
+      "ch-it-berater",
+      1
+    ],
+    [
+      "ch-ki-berater",
+      1
+    ],
+    [
+      "ch-seo-berater",
+      1
+    ],
+    [
+      "wien-berater",
+      1
+    ],
+    [
+      "wien-it-berater",
+      1
+    ],
+    [
+      "wien-unternehmensberater",
+      1
+    ]
+  ],
+  "sample": [
+    {
+      "url": "https://bertlclaw.at/landingpage-graz-berater.html",
+      "path": "/landingpage-graz-berater.html",
+      "local_file": "landingpage-graz-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-graz-projektmanager.html",
+      "path": "/landingpage-graz-projektmanager.html",
+      "local_file": "landingpage-graz-projektmanager.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-graz-unternehmensberater.html",
+      "path": "/landingpage-graz-unternehmensberater.html",
+      "local_file": "landingpage-graz-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-innsbruck-berater.html",
+      "path": "/landingpage-innsbruck-berater.html",
+      "local_file": "landingpage-innsbruck-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-innsbruck-projektmanager.html",
+      "path": "/landingpage-innsbruck-projektmanager.html",
+      "local_file": "landingpage-innsbruck-projektmanager.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-innsbruck-unternehmensberater.html",
+      "path": "/landingpage-innsbruck-unternehmensberater.html",
+      "local_file": "landingpage-innsbruck-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-klagenfurt-berater.html",
+      "path": "/landingpage-klagenfurt-berater.html",
+      "local_file": "landingpage-klagenfurt-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-klagenfurt-projektmanager.html",
+      "path": "/landingpage-klagenfurt-projektmanager.html",
+      "local_file": "landingpage-klagenfurt-projektmanager.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-klagenfurt-unternehmensberater.html",
+      "path": "/landingpage-klagenfurt-unternehmensberater.html",
+      "local_file": "landingpage-klagenfurt-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-krems-berater.html",
+      "path": "/landingpage-krems-berater.html",
+      "local_file": "landingpage-krems-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-krems-unternehmensberater.html",
+      "path": "/landingpage-krems-unternehmensberater.html",
+      "local_file": "landingpage-krems-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-leoben-berater.html",
+      "path": "/landingpage-leoben-berater.html",
+      "local_file": "landingpage-leoben-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-leoben-unternehmensberater.html",
+      "path": "/landingpage-leoben-unternehmensberater.html",
+      "local_file": "landingpage-leoben-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-linz-berater.html",
+      "path": "/landingpage-linz-berater.html",
+      "local_file": "landingpage-linz-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-linz-projektmanager.html",
+      "path": "/landingpage-linz-projektmanager.html",
+      "local_file": "landingpage-linz-projektmanager.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-linz-unternehmensberater.html",
+      "path": "/landingpage-linz-unternehmensberater.html",
+      "local_file": "landingpage-linz-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-salzburg-berater.html",
+      "path": "/landingpage-salzburg-berater.html",
+      "local_file": "landingpage-salzburg-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-salzburg-projektmanager.html",
+      "path": "/landingpage-salzburg-projektmanager.html",
+      "local_file": "landingpage-salzburg-projektmanager.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-salzburg-unternehmensberater.html",
+      "path": "/landingpage-salzburg-unternehmensberater.html",
+      "local_file": "landingpage-salzburg-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-st-poelten-berater.html",
+      "path": "/landingpage-st-poelten-berater.html",
+      "local_file": "landingpage-st-poelten-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-st-poelten-projektmanager.html",
+      "path": "/landingpage-st-poelten-projektmanager.html",
+      "local_file": "landingpage-st-poelten-projektmanager.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-st-poelten-unternehmensberater.html",
+      "path": "/landingpage-st-poelten-unternehmensberater.html",
+      "local_file": "landingpage-st-poelten-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-steyr-berater.html",
+      "path": "/landingpage-steyr-berater.html",
+      "local_file": "landingpage-steyr-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-steyr-unternehmensberater.html",
+      "path": "/landingpage-steyr-unternehmensberater.html",
+      "local_file": "landingpage-steyr-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-villach-berater.html",
+      "path": "/landingpage-villach-berater.html",
+      "local_file": "landingpage-villach-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-villach-projektmanager.html",
+      "path": "/landingpage-villach-projektmanager.html",
+      "local_file": "landingpage-villach-projektmanager.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-villach-unternehmensberater.html",
+      "path": "/landingpage-villach-unternehmensberater.html",
+      "local_file": "landingpage-villach-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-weiz-berater.html",
+      "path": "/landingpage-weiz-berater.html",
+      "local_file": "landingpage-weiz-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-weiz-unternehmensberater.html",
+      "path": "/landingpage-weiz-unternehmensberater.html",
+      "local_file": "landingpage-weiz-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-wels-berater.html",
+      "path": "/landingpage-wels-berater.html",
+      "local_file": "landingpage-wels-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-wels-projektmanager.html",
+      "path": "/landingpage-wels-projektmanager.html",
+      "local_file": "landingpage-wels-projektmanager.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-wels-unternehmensberater.html",
+      "path": "/landingpage-wels-unternehmensberater.html",
+      "local_file": "landingpage-wels-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-wien-berater.html",
+      "path": "/landingpage-wien-berater.html",
+      "local_file": "landingpage-wien-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-wien-projektmanager.html",
+      "path": "/landingpage-wien-projektmanager.html",
+      "local_file": "landingpage-wien-projektmanager.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-wien-unternehmensberater.html",
+      "path": "/landingpage-wien-unternehmensberater.html",
+      "local_file": "landingpage-wien-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-wiener-neustadt-berater.html",
+      "path": "/landingpage-wiener-neustadt-berater.html",
+      "local_file": "landingpage-wiener-neustadt-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-wiener-neustadt-unternehmensberater.html",
+      "path": "/landingpage-wiener-neustadt-unternehmensberater.html",
+      "local_file": "landingpage-wiener-neustadt-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "AT"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-aachen-berater.html",
+      "path": "/landingpage-aachen-berater.html",
+      "local_file": "landingpage-aachen-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "DE_or_other"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-aachen-hr-berater.html",
+      "path": "/landingpage-aachen-hr-berater.html",
+      "local_file": "landingpage-aachen-hr-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "DE_or_other"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-aachen-it-berater.html",
+      "path": "/landingpage-aachen-it-berater.html",
+      "local_file": "landingpage-aachen-it-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "DE_or_other"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-aachen-ki-berater.html",
+      "path": "/landingpage-aachen-ki-berater.html",
+      "local_file": "landingpage-aachen-ki-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "DE_or_other"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-aachen-projektmanager.html",
+      "path": "/landingpage-aachen-projektmanager.html",
+      "local_file": "landingpage-aachen-projektmanager.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "DE_or_other"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-aachen-unternehmensberater.html",
+      "path": "/landingpage-aachen-unternehmensberater.html",
+      "local_file": "landingpage-aachen-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "DE_or_other"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-aarau-hr-berater.html",
+      "path": "/landingpage-aarau-hr-berater.html",
+      "local_file": "landingpage-aarau-hr-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "DE_or_other"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-aarau-it-berater.html",
+      "path": "/landingpage-aarau-it-berater.html",
+      "local_file": "landingpage-aarau-it-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "DE_or_other"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-aarau-ki-berater.html",
+      "path": "/landingpage-aarau-ki-berater.html",
+      "local_file": "landingpage-aarau-ki-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "DE_or_other"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-aarau-seo-berater.html",
+      "path": "/landingpage-aarau-seo-berater.html",
+      "local_file": "landingpage-aarau-seo-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "DE_or_other"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-amstetten-berater.html",
+      "path": "/landingpage-amstetten-berater.html",
+      "local_file": "landingpage-amstetten-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "DE_or_other"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-amstetten-it-berater.html",
+      "path": "/landingpage-amstetten-it-berater.html",
+      "local_file": "landingpage-amstetten-it-berater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "DE_or_other"
+    },
+    {
+      "url": "https://bertlclaw.at/landingpage-amstetten-unternehmensberater.html",
+      "path": "/landingpage-amstetten-unternehmensberater.html",
+      "local_file": "landingpage-amstetten-unternehmensberater.html",
+      "kind": "cluster_or_other",
+      "status": "missing_local",
+      "market": "DE_or_other"
+    }
+  ]
+}

@@ -1,0 +1,6254 @@
+{
+  "count": 537,
+  "clusters": [
+    {
+      "city": "aachen",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-aachen-berater.html",
+        "/landingpage-aachen-projektmanager.html",
+        "/landingpage-aachen-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "aachen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-aachen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "aachen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-aachen-it-berater.html"
+      ]
+    },
+    {
+      "city": "aachen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-aachen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "aarau",
+      "market": "CH",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-aarau-berater.html",
+        "/landingpage-aarau-projektmanager.html",
+        "/landingpage-aarau-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "aarau-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-aarau-hr-berater.html"
+      ]
+    },
+    {
+      "city": "aarau-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-aarau-it-berater.html"
+      ]
+    },
+    {
+      "city": "aarau-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-aarau-ki-berater.html"
+      ]
+    },
+    {
+      "city": "aarau-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-aarau-seo-berater.html"
+      ]
+    },
+    {
+      "city": "amstetten",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-amstetten-berater.html",
+        "/landingpage-amstetten-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "amstetten-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-amstetten-it-berater.html"
+      ]
+    },
+    {
+      "city": "augsburg",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-augsburg-berater.html"
+      ]
+    },
+    {
+      "city": "augsburg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-augsburg-it-berater.html"
+      ]
+    },
+    {
+      "city": "baden-ch",
+      "market": "CH",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-baden-ch-berater.html",
+        "/landingpage-baden-ch-projektmanager.html",
+        "/landingpage-baden-ch-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "baden-ch-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-baden-ch-hr-berater.html"
+      ]
+    },
+    {
+      "city": "baden-ch-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-baden-ch-it-berater.html"
+      ]
+    },
+    {
+      "city": "baden-ch-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-baden-ch-ki-berater.html"
+      ]
+    },
+    {
+      "city": "baden-ch-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-baden-ch-seo-berater.html"
+      ]
+    },
+    {
+      "city": "baden-wien",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-baden-wien-berater.html",
+        "/landingpage-baden-wien-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "baden-wien-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-baden-wien-it-berater.html"
+      ]
+    },
+    {
+      "city": "bamberg",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bamberg-berater.html"
+      ]
+    },
+    {
+      "city": "bamberg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bamberg-it-berater.html"
+      ]
+    },
+    {
+      "city": "basel",
+      "market": "CH",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-basel-berater.html",
+        "/landingpage-basel-projektmanager.html",
+        "/landingpage-basel-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "basel-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-basel-hr-berater.html"
+      ]
+    },
+    {
+      "city": "basel-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-basel-it-berater.html"
+      ]
+    },
+    {
+      "city": "basel-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-basel-ki-berater.html"
+      ]
+    },
+    {
+      "city": "basel-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-basel-seo-berater.html"
+      ]
+    },
+    {
+      "city": "bayreuth",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bayreuth-berater.html"
+      ]
+    },
+    {
+      "city": "bayreuth-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bayreuth-it-berater.html"
+      ]
+    },
+    {
+      "city": "bergisch-gladbach",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-bergisch-gladbach-berater.html",
+        "/landingpage-bergisch-gladbach-projektmanager.html",
+        "/landingpage-bergisch-gladbach-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "bergisch-gladbach-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bergisch-gladbach-hr-berater.html"
+      ]
+    },
+    {
+      "city": "bergisch-gladbach-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bergisch-gladbach-it-berater.html"
+      ]
+    },
+    {
+      "city": "bergisch-gladbach-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bergisch-gladbach-ki-berater.html"
+      ]
+    },
+    {
+      "city": "berlin",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-berlin-berater.html",
+        "/landingpage-berlin-projektmanager.html",
+        "/landingpage-berlin-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "berlin-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-berlin-hr-berater.html"
+      ]
+    },
+    {
+      "city": "berlin-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-berlin-it-berater.html"
+      ]
+    },
+    {
+      "city": "berlin-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-berlin-ki-berater.html"
+      ]
+    },
+    {
+      "city": "berlin-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-berlin-seo-berater.html"
+      ]
+    },
+    {
+      "city": "bern",
+      "market": "CH",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-bern-berater.html",
+        "/landingpage-bern-projektmanager.html",
+        "/landingpage-bern-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "bern-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bern-hr-berater.html"
+      ]
+    },
+    {
+      "city": "bern-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bern-it-berater.html"
+      ]
+    },
+    {
+      "city": "bern-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bern-ki-berater.html"
+      ]
+    },
+    {
+      "city": "bern-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bern-seo-berater.html"
+      ]
+    },
+    {
+      "city": "biel",
+      "market": "CH",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-biel-berater.html",
+        "/landingpage-biel-projektmanager.html",
+        "/landingpage-biel-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "biel-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-biel-hr-berater.html"
+      ]
+    },
+    {
+      "city": "biel-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-biel-it-berater.html"
+      ]
+    },
+    {
+      "city": "biel-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-biel-ki-berater.html"
+      ]
+    },
+    {
+      "city": "biel-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-biel-seo-berater.html"
+      ]
+    },
+    {
+      "city": "bielefeld",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-bielefeld-berater.html",
+        "/landingpage-bielefeld-projektmanager.html",
+        "/landingpage-bielefeld-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "bielefeld-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bielefeld-hr-berater.html"
+      ]
+    },
+    {
+      "city": "bielefeld-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bielefeld-it-berater.html"
+      ]
+    },
+    {
+      "city": "bielefeld-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bielefeld-ki-berater.html"
+      ]
+    },
+    {
+      "city": "bochum",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-bochum-berater.html",
+        "/landingpage-bochum-projektmanager.html",
+        "/landingpage-bochum-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "bochum-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bochum-hr-berater.html"
+      ]
+    },
+    {
+      "city": "bochum-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bochum-it-berater.html"
+      ]
+    },
+    {
+      "city": "bochum-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bochum-ki-berater.html"
+      ]
+    },
+    {
+      "city": "bonn",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-bonn-berater.html",
+        "/landingpage-bonn-projektmanager.html",
+        "/landingpage-bonn-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "bonn-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bonn-hr-berater.html"
+      ]
+    },
+    {
+      "city": "bonn-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bonn-it-berater.html"
+      ]
+    },
+    {
+      "city": "bonn-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bonn-ki-berater.html"
+      ]
+    },
+    {
+      "city": "bonn-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bonn-seo-berater.html"
+      ]
+    },
+    {
+      "city": "bottrop",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-bottrop-berater.html",
+        "/landingpage-bottrop-projektmanager.html",
+        "/landingpage-bottrop-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "bottrop-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bottrop-hr-berater.html"
+      ]
+    },
+    {
+      "city": "bottrop-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bottrop-it-berater.html"
+      ]
+    },
+    {
+      "city": "bottrop-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bottrop-ki-berater.html"
+      ]
+    },
+    {
+      "city": "braunau",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-braunau-berater.html"
+      ]
+    },
+    {
+      "city": "braunschweig",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-braunschweig-berater.html"
+      ]
+    },
+    {
+      "city": "braunschweig-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-braunschweig-it-berater.html"
+      ]
+    },
+    {
+      "city": "bregenz",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-bregenz-berater.html",
+        "/landingpage-bregenz-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "bregenz-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bregenz-it-berater.html"
+      ]
+    },
+    {
+      "city": "bremen",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-bremen-berater.html",
+        "/landingpage-bremen-projektmanager.html",
+        "/landingpage-bremen-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "bremen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bremen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "bremen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bremen-it-berater.html"
+      ]
+    },
+    {
+      "city": "bremen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bremen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "bremen-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bremen-seo-berater.html"
+      ]
+    },
+    {
+      "city": "bremerhaven",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bremerhaven-berater.html"
+      ]
+    },
+    {
+      "city": "bremerhaven-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-bremerhaven-it-berater.html"
+      ]
+    },
+    {
+      "city": "chemnitz",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-chemnitz-berater.html",
+        "/landingpage-chemnitz-projektmanager.html",
+        "/landingpage-chemnitz-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "chemnitz-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-chemnitz-hr-berater.html"
+      ]
+    },
+    {
+      "city": "chemnitz-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-chemnitz-it-berater.html"
+      ]
+    },
+    {
+      "city": "chemnitz-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-chemnitz-ki-berater.html"
+      ]
+    },
+    {
+      "city": "chur",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-chur-berater.html",
+        "/landingpage-chur-projektmanager.html",
+        "/landingpage-chur-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "chur-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-chur-hr-berater.html"
+      ]
+    },
+    {
+      "city": "chur-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-chur-it-berater.html"
+      ]
+    },
+    {
+      "city": "chur-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-chur-ki-berater.html"
+      ]
+    },
+    {
+      "city": "chur-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-chur-seo-berater.html"
+      ]
+    },
+    {
+      "city": "compliance",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-compliance-berater.html"
+      ]
+    },
+    {
+      "city": "controllng",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-controllng-berater.html"
+      ]
+    },
+    {
+      "city": "cottbus",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-cottbus-berater.html",
+        "/landingpage-cottbus-projektmanager.html",
+        "/landingpage-cottbus-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "cottbus-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-cottbus-hr-berater.html"
+      ]
+    },
+    {
+      "city": "cottbus-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-cottbus-it-berater.html"
+      ]
+    },
+    {
+      "city": "cottbus-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-cottbus-ki-berater.html"
+      ]
+    },
+    {
+      "city": "darmstadt",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-darmstadt-berater.html"
+      ]
+    },
+    {
+      "city": "darmstadt-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-darmstadt-it-berater.html"
+      ]
+    },
+    {
+      "city": "dessau",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dessau-berater.html"
+      ]
+    },
+    {
+      "city": "dessau-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dessau-it-berater.html"
+      ]
+    },
+    {
+      "city": "dornbirn",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-dornbirn-berater.html",
+        "/landingpage-dornbirn-projektmanager.html",
+        "/landingpage-dornbirn-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "dornbirn-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dornbirn-hr-berater.html"
+      ]
+    },
+    {
+      "city": "dornbirn-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dornbirn-it-berater.html"
+      ]
+    },
+    {
+      "city": "dornbirn-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dornbirn-ki-berater.html"
+      ]
+    },
+    {
+      "city": "dornbirn-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dornbirn-seo-berater.html"
+      ]
+    },
+    {
+      "city": "dortmund",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-dortmund-berater.html",
+        "/landingpage-dortmund-projektmanager.html",
+        "/landingpage-dortmund-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "dortmund-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dortmund-hr-berater.html"
+      ]
+    },
+    {
+      "city": "dortmund-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dortmund-it-berater.html"
+      ]
+    },
+    {
+      "city": "dortmund-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dortmund-ki-berater.html"
+      ]
+    },
+    {
+      "city": "dortmund-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dortmund-seo-berater.html"
+      ]
+    },
+    {
+      "city": "dresden",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-dresden-berater.html",
+        "/landingpage-dresden-projektmanager.html",
+        "/landingpage-dresden-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "dresden-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dresden-hr-berater.html"
+      ]
+    },
+    {
+      "city": "dresden-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dresden-it-berater.html"
+      ]
+    },
+    {
+      "city": "dresden-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dresden-ki-berater.html"
+      ]
+    },
+    {
+      "city": "dresden-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dresden-seo-berater.html"
+      ]
+    },
+    {
+      "city": "duesseldorf",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-duesseldorf-berater.html",
+        "/landingpage-duesseldorf-projektmanager.html",
+        "/landingpage-duesseldorf-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "duesseldorf-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-duesseldorf-hr-berater.html"
+      ]
+    },
+    {
+      "city": "duesseldorf-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-duesseldorf-it-berater.html"
+      ]
+    },
+    {
+      "city": "duesseldorf-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-duesseldorf-ki-berater.html"
+      ]
+    },
+    {
+      "city": "duesseldorf-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-duesseldorf-seo-berater.html"
+      ]
+    },
+    {
+      "city": "duisburg",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-duisburg-berater.html",
+        "/landingpage-duisburg-projektmanager.html",
+        "/landingpage-duisburg-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "duisburg-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-duisburg-hr-berater.html"
+      ]
+    },
+    {
+      "city": "duisburg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-duisburg-it-berater.html"
+      ]
+    },
+    {
+      "city": "duisburg-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-duisburg-ki-berater.html"
+      ]
+    },
+    {
+      "city": "dynamics",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-dynamics-berater.html"
+      ]
+    },
+    {
+      "city": "erfurt",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-erfurt-berater.html",
+        "/landingpage-erfurt-projektmanager.html",
+        "/landingpage-erfurt-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "erfurt-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-erfurt-hr-berater.html"
+      ]
+    },
+    {
+      "city": "erfurt-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-erfurt-it-berater.html"
+      ]
+    },
+    {
+      "city": "erfurt-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-erfurt-ki-berater.html"
+      ]
+    },
+    {
+      "city": "erlangen",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-erlangen-berater.html"
+      ]
+    },
+    {
+      "city": "erlangen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-erlangen-it-berater.html"
+      ]
+    },
+    {
+      "city": "erp",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-erp-berater.html"
+      ]
+    },
+    {
+      "city": "essen",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-essen-berater.html",
+        "/landingpage-essen-projektmanager.html",
+        "/landingpage-essen-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "essen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-essen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "essen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-essen-it-berater.html"
+      ]
+    },
+    {
+      "city": "essen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-essen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "essen-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-essen-seo-berater.html"
+      ]
+    },
+    {
+      "city": "esslingen",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-esslingen-berater.html"
+      ]
+    },
+    {
+      "city": "esslingen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-esslingen-it-berater.html"
+      ]
+    },
+    {
+      "city": "feldkirch",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-feldkirch-berater.html",
+        "/landingpage-feldkirch-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "feldkirch-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-feldkirch-it-berater.html"
+      ]
+    },
+    {
+      "city": "feng-shui",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-feng-shui-berater.html"
+      ]
+    },
+    {
+      "city": "flensburg",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-flensburg-berater.html",
+        "/landingpage-flensburg-projektmanager.html",
+        "/landingpage-flensburg-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "flensburg-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-flensburg-hr-berater.html"
+      ]
+    },
+    {
+      "city": "flensburg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-flensburg-it-berater.html"
+      ]
+    },
+    {
+      "city": "flensburg-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-flensburg-ki-berater.html"
+      ]
+    },
+    {
+      "city": "frankfurt",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-frankfurt-berater.html",
+        "/landingpage-frankfurt-projektmanager.html",
+        "/landingpage-frankfurt-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "frankfurt-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-frankfurt-hr-berater.html"
+      ]
+    },
+    {
+      "city": "frankfurt-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-frankfurt-it-berater.html"
+      ]
+    },
+    {
+      "city": "frankfurt-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-frankfurt-ki-berater.html"
+      ]
+    },
+    {
+      "city": "frankfurt-oder",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-frankfurt-oder-berater.html"
+      ]
+    },
+    {
+      "city": "frankfurt-oder-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-frankfurt-oder-it-berater.html"
+      ]
+    },
+    {
+      "city": "frankfurt-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-frankfurt-seo-berater.html"
+      ]
+    },
+    {
+      "city": "frauenfeld",
+      "market": "CH",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-frauenfeld-berater.html",
+        "/landingpage-frauenfeld-projektmanager.html",
+        "/landingpage-frauenfeld-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "frauenfeld-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-frauenfeld-hr-berater.html"
+      ]
+    },
+    {
+      "city": "frauenfeld-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-frauenfeld-it-berater.html"
+      ]
+    },
+    {
+      "city": "frauenfeld-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-frauenfeld-ki-berater.html"
+      ]
+    },
+    {
+      "city": "frauenfeld-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-frauenfeld-seo-berater.html"
+      ]
+    },
+    {
+      "city": "freiburg",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-freiburg-berater.html"
+      ]
+    },
+    {
+      "city": "friedrichshafen",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-friedrichshafen-berater.html"
+      ]
+    },
+    {
+      "city": "fuerth",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-fuerth-berater.html"
+      ]
+    },
+    {
+      "city": "fuerth-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-fuerth-it-berater.html"
+      ]
+    },
+    {
+      "city": "fulda",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-fulda-berater.html"
+      ]
+    },
+    {
+      "city": "fulda-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-fulda-it-berater.html"
+      ]
+    },
+    {
+      "city": "fundraising",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-fundraising-berater.html"
+      ]
+    },
+    {
+      "city": "gelsenkirchen",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-gelsenkirchen-berater.html",
+        "/landingpage-gelsenkirchen-projektmanager.html",
+        "/landingpage-gelsenkirchen-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "gelsenkirchen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-gelsenkirchen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "gelsenkirchen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-gelsenkirchen-it-berater.html"
+      ]
+    },
+    {
+      "city": "gelsenkirchen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-gelsenkirchen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "gera",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "projektmanager"
+      ],
+      "paths": [
+        "/landingpage-gera-berater.html",
+        "/landingpage-gera-projektmanager.html"
+      ]
+    },
+    {
+      "city": "gera-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-gera-hr-berater.html"
+      ]
+    },
+    {
+      "city": "gera-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-gera-it-berater.html"
+      ]
+    },
+    {
+      "city": "gera-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-gera-ki-berater.html"
+      ]
+    },
+    {
+      "city": "giessen",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-giessen-berater.html"
+      ]
+    },
+    {
+      "city": "giessen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-giessen-it-berater.html"
+      ]
+    },
+    {
+      "city": "goerlitz",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-goerlitz-berater.html"
+      ]
+    },
+    {
+      "city": "goerlitz-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-goerlitz-it-berater.html"
+      ]
+    },
+    {
+      "city": "goettingen",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-goettingen-berater.html"
+      ]
+    },
+    {
+      "city": "goettingen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-goettingen-it-berater.html"
+      ]
+    },
+    {
+      "city": "graz",
+      "market": "AT",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-graz-berater.html",
+        "/landingpage-graz-projektmanager.html",
+        "/landingpage-graz-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "graz-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-graz-hr-berater.html"
+      ]
+    },
+    {
+      "city": "graz-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-graz-it-berater.html"
+      ]
+    },
+    {
+      "city": "graz-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-graz-ki-berater.html"
+      ]
+    },
+    {
+      "city": "graz-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-graz-seo-berater.html"
+      ]
+    },
+    {
+      "city": "greifswald",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-greifswald-berater.html",
+        "/landingpage-greifswald-projektmanager.html",
+        "/landingpage-greifswald-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "greifswald-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-greifswald-hr-berater.html"
+      ]
+    },
+    {
+      "city": "greifswald-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-greifswald-it-berater.html"
+      ]
+    },
+    {
+      "city": "greifswald-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-greifswald-ki-berater.html"
+      ]
+    },
+    {
+      "city": "guetersloh",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-guetersloh-berater.html"
+      ]
+    },
+    {
+      "city": "guetersloh-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-guetersloh-it-berater.html"
+      ]
+    },
+    {
+      "city": "halle",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-halle-berater.html",
+        "/landingpage-halle-projektmanager.html",
+        "/landingpage-halle-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "halle-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-halle-hr-berater.html"
+      ]
+    },
+    {
+      "city": "halle-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-halle-it-berater.html"
+      ]
+    },
+    {
+      "city": "halle-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-halle-ki-berater.html"
+      ]
+    },
+    {
+      "city": "hallein",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-hallein-berater.html",
+        "/landingpage-hallein-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "hallein-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hallein-it-berater.html"
+      ]
+    },
+    {
+      "city": "hamburg",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-hamburg-berater.html",
+        "/landingpage-hamburg-projektmanager.html",
+        "/landingpage-hamburg-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "hamburg-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hamburg-hr-berater.html"
+      ]
+    },
+    {
+      "city": "hamburg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hamburg-it-berater.html"
+      ]
+    },
+    {
+      "city": "hamburg-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hamburg-ki-berater.html"
+      ]
+    },
+    {
+      "city": "hamburg-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hamburg-seo-berater.html"
+      ]
+    },
+    {
+      "city": "hameln",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hameln-berater.html"
+      ]
+    },
+    {
+      "city": "hameln-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hameln-it-berater.html"
+      ]
+    },
+    {
+      "city": "hannover",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-hannover-berater.html",
+        "/landingpage-hannover-projektmanager.html",
+        "/landingpage-hannover-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "hannover-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hannover-hr-berater.html"
+      ]
+    },
+    {
+      "city": "hannover-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hannover-it-berater.html"
+      ]
+    },
+    {
+      "city": "hannover-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hannover-ki-berater.html"
+      ]
+    },
+    {
+      "city": "hannover-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hannover-seo-berater.html"
+      ]
+    },
+    {
+      "city": "heidelberg",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-heidelberg-berater.html"
+      ]
+    },
+    {
+      "city": "herford",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-herford-berater.html"
+      ]
+    },
+    {
+      "city": "herford-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-herford-it-berater.html"
+      ]
+    },
+    {
+      "city": "herne",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-herne-berater.html",
+        "/landingpage-herne-projektmanager.html",
+        "/landingpage-herne-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "herne-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-herne-hr-berater.html"
+      ]
+    },
+    {
+      "city": "herne-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-herne-it-berater.html"
+      ]
+    },
+    {
+      "city": "herne-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-herne-ki-berater.html"
+      ]
+    },
+    {
+      "city": "hildesheim",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hildesheim-berater.html"
+      ]
+    },
+    {
+      "city": "hildesheim-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hildesheim-it-berater.html"
+      ]
+    },
+    {
+      "city": "hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hr-berater.html"
+      ]
+    },
+    {
+      "city": "hubspot",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-hubspot-berater.html"
+      ]
+    },
+    {
+      "city": "ingolstadt",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-ingolstadt-berater.html"
+      ]
+    },
+    {
+      "city": "ingolstadt-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-ingolstadt-it-berater.html"
+      ]
+    },
+    {
+      "city": "innsbruck",
+      "market": "AT",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-innsbruck-berater.html",
+        "/landingpage-innsbruck-projektmanager.html",
+        "/landingpage-innsbruck-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "innsbruck-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-innsbruck-hr-berater.html"
+      ]
+    },
+    {
+      "city": "innsbruck-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-innsbruck-it-berater.html"
+      ]
+    },
+    {
+      "city": "innsbruck-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-innsbruck-ki-berater.html"
+      ]
+    },
+    {
+      "city": "innsbruck-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-innsbruck-seo-berater.html"
+      ]
+    },
+    {
+      "city": "interim",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "manager"
+      ],
+      "paths": [
+        "/landingpage-interim-manager.html"
+      ]
+    },
+    {
+      "city": "it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-it-berater.html"
+      ]
+    },
+    {
+      "city": "jena",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-jena-berater.html",
+        "/landingpage-jena-projektmanager.html",
+        "/landingpage-jena-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "jena-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-jena-hr-berater.html"
+      ]
+    },
+    {
+      "city": "jena-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-jena-it-berater.html"
+      ]
+    },
+    {
+      "city": "jena-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-jena-ki-berater.html"
+      ]
+    },
+    {
+      "city": "kaiserslautern",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-kaiserslautern-berater.html"
+      ]
+    },
+    {
+      "city": "kaiserslautern-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-kaiserslautern-it-berater.html"
+      ]
+    },
+    {
+      "city": "kapfenberg",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-kapfenberg-berater.html",
+        "/landingpage-kapfenberg-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "kapfenberg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-kapfenberg-it-berater.html"
+      ]
+    },
+    {
+      "city": "karlsruhe",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-karlsruhe-berater.html"
+      ]
+    },
+    {
+      "city": "karlsruhe-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-karlsruhe-it-berater.html"
+      ]
+    },
+    {
+      "city": "kassel",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-kassel-berater.html"
+      ]
+    },
+    {
+      "city": "kassel-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-kassel-it-berater.html"
+      ]
+    },
+    {
+      "city": "ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-ki-berater.html"
+      ]
+    },
+    {
+      "city": "kiel",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-kiel-berater.html",
+        "/landingpage-kiel-projektmanager.html",
+        "/landingpage-kiel-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "kiel-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-kiel-hr-berater.html"
+      ]
+    },
+    {
+      "city": "kiel-interim",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "manager"
+      ],
+      "paths": [
+        "/landingpage-kiel-interim-manager.html"
+      ]
+    },
+    {
+      "city": "kiel-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-kiel-it-berater.html"
+      ]
+    },
+    {
+      "city": "kiel-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-kiel-ki-berater.html"
+      ]
+    },
+    {
+      "city": "klagenfurt",
+      "market": "AT",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-klagenfurt-berater.html",
+        "/landingpage-klagenfurt-projektmanager.html",
+        "/landingpage-klagenfurt-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "klagenfurt-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-klagenfurt-hr-berater.html"
+      ]
+    },
+    {
+      "city": "klagenfurt-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-klagenfurt-it-berater.html"
+      ]
+    },
+    {
+      "city": "klagenfurt-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-klagenfurt-ki-berater.html"
+      ]
+    },
+    {
+      "city": "klagenfurt-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-klagenfurt-seo-berater.html"
+      ]
+    },
+    {
+      "city": "klosterneuburg",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-klosterneuburg-berater.html",
+        "/landingpage-klosterneuburg-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "klosterneuburg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-klosterneuburg-it-berater.html"
+      ]
+    },
+    {
+      "city": "koblenz",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-koblenz-berater.html"
+      ]
+    },
+    {
+      "city": "koblenz-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-koblenz-it-berater.html"
+      ]
+    },
+    {
+      "city": "koeln",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-koeln-berater.html",
+        "/landingpage-koeln-projektmanager.html",
+        "/landingpage-koeln-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "koeln-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-koeln-hr-berater.html"
+      ]
+    },
+    {
+      "city": "koeln-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-koeln-it-berater.html"
+      ]
+    },
+    {
+      "city": "koeln-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-koeln-ki-berater.html"
+      ]
+    },
+    {
+      "city": "koeln-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-koeln-seo-berater.html"
+      ]
+    },
+    {
+      "city": "koeniz",
+      "market": "CH",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-koeniz-berater.html",
+        "/landingpage-koeniz-projektmanager.html",
+        "/landingpage-koeniz-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "koeniz-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-koeniz-hr-berater.html"
+      ]
+    },
+    {
+      "city": "koeniz-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-koeniz-it-berater.html"
+      ]
+    },
+    {
+      "city": "koeniz-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-koeniz-ki-berater.html"
+      ]
+    },
+    {
+      "city": "koeniz-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-koeniz-seo-berater.html"
+      ]
+    },
+    {
+      "city": "konstanz",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-konstanz-berater.html"
+      ]
+    },
+    {
+      "city": "konstanz-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-konstanz-it-berater.html"
+      ]
+    },
+    {
+      "city": "krefeld",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-krefeld-berater.html",
+        "/landingpage-krefeld-projektmanager.html",
+        "/landingpage-krefeld-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "krefeld-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-krefeld-hr-berater.html"
+      ]
+    },
+    {
+      "city": "krefeld-interim",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "manager"
+      ],
+      "paths": [
+        "/landingpage-krefeld-interim-manager.html"
+      ]
+    },
+    {
+      "city": "krefeld-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-krefeld-it-berater.html"
+      ]
+    },
+    {
+      "city": "krefeld-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-krefeld-ki-berater.html"
+      ]
+    },
+    {
+      "city": "krems",
+      "market": "AT",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-krems-berater.html",
+        "/landingpage-krems-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "krems-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-krems-it-berater.html"
+      ]
+    },
+    {
+      "city": "kreuzlingen",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-kreuzlingen-berater.html",
+        "/landingpage-kreuzlingen-projektmanager.html",
+        "/landingpage-kreuzlingen-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "kreuzlingen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-kreuzlingen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "kreuzlingen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-kreuzlingen-it-berater.html"
+      ]
+    },
+    {
+      "city": "kreuzlingen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-kreuzlingen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "kreuzlingen-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-kreuzlingen-seo-berater.html"
+      ]
+    },
+    {
+      "city": "kufstein",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-kufstein-berater.html",
+        "/landingpage-kufstein-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "kufstein-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-kufstein-it-berater.html"
+      ]
+    },
+    {
+      "city": "leipzig",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-leipzig-berater.html",
+        "/landingpage-leipzig-projektmanager.html",
+        "/landingpage-leipzig-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "leipzig-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-leipzig-hr-berater.html"
+      ]
+    },
+    {
+      "city": "leipzig-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-leipzig-it-berater.html"
+      ]
+    },
+    {
+      "city": "leipzig-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-leipzig-ki-berater.html"
+      ]
+    },
+    {
+      "city": "leipzig-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-leipzig-seo-berater.html"
+      ]
+    },
+    {
+      "city": "leoben",
+      "market": "AT",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-leoben-berater.html",
+        "/landingpage-leoben-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "leoben-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-leoben-it-berater.html"
+      ]
+    },
+    {
+      "city": "leverkusen",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-leverkusen-berater.html",
+        "/landingpage-leverkusen-projektmanager.html",
+        "/landingpage-leverkusen-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "leverkusen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-leverkusen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "leverkusen-interim",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "manager"
+      ],
+      "paths": [
+        "/landingpage-leverkusen-interim-manager.html"
+      ]
+    },
+    {
+      "city": "leverkusen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-leverkusen-it-berater.html"
+      ]
+    },
+    {
+      "city": "leverkusen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-leverkusen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "linz",
+      "market": "AT",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-linz-berater.html",
+        "/landingpage-linz-projektmanager.html",
+        "/landingpage-linz-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "linz-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-linz-hr-berater.html"
+      ]
+    },
+    {
+      "city": "linz-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-linz-it-berater.html"
+      ]
+    },
+    {
+      "city": "linz-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-linz-ki-berater.html"
+      ]
+    },
+    {
+      "city": "linz-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-linz-seo-berater.html"
+      ]
+    },
+    {
+      "city": "logistik",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-logistik-berater.html"
+      ]
+    },
+    {
+      "city": "ludwigsburg",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-ludwigsburg-berater.html"
+      ]
+    },
+    {
+      "city": "ludwigsburg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-ludwigsburg-it-berater.html"
+      ]
+    },
+    {
+      "city": "ludwigshafen",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-ludwigshafen-berater.html"
+      ]
+    },
+    {
+      "city": "ludwigshafen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-ludwigshafen-it-berater.html"
+      ]
+    },
+    {
+      "city": "luebeck",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-luebeck-berater.html",
+        "/landingpage-luebeck-projektmanager.html",
+        "/landingpage-luebeck-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "luebeck-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-luebeck-hr-berater.html"
+      ]
+    },
+    {
+      "city": "luebeck-interim",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "manager"
+      ],
+      "paths": [
+        "/landingpage-luebeck-interim-manager.html"
+      ]
+    },
+    {
+      "city": "luebeck-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-luebeck-it-berater.html"
+      ]
+    },
+    {
+      "city": "luebeck-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-luebeck-ki-berater.html"
+      ]
+    },
+    {
+      "city": "lueneburg",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-lueneburg-berater.html"
+      ]
+    },
+    {
+      "city": "luenen",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-luenen-berater.html",
+        "/landingpage-luenen-projektmanager.html",
+        "/landingpage-luenen-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "luenen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-luenen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "luenen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-luenen-it-berater.html"
+      ]
+    },
+    {
+      "city": "luenen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-luenen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "luzern",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-luzern-berater.html",
+        "/landingpage-luzern-projektmanager.html",
+        "/landingpage-luzern-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "luzern-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-luzern-hr-berater.html"
+      ]
+    },
+    {
+      "city": "luzern-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-luzern-it-berater.html"
+      ]
+    },
+    {
+      "city": "luzern-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-luzern-ki-berater.html"
+      ]
+    },
+    {
+      "city": "luzern-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-luzern-seo-berater.html"
+      ]
+    },
+    {
+      "city": "magdeburg",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-magdeburg-berater.html",
+        "/landingpage-magdeburg-projektmanager.html",
+        "/landingpage-magdeburg-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "magdeburg-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-magdeburg-hr-berater.html"
+      ]
+    },
+    {
+      "city": "magdeburg-interim",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "manager"
+      ],
+      "paths": [
+        "/landingpage-magdeburg-interim-manager.html"
+      ]
+    },
+    {
+      "city": "magdeburg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-magdeburg-it-berater.html"
+      ]
+    },
+    {
+      "city": "magdeburg-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-magdeburg-ki-berater.html"
+      ]
+    },
+    {
+      "city": "mainz",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-mainz-berater.html"
+      ]
+    },
+    {
+      "city": "mainz-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-mainz-it-berater.html"
+      ]
+    },
+    {
+      "city": "mannheim",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-mannheim-berater.html"
+      ]
+    },
+    {
+      "city": "mannheim-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-mannheim-it-berater.html"
+      ]
+    },
+    {
+      "city": "marburg",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-marburg-berater.html"
+      ]
+    },
+    {
+      "city": "marburg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-marburg-it-berater.html"
+      ]
+    },
+    {
+      "city": "maschinenbau",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-maschinenbau-berater.html"
+      ]
+    },
+    {
+      "city": "minden",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-minden-berater.html"
+      ]
+    },
+    {
+      "city": "minden-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-minden-it-berater.html"
+      ]
+    },
+    {
+      "city": "moedling",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-moedling-berater.html",
+        "/landingpage-moedling-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "moedling-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-moedling-it-berater.html"
+      ]
+    },
+    {
+      "city": "moenchengladbach",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-moenchengladbach-berater.html",
+        "/landingpage-moenchengladbach-projektmanager.html",
+        "/landingpage-moenchengladbach-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "moenchengladbach-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-moenchengladbach-hr-berater.html"
+      ]
+    },
+    {
+      "city": "moenchengladbach-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-moenchengladbach-it-berater.html"
+      ]
+    },
+    {
+      "city": "moenchengladbach-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-moenchengladbach-ki-berater.html"
+      ]
+    },
+    {
+      "city": "muelheim",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-muelheim-berater.html",
+        "/landingpage-muelheim-projektmanager.html",
+        "/landingpage-muelheim-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "muelheim-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-muelheim-hr-berater.html"
+      ]
+    },
+    {
+      "city": "muelheim-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-muelheim-it-berater.html"
+      ]
+    },
+    {
+      "city": "muelheim-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-muelheim-ki-berater.html"
+      ]
+    },
+    {
+      "city": "muenchen",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-muenchen-berater.html",
+        "/landingpage-muenchen-projektmanager.html",
+        "/landingpage-muenchen-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "muenchen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-muenchen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "muenchen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-muenchen-it-berater.html"
+      ]
+    },
+    {
+      "city": "muenchen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-muenchen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "muenchen-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-muenchen-seo-berater.html"
+      ]
+    },
+    {
+      "city": "muenster",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-muenster-berater.html"
+      ]
+    },
+    {
+      "city": "muenster-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-muenster-it-berater.html"
+      ]
+    },
+    {
+      "city": "neumuenster",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-neumuenster-berater.html"
+      ]
+    },
+    {
+      "city": "neumuenster-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-neumuenster-it-berater.html"
+      ]
+    },
+    {
+      "city": "neuss",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-neuss-berater.html",
+        "/landingpage-neuss-projektmanager.html",
+        "/landingpage-neuss-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "neuss-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-neuss-hr-berater.html"
+      ]
+    },
+    {
+      "city": "neuss-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-neuss-it-berater.html"
+      ]
+    },
+    {
+      "city": "neuss-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-neuss-ki-berater.html"
+      ]
+    },
+    {
+      "city": "ngo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-ngo-berater.html"
+      ]
+    },
+    {
+      "city": "norderstedt",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-norderstedt-berater.html"
+      ]
+    },
+    {
+      "city": "norderstedt-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-norderstedt-it-berater.html"
+      ]
+    },
+    {
+      "city": "nuernberg",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-nuernberg-berater.html",
+        "/landingpage-nuernberg-projektmanager.html",
+        "/landingpage-nuernberg-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "nuernberg-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-nuernberg-hr-berater.html"
+      ]
+    },
+    {
+      "city": "nuernberg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-nuernberg-it-berater.html"
+      ]
+    },
+    {
+      "city": "nuernberg-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-nuernberg-ki-berater.html"
+      ]
+    },
+    {
+      "city": "nuernberg-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-nuernberg-seo-berater.html"
+      ]
+    },
+    {
+      "city": "oberhausen",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-oberhausen-berater.html",
+        "/landingpage-oberhausen-projektmanager.html",
+        "/landingpage-oberhausen-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "oberhausen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-oberhausen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "oberhausen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-oberhausen-it-berater.html"
+      ]
+    },
+    {
+      "city": "oberhausen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-oberhausen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "odoo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-odoo-berater.html"
+      ]
+    },
+    {
+      "city": "offenbach",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-offenbach-berater.html"
+      ]
+    },
+    {
+      "city": "offenbach-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-offenbach-it-berater.html"
+      ]
+    },
+    {
+      "city": "oldenburg",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-oldenburg-berater.html",
+        "/landingpage-oldenburg-projektmanager.html",
+        "/landingpage-oldenburg-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "oldenburg-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-oldenburg-hr-berater.html"
+      ]
+    },
+    {
+      "city": "oldenburg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-oldenburg-it-berater.html"
+      ]
+    },
+    {
+      "city": "oldenburg-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-oldenburg-ki-berater.html"
+      ]
+    },
+    {
+      "city": "olten",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-olten-berater.html",
+        "/landingpage-olten-projektmanager.html",
+        "/landingpage-olten-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "olten-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-olten-hr-berater.html"
+      ]
+    },
+    {
+      "city": "olten-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-olten-it-berater.html"
+      ]
+    },
+    {
+      "city": "olten-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-olten-ki-berater.html"
+      ]
+    },
+    {
+      "city": "olten-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-olten-seo-berater.html"
+      ]
+    },
+    {
+      "city": "osnabrueck",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-osnabrueck-berater.html",
+        "/landingpage-osnabrueck-projektmanager.html",
+        "/landingpage-osnabrueck-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "osnabrueck-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-osnabrueck-hr-berater.html"
+      ]
+    },
+    {
+      "city": "osnabrueck-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-osnabrueck-it-berater.html"
+      ]
+    },
+    {
+      "city": "osnabrueck-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-osnabrueck-ki-berater.html"
+      ]
+    },
+    {
+      "city": "paderborn",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-paderborn-berater.html"
+      ]
+    },
+    {
+      "city": "paderborn-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-paderborn-it-berater.html"
+      ]
+    },
+    {
+      "city": "pforzheim",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-pforzheim-berater.html"
+      ]
+    },
+    {
+      "city": "potsdam",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-potsdam-berater.html",
+        "/landingpage-potsdam-projektmanager.html",
+        "/landingpage-potsdam-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "potsdam-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-potsdam-hr-berater.html"
+      ]
+    },
+    {
+      "city": "potsdam-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-potsdam-it-berater.html"
+      ]
+    },
+    {
+      "city": "potsdam-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-potsdam-ki-berater.html"
+      ]
+    },
+    {
+      "city": "pr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-pr-berater.html"
+      ]
+    },
+    {
+      "city": "projektmanager",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "base"
+      ],
+      "paths": [
+        "/landingpage-projektmanager.html"
+      ]
+    },
+    {
+      "city": "rapperswil",
+      "market": "CH",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-rapperswil-berater.html",
+        "/landingpage-rapperswil-projektmanager.html",
+        "/landingpage-rapperswil-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "rapperswil-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-rapperswil-hr-berater.html"
+      ]
+    },
+    {
+      "city": "rapperswil-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-rapperswil-it-berater.html"
+      ]
+    },
+    {
+      "city": "rapperswil-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-rapperswil-ki-berater.html"
+      ]
+    },
+    {
+      "city": "rapperswil-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-rapperswil-seo-berater.html"
+      ]
+    },
+    {
+      "city": "ratingen",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "projektmanager"
+      ],
+      "paths": [
+        "/landingpage-ratingen-berater.html",
+        "/landingpage-ratingen-projektmanager.html"
+      ]
+    },
+    {
+      "city": "ratingen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-ratingen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "ratingen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-ratingen-it-berater.html"
+      ]
+    },
+    {
+      "city": "ratingen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-ratingen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "regensburg",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-regensburg-berater.html"
+      ]
+    },
+    {
+      "city": "regensburg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-regensburg-it-berater.html"
+      ]
+    },
+    {
+      "city": "remscheid",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "projektmanager"
+      ],
+      "paths": [
+        "/landingpage-remscheid-berater.html",
+        "/landingpage-remscheid-projektmanager.html"
+      ]
+    },
+    {
+      "city": "remscheid-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-remscheid-hr-berater.html"
+      ]
+    },
+    {
+      "city": "remscheid-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-remscheid-it-berater.html"
+      ]
+    },
+    {
+      "city": "remscheid-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-remscheid-ki-berater.html"
+      ]
+    },
+    {
+      "city": "reutlingen",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-reutlingen-berater.html"
+      ]
+    },
+    {
+      "city": "reutlingen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-reutlingen-it-berater.html"
+      ]
+    },
+    {
+      "city": "rostock",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "projektmanager"
+      ],
+      "paths": [
+        "/landingpage-rostock-berater.html",
+        "/landingpage-rostock-projektmanager.html"
+      ]
+    },
+    {
+      "city": "rostock-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-rostock-hr-berater.html"
+      ]
+    },
+    {
+      "city": "rostock-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-rostock-it-berater.html"
+      ]
+    },
+    {
+      "city": "rostock-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-rostock-ki-berater.html"
+      ]
+    },
+    {
+      "city": "saarbruecken",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-saarbruecken-berater.html"
+      ]
+    },
+    {
+      "city": "saarbruecken-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-saarbruecken-it-berater.html"
+      ]
+    },
+    {
+      "city": "salesforce",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-salesforce-berater.html"
+      ]
+    },
+    {
+      "city": "salzburg",
+      "market": "AT",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-salzburg-berater.html",
+        "/landingpage-salzburg-projektmanager.html",
+        "/landingpage-salzburg-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "salzburg-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-salzburg-hr-berater.html"
+      ]
+    },
+    {
+      "city": "salzburg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-salzburg-it-berater.html"
+      ]
+    },
+    {
+      "city": "salzburg-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-salzburg-ki-berater.html"
+      ]
+    },
+    {
+      "city": "salzburg-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-salzburg-seo-berater.html"
+      ]
+    },
+    {
+      "city": "salzgitter",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-salzgitter-berater.html"
+      ]
+    },
+    {
+      "city": "salzgitter-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-salzgitter-it-berater.html"
+      ]
+    },
+    {
+      "city": "sanierungs",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-sanierungs-berater.html"
+      ]
+    },
+    {
+      "city": "sap",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-sap-berater.html"
+      ]
+    },
+    {
+      "city": "schaffhausen",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-schaffhausen-berater.html",
+        "/landingpage-schaffhausen-projektmanager.html",
+        "/landingpage-schaffhausen-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "schaffhausen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-schaffhausen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "schaffhausen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-schaffhausen-it-berater.html"
+      ]
+    },
+    {
+      "city": "schaffhausen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-schaffhausen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "schaffhausen-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-schaffhausen-seo-berater.html"
+      ]
+    },
+    {
+      "city": "schwerin",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "projektmanager"
+      ],
+      "paths": [
+        "/landingpage-schwerin-berater.html",
+        "/landingpage-schwerin-projektmanager.html"
+      ]
+    },
+    {
+      "city": "schwerin-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-schwerin-hr-berater.html"
+      ]
+    },
+    {
+      "city": "schwerin-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-schwerin-it-berater.html"
+      ]
+    },
+    {
+      "city": "schwerin-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-schwerin-ki-berater.html"
+      ]
+    },
+    {
+      "city": "seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-seo-berater.html"
+      ]
+    },
+    {
+      "city": "siegen",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "projektmanager"
+      ],
+      "paths": [
+        "/landingpage-siegen-berater.html",
+        "/landingpage-siegen-projektmanager.html"
+      ]
+    },
+    {
+      "city": "siegen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-siegen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "siegen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-siegen-it-berater.html"
+      ]
+    },
+    {
+      "city": "siegen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-siegen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "sindelfingen",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-sindelfingen-berater.html"
+      ]
+    },
+    {
+      "city": "sindelfingen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-sindelfingen-it-berater.html"
+      ]
+    },
+    {
+      "city": "sion",
+      "market": "CH",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-sion-berater.html",
+        "/landingpage-sion-projektmanager.html",
+        "/landingpage-sion-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "sion-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-sion-hr-berater.html"
+      ]
+    },
+    {
+      "city": "sion-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-sion-it-berater.html"
+      ]
+    },
+    {
+      "city": "sion-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-sion-ki-berater.html"
+      ]
+    },
+    {
+      "city": "sion-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-sion-seo-berater.html"
+      ]
+    },
+    {
+      "city": "solingen",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "projektmanager"
+      ],
+      "paths": [
+        "/landingpage-solingen-berater.html",
+        "/landingpage-solingen-projektmanager.html"
+      ]
+    },
+    {
+      "city": "solingen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-solingen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "solingen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-solingen-it-berater.html"
+      ]
+    },
+    {
+      "city": "solingen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-solingen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "st-gallen",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-st-gallen-berater.html",
+        "/landingpage-st-gallen-projektmanager.html",
+        "/landingpage-st-gallen-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "st-gallen-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-st-gallen-hr-berater.html"
+      ]
+    },
+    {
+      "city": "st-gallen-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-st-gallen-it-berater.html"
+      ]
+    },
+    {
+      "city": "st-gallen-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-st-gallen-ki-berater.html"
+      ]
+    },
+    {
+      "city": "st-gallen-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-st-gallen-seo-berater.html"
+      ]
+    },
+    {
+      "city": "st-poelten",
+      "market": "AT",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-st-poelten-berater.html",
+        "/landingpage-st-poelten-projektmanager.html",
+        "/landingpage-st-poelten-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "st-poelten-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-st-poelten-hr-berater.html"
+      ]
+    },
+    {
+      "city": "st-poelten-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-st-poelten-it-berater.html"
+      ]
+    },
+    {
+      "city": "st-poelten-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-st-poelten-ki-berater.html"
+      ]
+    },
+    {
+      "city": "st-poelten-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-st-poelten-seo-berater.html"
+      ]
+    },
+    {
+      "city": "steyr",
+      "market": "AT",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-steyr-berater.html",
+        "/landingpage-steyr-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "steyr-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-steyr-it-berater.html"
+      ]
+    },
+    {
+      "city": "stockerau",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-stockerau-berater.html"
+      ]
+    },
+    {
+      "city": "stralsund",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-stralsund-berater.html"
+      ]
+    },
+    {
+      "city": "stralsund-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-stralsund-it-berater.html"
+      ]
+    },
+    {
+      "city": "stuttgart",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-stuttgart-berater.html",
+        "/landingpage-stuttgart-projektmanager.html",
+        "/landingpage-stuttgart-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "stuttgart-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-stuttgart-hr-berater.html"
+      ]
+    },
+    {
+      "city": "stuttgart-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-stuttgart-it-berater.html"
+      ]
+    },
+    {
+      "city": "stuttgart-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-stuttgart-ki-berater.html"
+      ]
+    },
+    {
+      "city": "stuttgart-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-stuttgart-seo-berater.html"
+      ]
+    },
+    {
+      "city": "thun",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-thun-berater.html",
+        "/landingpage-thun-projektmanager.html",
+        "/landingpage-thun-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "thun-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-thun-hr-berater.html"
+      ]
+    },
+    {
+      "city": "thun-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-thun-it-berater.html"
+      ]
+    },
+    {
+      "city": "thun-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-thun-ki-berater.html"
+      ]
+    },
+    {
+      "city": "thun-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-thun-seo-berater.html"
+      ]
+    },
+    {
+      "city": "trier",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-trier-berater.html"
+      ]
+    },
+    {
+      "city": "trier-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-trier-it-berater.html"
+      ]
+    },
+    {
+      "city": "tuebingen",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-tuebingen-berater.html"
+      ]
+    },
+    {
+      "city": "ulm",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-ulm-berater.html"
+      ]
+    },
+    {
+      "city": "ulm-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-ulm-it-berater.html"
+      ]
+    },
+    {
+      "city": "unternehmensberater",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "base"
+      ],
+      "paths": [
+        "/landingpage-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "uster",
+      "market": "CH",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-uster-berater.html",
+        "/landingpage-uster-projektmanager.html",
+        "/landingpage-uster-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "uster-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-uster-hr-berater.html"
+      ]
+    },
+    {
+      "city": "uster-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-uster-it-berater.html"
+      ]
+    },
+    {
+      "city": "uster-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-uster-ki-berater.html"
+      ]
+    },
+    {
+      "city": "uster-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-uster-seo-berater.html"
+      ]
+    },
+    {
+      "city": "villach",
+      "market": "AT",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-villach-berater.html",
+        "/landingpage-villach-projektmanager.html",
+        "/landingpage-villach-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "villach-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-villach-hr-berater.html"
+      ]
+    },
+    {
+      "city": "villach-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-villach-it-berater.html"
+      ]
+    },
+    {
+      "city": "villach-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-villach-ki-berater.html"
+      ]
+    },
+    {
+      "city": "villach-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-villach-seo-berater.html"
+      ]
+    },
+    {
+      "city": "weimar",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "projektmanager"
+      ],
+      "paths": [
+        "/landingpage-weimar-berater.html",
+        "/landingpage-weimar-projektmanager.html"
+      ]
+    },
+    {
+      "city": "weimar-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-weimar-hr-berater.html"
+      ]
+    },
+    {
+      "city": "weimar-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-weimar-it-berater.html"
+      ]
+    },
+    {
+      "city": "weimar-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-weimar-ki-berater.html"
+      ]
+    },
+    {
+      "city": "weiz",
+      "market": "AT",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-weiz-berater.html",
+        "/landingpage-weiz-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "weiz-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-weiz-it-berater.html"
+      ]
+    },
+    {
+      "city": "wels",
+      "market": "AT",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-wels-berater.html",
+        "/landingpage-wels-projektmanager.html",
+        "/landingpage-wels-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "wels-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wels-hr-berater.html"
+      ]
+    },
+    {
+      "city": "wels-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wels-it-berater.html"
+      ]
+    },
+    {
+      "city": "wels-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wels-ki-berater.html"
+      ]
+    },
+    {
+      "city": "wels-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wels-seo-berater.html"
+      ]
+    },
+    {
+      "city": "wien",
+      "market": "AT",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-wien-berater.html",
+        "/landingpage-wien-projektmanager.html",
+        "/landingpage-wien-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "wien-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wien-hr-berater.html"
+      ]
+    },
+    {
+      "city": "wien-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wien-it-berater.html"
+      ]
+    },
+    {
+      "city": "wien-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wien-ki-berater.html"
+      ]
+    },
+    {
+      "city": "wien-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wien-seo-berater.html"
+      ]
+    },
+    {
+      "city": "wiener-neustadt",
+      "market": "AT",
+      "count": 2,
+      "professions": [
+        "berater",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-wiener-neustadt-berater.html",
+        "/landingpage-wiener-neustadt-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "wiener-neustadt-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wiener-neustadt-it-berater.html"
+      ]
+    },
+    {
+      "city": "wiesbaden",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wiesbaden-berater.html"
+      ]
+    },
+    {
+      "city": "wiesbaden-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wiesbaden-it-berater.html"
+      ]
+    },
+    {
+      "city": "winterthur",
+      "market": "CH",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-winterthur-berater.html",
+        "/landingpage-winterthur-projektmanager.html",
+        "/landingpage-winterthur-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "winterthur-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-winterthur-hr-berater.html"
+      ]
+    },
+    {
+      "city": "winterthur-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-winterthur-it-berater.html"
+      ]
+    },
+    {
+      "city": "winterthur-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-winterthur-ki-berater.html"
+      ]
+    },
+    {
+      "city": "winterthur-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-winterthur-seo-berater.html"
+      ]
+    },
+    {
+      "city": "wissenschaftlicher",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wissenschaftlicher-berater.html"
+      ]
+    },
+    {
+      "city": "wolfsburg",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wolfsburg-berater.html"
+      ]
+    },
+    {
+      "city": "wolfsburg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wolfsburg-it-berater.html"
+      ]
+    },
+    {
+      "city": "worms",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-worms-berater.html"
+      ]
+    },
+    {
+      "city": "worms-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-worms-it-berater.html"
+      ]
+    },
+    {
+      "city": "wuerzburg",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wuerzburg-berater.html"
+      ]
+    },
+    {
+      "city": "wuerzburg-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wuerzburg-it-berater.html"
+      ]
+    },
+    {
+      "city": "wuppertal",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-wuppertal-berater.html",
+        "/landingpage-wuppertal-projektmanager.html",
+        "/landingpage-wuppertal-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "wuppertal-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wuppertal-hr-berater.html"
+      ]
+    },
+    {
+      "city": "wuppertal-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wuppertal-it-berater.html"
+      ]
+    },
+    {
+      "city": "wuppertal-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-wuppertal-ki-berater.html"
+      ]
+    },
+    {
+      "city": "zuerich",
+      "market": "CH",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-zuerich-berater.html",
+        "/landingpage-zuerich-projektmanager.html",
+        "/landingpage-zuerich-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "zuerich-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-zuerich-hr-berater.html"
+      ]
+    },
+    {
+      "city": "zuerich-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-zuerich-it-berater.html"
+      ]
+    },
+    {
+      "city": "zuerich-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-zuerich-ki-berater.html"
+      ]
+    },
+    {
+      "city": "zuerich-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-zuerich-seo-berater.html"
+      ]
+    },
+    {
+      "city": "zug",
+      "market": "DE_or_other",
+      "count": 3,
+      "professions": [
+        "berater",
+        "projektmanager",
+        "unternehmensberater"
+      ],
+      "paths": [
+        "/landingpage-zug-berater.html",
+        "/landingpage-zug-projektmanager.html",
+        "/landingpage-zug-unternehmensberater.html"
+      ]
+    },
+    {
+      "city": "zug-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-zug-hr-berater.html"
+      ]
+    },
+    {
+      "city": "zug-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-zug-it-berater.html"
+      ]
+    },
+    {
+      "city": "zug-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-zug-ki-berater.html"
+      ]
+    },
+    {
+      "city": "zug-seo",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-zug-seo-berater.html"
+      ]
+    },
+    {
+      "city": "zwickau",
+      "market": "DE_or_other",
+      "count": 2,
+      "professions": [
+        "berater",
+        "projektmanager"
+      ],
+      "paths": [
+        "/landingpage-zwickau-berater.html",
+        "/landingpage-zwickau-projektmanager.html"
+      ]
+    },
+    {
+      "city": "zwickau-hr",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-zwickau-hr-berater.html"
+      ]
+    },
+    {
+      "city": "zwickau-it",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-zwickau-it-berater.html"
+      ]
+    },
+    {
+      "city": "zwickau-ki",
+      "market": "DE_or_other",
+      "count": 1,
+      "professions": [
+        "berater"
+      ],
+      "paths": [
+        "/landingpage-zwickau-ki-berater.html"
+      ]
+    }
+  ]
+}

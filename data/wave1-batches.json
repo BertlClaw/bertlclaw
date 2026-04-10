@@ -1,0 +1,246 @@
+{
+  "batch_count": 1,
+  "batch_size": 20,
+  "batches": [
+    [
+      {
+        "city": "berlin",
+        "market": "DE_or_other",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-berlin-berater.html",
+          "/landingpage-berlin-projektmanager.html",
+          "/landingpage-berlin-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "duesseldorf",
+        "market": "DE_or_other",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-duesseldorf-berater.html",
+          "/landingpage-duesseldorf-projektmanager.html",
+          "/landingpage-duesseldorf-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "frankfurt",
+        "market": "DE_or_other",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-frankfurt-berater.html",
+          "/landingpage-frankfurt-projektmanager.html",
+          "/landingpage-frankfurt-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "graz",
+        "market": "AT",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-graz-berater.html",
+          "/landingpage-graz-projektmanager.html",
+          "/landingpage-graz-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "hamburg",
+        "market": "DE_or_other",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-hamburg-berater.html",
+          "/landingpage-hamburg-projektmanager.html",
+          "/landingpage-hamburg-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "hannover",
+        "market": "DE_or_other",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-hannover-berater.html",
+          "/landingpage-hannover-projektmanager.html",
+          "/landingpage-hannover-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "innsbruck",
+        "market": "AT",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-innsbruck-berater.html",
+          "/landingpage-innsbruck-projektmanager.html",
+          "/landingpage-innsbruck-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "klagenfurt",
+        "market": "AT",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-klagenfurt-berater.html",
+          "/landingpage-klagenfurt-projektmanager.html",
+          "/landingpage-klagenfurt-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "koeln",
+        "market": "DE_or_other",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-koeln-berater.html",
+          "/landingpage-koeln-projektmanager.html",
+          "/landingpage-koeln-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "linz",
+        "market": "AT",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-linz-berater.html",
+          "/landingpage-linz-projektmanager.html",
+          "/landingpage-linz-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "muenchen",
+        "market": "DE_or_other",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-muenchen-berater.html",
+          "/landingpage-muenchen-projektmanager.html",
+          "/landingpage-muenchen-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "salzburg",
+        "market": "AT",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-salzburg-berater.html",
+          "/landingpage-salzburg-projektmanager.html",
+          "/landingpage-salzburg-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "st-poelten",
+        "market": "AT",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-st-poelten-berater.html",
+          "/landingpage-st-poelten-projektmanager.html",
+          "/landingpage-st-poelten-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "stuttgart",
+        "market": "DE_or_other",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-stuttgart-berater.html",
+          "/landingpage-stuttgart-projektmanager.html",
+          "/landingpage-stuttgart-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "wien",
+        "market": "AT",
+        "count": 3,
+        "professions": [
+          "berater",
+          "projektmanager",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-wien-berater.html",
+          "/landingpage-wien-projektmanager.html",
+          "/landingpage-wien-unternehmensberater.html"
+        ]
+      },
+      {
+        "city": "wiener-neustadt",
+        "market": "AT",
+        "count": 2,
+        "professions": [
+          "berater",
+          "unternehmensberater"
+        ],
+        "paths": [
+          "/landingpage-wiener-neustadt-berater.html",
+          "/landingpage-wiener-neustadt-unternehmensberater.html"
+        ]
+      }
+    ]
+  ]
+}
