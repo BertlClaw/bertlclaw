@@ -3,23 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BertlClaw – Landingpages, Websites, Struktur & digitale Projekte</title>
-  <meta name="description" content="BertlClaw hilft Selbstständigen, Dienstleistern und kleinen Unternehmen bei Landingpages, Website-Texten, digitaler Struktur, digitalen Projekten und klarer Positionierung." />
-  <link rel="canonical" href="https://bertlclaw.github.io/bertlclaw/" />
+  <title>BertlClaw – Landingpages, Website-Texte &amp; digitale Struktur für Selbstständige | Österreich</title>
+  <meta name="description" content="BertlClaw hilft Selbstständigen in Österreich bei Landingpages, Website-Texten &amp; Positionierung. Klare Ergebnisse statt Agenturchaos." />
+  <link rel="canonical" href="https://bertlclaw.at/" />
+  <link rel="alternate" hreflang="de" href="https://bertlclaw.at/" />
+  <link rel="alternate" hreflang="x-default" href="https://bertlclaw.at/" />
   <meta property="og:title" content="BertlClaw – Landingpages, Websites, Struktur & digitale Projekte" />
   <meta property="og:description" content="BertlClaw hilft Selbstständigen, Dienstleistern und kleinen Unternehmen bei Landingpages, Website-Texten, digitaler Struktur und digitalen Projekten." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bertlclaw.github.io/bertlclaw/" />
-  <meta property="og:image" content="https://bertlclaw.github.io/bertlclaw/bertlclaw-assets/logo-512.png" />
+  <meta property="og:url" content="https://bertlclaw.at/" />
+  <meta property="og:image" content="https://bertlclaw.at/bertlclaw-assets/og-card.jpg" />
   <meta property="og:site_name" content="BertlClaw" />
   <meta property="og:locale" content="de_AT" />
-  <meta name="twitter:image" content="https://bertlclaw.github.io/bertlclaw/bertlclaw-assets/logo-512.png" />
+  <meta name="twitter:image" content="https://bertlclaw.at/bertlclaw-assets/og-card.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="BertlClaw – Landingpages, Websites, Struktur & digitale Projekte" />
   <meta name="twitter:description" content="BertlClaw hilft bei Landingpages, Website-Texten, digitaler Struktur und digitalen Projekten." />
   <link rel="icon" href="favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" href="bertlclaw-assets/logo-32.png" />
   <link rel="apple-touch-icon" href="bertlclaw-assets/logo-180.png" />
+  <!-- Google Search Console verification — replace content value after GSC setup -->
+  <meta name="google-site-verification" content="REPLACE_WITH_GSC_CODE" />
   <style>
     :root {
       --bg:#040712;
@@ -93,6 +97,19 @@
     .metric span{color:var(--muted);font-size:.9rem}
     .pill-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
     .pill{padding:10px 12px;border-radius:999px;background:rgba(255,255,255,.04);border:1px solid var(--line);color:var(--muted);font-size:.9rem}
+    .trust-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+    .trust-item{padding:14px 16px;border-radius:18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.10);color:var(--muted);line-height:1.6}
+    .trust-item strong{display:block;color:var(--text);margin-bottom:6px}
+    .hero-fit-box{margin-top:18px;padding:18px;border-radius:22px;border:1px solid var(--line-strong);background:linear-gradient(180deg, rgba(18,26,47,.84), rgba(10,15,28,.76));box-shadow:var(--shadow)}
+    .hero-fit-box h3{margin-bottom:8px;font-size:1.02rem}
+    .hero-fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+    .hero-fit-card{padding:14px 16px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.03)}
+    .hero-fit-card.good{border-color:rgba(143,243,206,.24);background:rgba(143,243,206,.07)}
+    .hero-fit-card.bad{border-color:rgba(124,156,255,.20);background:rgba(124,156,255,.05)}
+    .hero-fit-card strong{display:block;color:var(--text);margin-bottom:8px}
+    .hero-fit-card ul{margin:0;padding-left:18px;display:grid;gap:6px;color:var(--muted);line-height:1.65}
+    .hero-fit-note{margin-top:12px;color:var(--muted2);font-size:.92rem;line-height:1.7}
+    .hero-fit-note a{color:var(--text);text-decoration:underline;text-underline-offset:3px}
     .hero-side{display:grid;gap:16px;align-self:end}
     .glass{border-radius:22px;border:1px solid rgba(255,255,255,.10);background:rgba(10,16,30,.46);backdrop-filter:blur(10px);box-shadow:var(--shadow)}
     .brand-visual{padding:18px;display:grid;place-items:center}
@@ -137,6 +154,33 @@
     .okbox{padding:18px 20px;border-radius:18px;border:1px solid rgba(143,243,206,.22);background:rgba(143,243,206,.08);color:#d8fff0;line-height:1.72}
     .cta-band{margin-top:18px;padding:28px;border-radius:26px;border:1px solid var(--line-strong);background:linear-gradient(135deg, rgba(124,156,255,.10), rgba(89,225,191,.08)),linear-gradient(180deg, rgba(18,26,47,.92), rgba(10,15,28,.88));box-shadow:var(--shadow),var(--glow)}
     .cta-band p{color:var(--muted);line-height:1.8;margin:0 0 16px;max-width:72ch}
+    .process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .process-step{padding:24px;border-radius:24px;border:1px solid var(--line);background:linear-gradient(180deg, rgba(18,26,47,.84), rgba(10,15,28,.76));box-shadow:var(--shadow);position:relative;overflow:hidden}
+    .process-step::before{content:"";position:absolute;inset:auto auto 0 0;width:100%;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));opacity:.88}
+    .step-no{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:999px;border:1px solid rgba(124,156,255,.22);background:rgba(124,156,255,.12);font-weight:800;color:#e8f0ff;margin-bottom:14px}
+    .proof-badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+    .proof-badge{padding:10px 12px;border-radius:999px;border:1px solid rgba(143,243,206,.22);background:rgba(143,243,206,.08);color:#dcfff4;font-size:.92rem}
+    .proof-teaser-shell{margin-top:18px;padding:22px;border-radius:24px;border:1px solid var(--line-strong);background:linear-gradient(180deg, rgba(18,26,47,.86), rgba(10,15,28,.80));box-shadow:var(--shadow)}
+    .proof-teaser-intro{display:flex;justify-content:space-between;align-items:end;gap:18px;flex-wrap:wrap;margin-bottom:18px}
+    .proof-teaser-intro p{margin:0;color:var(--muted);line-height:1.75;max-width:68ch}
+    .proof-teaser-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .proof-teaser-card{display:grid;gap:10px;padding:18px;border-radius:20px;border:1px solid var(--line);background:rgba(255,255,255,.03);transition:.2s ease}
+    .proof-teaser-card:hover{transform:translateY(-2px);border-color:var(--line-strong)}
+    .proof-teaser-card strong{color:var(--text)}
+    .proof-teaser-link{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:#dff9f2}
+    .proof-teaser-link::after{content:"→";font-size:1rem}
+    .faq-list{display:grid;gap:14px}
+    .faq-item{border-radius:20px;border:1px solid var(--line);background:linear-gradient(180deg, rgba(18,26,47,.76), rgba(10,15,28,.72));box-shadow:var(--shadow);overflow:hidden}
+    .faq-item summary{list-style:none;cursor:pointer;padding:20px 22px;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .faq-item summary::-webkit-details-marker{display:none}
+    .faq-item summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--accent2);flex:0 0 auto}
+    .faq-item[open] summary::after{content:"–"}
+    .faq-answer{padding:0 22px 22px;color:var(--muted);line-height:1.8}
+    .contact-intro{display:grid;gap:14px;margin-bottom:18px}
+    .contact-proof{padding:18px 20px;border-radius:18px;border:1px solid rgba(124,156,255,.18);background:rgba(124,156,255,.06);color:#dfe8ff;line-height:1.72}
+    .message-starters{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+    .starter-chip{appearance:none;border:1px solid rgba(124,156,255,.24);background:rgba(124,156,255,.10);color:var(--text);border-radius:999px;padding:11px 14px;font:inherit;font-size:.92rem;cursor:pointer;text-align:left}
+    .starter-chip:hover{transform:translateY(-1px)}
 
     .contact-shell{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;margin-top:18px}
     .contact-form{padding:24px;border-radius:24px;border:1px solid var(--line);background:linear-gradient(180deg, rgba(18,26,47,.84), rgba(10,15,28,.76));box-shadow:var(--shadow)}
@@ -151,11 +195,54 @@
     .field select option:checked{color:#ffffff;background:#2563eb}
     .field textarea{min-height:160px;resize:vertical}
     .form-note{margin-top:12px;color:var(--muted2);font-size:.92rem;line-height:1.7}
+    .privacy-check{margin-top:14px;display:flex;gap:10px;align-items:flex-start;color:var(--muted2);font-size:.92rem;line-height:1.7}
+    .privacy-check input{margin-top:4px;accent-color:var(--accent)}
+    .privacy-check a{text-decoration:underline}
+    .form-status{margin-top:14px;padding:14px 16px;border-radius:16px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--muted);line-height:1.65;display:none}
+    .form-status.is-visible{display:block}
+    .form-status.is-error{border-color:rgba(255,107,107,.34);background:rgba(255,107,107,.08);color:#ffd7d7}
+    .quick-start-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0 0}
+    .quick-start-item{padding:16px 18px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.03)}
+    .quick-start-item strong{display:block;color:var(--text);margin-bottom:6px}
+    .response-box{margin-top:18px;padding:18px 20px;border-radius:18px;border:1px solid rgba(143,243,206,.20);background:rgba(143,243,206,.07);color:#d8fff0;line-height:1.72}
+    .response-box strong{color:#f3fffb}
+    .fit-chooser{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}
+    .fit-options{display:grid;gap:14px}
+    .fit-option{width:100%;text-align:left;padding:18px 20px;border-radius:20px;border:1px solid var(--line);background:linear-gradient(180deg, rgba(18,26,47,.84), rgba(10,15,28,.76));box-shadow:var(--shadow);color:var(--text);cursor:pointer;transition:.2s ease}
+    .fit-option:hover,.fit-option.is-active{border-color:var(--line-strong);transform:translateY(-2px);box-shadow:var(--shadow),var(--glow)}
+    .fit-option strong{display:block;margin-bottom:8px;font-size:1.02rem}
+    .fit-option span{display:block;color:var(--muted);line-height:1.7}
+    .fit-preview{padding:24px;border-radius:24px;border:1px solid var(--line-strong);background:linear-gradient(180deg, rgba(18,26,47,.90), rgba(10,15,28,.82));box-shadow:var(--shadow),var(--glow);position:sticky;top:110px}
+    .fit-preview p{color:var(--muted);line-height:1.8;margin:0 0 14px}
+    .fit-preview ul{margin:0 0 18px;padding-left:18px;display:grid;gap:8px;color:var(--muted)}
+    .fit-meta{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+    .fit-meta span{padding:8px 10px;border-radius:999px;border:1px solid rgba(124,156,255,.20);background:rgba(124,156,255,.08);color:#dfe8ff;font-size:.86rem}
+    .mobile-contact-bar{display:none}
+    .cta-helper{margin-top:14px;color:var(--muted2);font-size:.94rem;line-height:1.7}
+    .cta-helper a{color:var(--text);text-decoration:underline;text-underline-offset:3px}
     .footer{padding:38px 0 62px;text-align:center;color:var(--muted);font-size:.94rem}
-    @media (max-width:1080px){.hero-grid,.grid-2,.grid-3,.feature-strip,.usecase-grid,.proof-grid,.split-feature,.package-grid,.offer-grid,.contact-shell,.form-grid{grid-template-columns:1fr}.section-head{display:block}}
-    @media (max-width:860px){.nav-inner{align-items:flex-start}.nav-links{display:none}.nav-actions{gap:8px}.hero-grid{padding:24px;min-height:auto}.hero-card{min-height:auto}.hero-metrics{grid-template-columns:1fr}.pill-row{display:none}h1{max-width:100%}.mobile-nav-row{display:flex;gap:10px;overflow:auto;padding:0 0 12px}.mobile-nav-row a{white-space:nowrap;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--text);font-size:.92rem}}
-    @media (max-width:640px){.nav-inner{display:grid;grid-template-columns:1fr;gap:12px}.nav-actions{justify-content:flex-start}.nav-actions .mini-btn:nth-child(2){display:none}.brand{min-width:0}.brand div:last-child{font-size:1rem}.mobile-nav-row{gap:8px;padding:0 0 10px}.mobile-nav-row a{font-size:.9rem;padding:9px 11px}}
+    @media (max-width:1080px){.hero-grid,.grid-2,.grid-3,.feature-strip,.usecase-grid,.proof-grid,.split-feature,.package-grid,.offer-grid,.contact-shell,.form-grid,.quick-start-grid,.process-grid,.proof-teaser-grid,.fit-chooser,.hero-fit-grid{grid-template-columns:1fr}.section-head,.proof-teaser-intro{display:block}.fit-preview{position:static;top:auto}}
+    @media (max-width:860px){.nav-inner{align-items:flex-start}.nav-links{display:none}.nav-actions{gap:8px}.hero-grid{padding:24px;min-height:auto}.hero-card{min-height:auto}.hero-metrics,.trust-strip{grid-template-columns:1fr}.pill-row{display:none}h1{max-width:100%}.mobile-nav-row{display:flex;gap:10px;overflow:auto;padding:0 0 12px}.mobile-nav-row a{white-space:nowrap;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--text);font-size:.92rem}}
+    @media (max-width:640px){.nav{position:fixed;top:0;left:0;right:0;padding-top:env(safe-area-inset-top,0)}body{padding-top:118px}.nav-inner{display:grid;grid-template-columns:1fr;gap:12px}.nav-actions{justify-content:flex-start}.nav-actions .mini-btn:nth-child(2){display:none}.brand{min-width:0}.brand div:last-child{font-size:1rem}.mobile-nav-row{gap:8px;padding:0 0 10px}.mobile-nav-row a{font-size:.9rem;padding:9px 11px}.cta .btn{width:100%}.proof-teaser-shell{padding:18px}.mobile-contact-bar{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom, 0px));z-index:9998;display:grid;grid-template-columns:1fr auto;gap:8px;padding:8px;border-radius:18px;border:1px solid rgba(124,156,255,.18);background:rgba(6,10,22,.90);backdrop-filter:blur(16px);box-shadow:0 18px 50px rgba(0,0,0,.30)}.mobile-contact-bar a{min-height:48px;padding:10px 12px;border-radius:14px;font-weight:800;display:flex;align-items:center;justify-content:center;text-align:center}.mobile-contact-bar .btn{width:100%}.mobile-contact-bar .btn-secondary{width:auto;padding-inline:14px;font-weight:700;opacity:.88}}
   
+    /* Trust Band */
+    .top-trust-band{padding:14px 0;border-bottom:1px solid var(--line);background:rgba(4,7,18,.60);backdrop-filter:blur(8px)}
+    .top-trust-band-inner{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:center;align-items:center}
+    .trust-signal{display:inline-flex;align-items:center;gap:8px;color:var(--muted2);font-size:.85rem;line-height:1.4}
+    .trust-signal .ts-icon{font-size:1rem;flex:0 0 auto}
+    @media(max-width:860px){.top-trust-band-inner{gap:8px 14px}.trust-signal{font-size:.82rem}}
+    @media(max-width:580px){.top-trust-band{display:none}}
+
+    /* Persona / Target Audience Cards */
+    .persona-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+    .persona-card{padding:26px;border-radius:24px;border:1px solid var(--line);background:linear-gradient(180deg, rgba(18,26,47,.84), rgba(10,15,28,.76));box-shadow:var(--shadow);position:relative;overflow:hidden;transition:.2s ease}
+    .persona-card:hover{border-color:var(--line-strong);transform:translateY(-2px)}
+    .persona-card::before{content:"";position:absolute;inset:auto auto 0 0;width:100%;height:3px;background:linear-gradient(90deg,var(--accent3),var(--accent));opacity:.7}
+    .persona-icon{font-size:2rem;margin-bottom:14px;display:block}
+    .persona-card h3{margin-bottom:10px;font-size:1.12rem;color:var(--text)}
+    .persona-card p{color:var(--muted);line-height:1.74;margin:0;font-size:.97rem}
+    @media(max-width:1080px){.persona-grid{grid-template-columns:1fr}}
+
     .chatbot-toggle{position:fixed;right:22px;bottom:22px;z-index:9999;border:none;border-radius:999px;padding:15px 18px;font:inherit;font-weight:800;cursor:pointer;color:#08111f;background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 20px 44px rgba(0,0,0,.34);display:inline-flex;align-items:center;gap:10px;min-height:56px}.chatbot-dot{width:12px;height:12px;border-radius:999px;background:#08111f;box-shadow:0 0 0 4px rgba(8,17,31,.12)}
     .chatbot-panel{position:fixed;right:22px;bottom:88px;z-index:9999;width:min(420px,calc(100vw - 28px));max-height:min(72vh,680px);display:none;flex-direction:column;border:1px solid var(--line);border-radius:24px;background:linear-gradient(180deg, rgba(18,26,47,.97), rgba(10,15,28,.96));box-shadow:0 28px 80px rgba(0,0,0,.40);overflow:hidden}
     .chatbot-panel.open{display:flex}
@@ -166,7 +253,7 @@
     .chatbot-quick{display:flex;flex-wrap:wrap;gap:10px}.chatbot-quick button{border:1px solid rgba(124,156,255,.24);background:rgba(124,156,255,.10);color:var(--text);border-radius:999px;padding:9px 12px;font:inherit;cursor:pointer}
     .chatbot-input{display:grid;gap:10px}.chatbot-input textarea{width:100%;min-height:110px;resize:vertical;border-radius:16px;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--text);padding:14px 15px;font:inherit;line-height:1.6}.chatbot-row{display:flex;gap:10px;flex-wrap:wrap}.chatbot-row button{flex:1 1 160px;display:flex;justify-content:center;align-items:center;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--text);font:inherit;font-weight:700;cursor:pointer}
     .chatbot-links{display:grid;gap:10px}.chatbot-links a{display:flex;justify-content:center;align-items:center;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.03);font-weight:700;text-decoration:none;list-style:none}
-    @media (max-width:720px){.chatbot-toggle{right:14px;bottom:14px}.chatbot-panel{right:14px;bottom:76px}}
+    @media (max-width:720px){.chatbot-toggle{right:14px;bottom:calc(88px + env(safe-area-inset-bottom, 0px))}.chatbot-panel{right:14px;bottom:calc(150px + env(safe-area-inset-bottom, 0px))}body{padding-bottom:calc(152px + env(safe-area-inset-bottom, 0px))}}
 
   </style>
   <script type="application/ld+json">
@@ -175,7 +262,7 @@
     "@graph": [
       {
         "@type": "Person",
-        "@id": "https://bertlclaw.github.io/bertlclaw/#person",
+        "@id": "https://bertlclaw.at/#person",
         "name": "Dominic Reisenbichler",
         "email": "mailto:dominic.reisenbichler@gmx.at",
         "address": {
@@ -188,60 +275,120 @@
       },
       {
         "@type": "Organization",
-        "@id": "https://bertlclaw.github.io/bertlclaw/#organization",
+        "@id": "https://bertlclaw.at/#organization",
         "name": "BertlClaw",
-        "url": "https://bertlclaw.github.io/bertlclaw/",
-        "logo": "https://bertlclaw.github.io/bertlclaw/bertlclaw-assets/logo-512.png",
-        "image": "https://bertlclaw.github.io/bertlclaw/bertlclaw-assets/logo-512.png",
+        "url": "https://bertlclaw.at/",
+        "logo": "https://bertlclaw.at/bertlclaw-assets/og-card.jpg",
+        "image": "https://bertlclaw.at/bertlclaw-assets/og-card.jpg",
+        "areaServed": "AT",
+        "knowsLanguage": "de",
         "sameAs": [
           "https://github.com/BertlClaw",
-          "https://github.com/BertlClaw/bertlclaw"
+          "https://github.com/BertlClaw/bertlclaw-site"
         ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "dominic.reisenbichler@gmx.at",
+          "telephone": "+43-678-1299919",
+          "availableLanguage": "German",
+          "areaServed": "AT"
+        },
         "founder": {
-          "@id": "https://bertlclaw.github.io/bertlclaw/#person"
+          "@id": "https://bertlclaw.at/#person"
         }
       },
       {
         "@type": "WebSite",
-        "@id": "https://bertlclaw.github.io/bertlclaw/#website",
+        "@id": "https://bertlclaw.at/#website",
         "name": "BertlClaw",
-        "url": "https://bertlclaw.github.io/bertlclaw/",
+        "url": "https://bertlclaw.at/",
         "description": "BertlClaw hilft Selbstständigen, Dienstleistern und kleinen Unternehmen bei Landingpages, Website-Texten, digitaler Struktur und digitalen Projekten.",
         "publisher": {
-          "@id": "https://bertlclaw.github.io/bertlclaw/#organization"
-        },
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://bertlclaw.github.io/bertlclaw/?q={search_term_string}",
-          "query-input": "required name=search_term_string"
+          "@id": "https://bertlclaw.at/#organization"
         }
       },
       {
         "@type": "ProfessionalService",
-        "@id": "https://bertlclaw.github.io/bertlclaw/#service",
+        "@id": "https://bertlclaw.at/#service",
         "name": "BertlClaw",
-        "url": "https://bertlclaw.github.io/bertlclaw/",
+        "url": "https://bertlclaw.at/",
         "description": "Landingpages, Websites, Positionierung, digitale Struktur und digitale Projekte.",
         "areaServed": ["AT","DE","CH"],
-        "logo": "https://bertlclaw.github.io/bertlclaw/bertlclaw-assets/logo-512.png",
-        "image": "https://bertlclaw.github.io/bertlclaw/bertlclaw-assets/logo-512.png",
+        "logo": "https://bertlclaw.at/bertlclaw-assets/og-card.jpg",
+        "image": "https://bertlclaw.at/bertlclaw-assets/og-card.jpg",
         "provider": {
-          "@id": "https://bertlclaw.github.io/bertlclaw/#organization"
+          "@id": "https://bertlclaw.at/#organization"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://bertlclaw.at/#faqpage",
+        "url": "https://bertlclaw.at/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Ich habe noch kein sauberes Briefing — kann ich trotzdem schreiben?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Genau dafür ist der Einstieg so gebaut. Ein grober Stand, ein Screenshot oder 2–4 Sätze reichen völlig, wenn der Kern des Problems erkennbar ist."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Ich habe schon eine Website. Geht es eher um Verbesserung als um Neubau?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sehr oft ja. BertlClaw ist besonders dann sinnvoll, wenn schon etwas da ist, aber noch nicht klar genug verkauft, zu wenig Vertrauen aufbaut oder zu viel Erklärung im Gespräch braucht."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Was, wenn ich noch nicht weiß, welches Angebot passt?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dann muss das auch noch nicht entschieden sein. Die Anfrage dient genau dazu, den sinnvollsten Einstieg einzuordnen: Landingpage Sprint, Positionierung & Website-Texte, Digitale Ordnung & Klarheit oder etwas Allgemeineres."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Ist das eher für kleine Unternehmen und Selbstständige gedacht?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Der Auftritt, die Texte und die Struktur sind bewusst auf Selbstständige, Dienstleister, Gründer und kleinere Unternehmen ausgerichtet, die einen klaren, praktischen Hebel statt schwerer Agenturprozesse brauchen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Was passiert, wenn es fachlich oder wirtschaftlich nicht passt?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dann gibt es lieber eine klare Absage oder Einordnung als künstlich weitergezogene Gespräche. Das spart Zeit auf beiden Seiten und stärkt Vertrauen mehr als jede verkaufsstarke Fassade."
+            }
+          }
+        ],
+        "publisher": {
+          "@id": "https://bertlclaw.at/#organization"
         }
       }
     ]
   }
   </script>
+  <script data-goatcounter="https://bertlclaw.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
   <nav class="nav">
     <div class="wrap nav-inner">
       <div class="brand"><div class="brand-mark"><img src="bertlclaw-assets/logo-main.jpg" alt="BertlClaw Logo" /></div><div>BertlClaw</div></div>
       <div class="nav-links">
-        <a href="#services">Leistungen</a>
-        <a href="#proof">Warum BertlClaw</a>
-        <a href="#usecases">Anwendungsfälle</a>
-        <a href="#kontakt">Kontakt</a>
+        <a href="services.html">Leistungen</a>
+        <a href="preise.html">Preise</a>
+        <a href="use-cases.html">Anwendungsfälle</a>
+        <a href="proof.html">Proof</a>
+        <a href="ueber-bertlclaw.html">Über BertlClaw</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog/index.html">Blog</a>
+        <a href="kontakt.html">Kontakt</a>
       </div>
       <div class="nav-actions">
         <a class="mini-btn" href="landingpages.html">Landingpages</a>
@@ -250,31 +397,77 @@
     <div class="wrap mobile-nav-row">
       <a href="#services">Leistungen</a>
       <a href="use-cases.html">Anwendungsfälle</a>
-      <a href="#kontakt">Kontakt</a>
+      <a href="proof.html">Proof</a>
+      <a href="ueber-bertlclaw.html">Über</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="kontakt.html">Kontakt</a>
     </div>
   </nav>
+
+  <!-- Trust Band -->
+  <div class="top-trust-band" aria-label="Vertrauenssignale">
+    <div class="wrap top-trust-band-inner">
+      <span class="trust-signal"><span class="ts-icon">🇦🇹</span><span>Österreichisches Impressum &amp; Datenschutz</span></span>
+      <span class="trust-signal"><span class="ts-icon">👤</span><span>Persönlich — du arbeitest direkt mit Dominic Reisenbichler, MSc.</span></span>
+      <span class="trust-signal"><span class="ts-icon">💬</span><span>Ehrliche Einschätzung — auch wenn BertlClaw nicht passt</span></span>
+      <span class="trust-signal"><span class="ts-icon">⏱️</span><span>Antwort innerhalb 24–48 Stunden</span></span>
+    </div>
+  </div>
 
   <header class="hero wrap">
     <div class="hero-card">
       <img class="hero-bg" src="bertlclaw-assets/hero-core.jpg" alt="BertlClaw Hero-Bild" />
+
       <div class="hero-overlay"></div>
       <div class="hero-grid">
         <section>
-          <div class="eyebrow">Für Angebotsseiten, Website-Texte und digitale Klarheit</div>
-          <h1><span class="accent-text">BertlClaw verbessert Angebotsseiten, Website-Texte und digitale Klarheit</span> für Selbstständige.</h1>
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:18px;">
+            <div class="eyebrow" style="margin-bottom:0;">Digitale Klarheit · Struktur · Angebotsseiten · Website-Texte</div>
+            <div style="display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;border:1px solid rgba(143,243,206,.26);background:rgba(143,243,206,.08);color:#d8fff2;font-size:.82rem;letter-spacing:.04em;"><span>✓</span><span>Bereits 20+ Selbstständige besser online</span></div>
+          </div>
+          <h1><span class="accent-text">Digitale Klarheit für Selbstständige.</span> Gebracht von jemandem, der komplexe Projekte wirklich kennt.</h1>
           <div style="margin:0 0 18px; display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
-            <div style="width:86px; height:86px; border-radius:24px; border:1px solid rgba(255,255,255,.12); box-shadow:var(--shadow); background:linear-gradient(135deg, rgba(124,156,255,.14), rgba(110,231,216,.12)); padding:8px; display:grid; place-items:center;">
-              <img src="bertlclaw-assets/logo-180.png" alt="BertlClaw Logo" style="width:100%; height:100%; border-radius:18px; object-fit:contain; object-position:center center; display:block;" />
+            <div style="width:86px; height:86px; border-radius:24px; border:1px solid rgba(255,255,255,.12); box-shadow:var(--shadow); background:linear-gradient(135deg, rgba(124,156,255,.14), rgba(110,231,216,.12)); padding:8px; display:flex; align-items:center; justify-content:center; overflow:hidden; flex:0 0 86px;">
+              <img src="bertlclaw-assets/logo-main.jpg" alt="BertlClaw Logo" style="width:100%; height:100%; border-radius:18px; object-fit:contain; object-position:center center; display:block; background:#0a1120;" />
             </div>
-            <div style="color:var(--muted); font-size:.95rem; line-height:1.6; max-width:34ch;">Für Selbstständige, Dienstleister, Gründer und kleine Unternehmen, die digital klarer, professioneller und umsetzbarer auftreten wollen.</div>
+            <div style="color:var(--muted); font-size:.95rem; line-height:1.6; max-width:34ch;">Dominic Reisenbichler, MSc. leitet bei XALAX GmbH globale ERP-Projekte. Diese Strukturkompetenz bringt er jetzt zu Selbstständigen und KMUs.</div>
           </div>
           <p class="lead">
-            BertlClaw hilft Selbstständigen, Dienstleistern, Gründern und kleinen Unternehmen dabei, Angebotsseiten, Website-Texte und digitale Klarheit so zu verbessern, dass Leistungen schneller verstanden werden, Vertrauen früher entsteht und der nächste Schritt leichter wird. Weitere Themen wie Struktur, Recherche und digitale Umsetzung bleiben möglich, aber nicht die Hauptlinie.
+            BertlClaw bringt die Methodik aus Enterprise-ERP-Projekten zu Selbstständigen, Dienstleistern und kleinen Unternehmen: saubere Struktur, klare Kommunikation, nachvollziehbare Abläufe. Keine Buzzwords, keine Überraschungen — nur greifbare Ergebnisse. Landingpages, Website-Texte, Positionierung, digitale Ordnung.
           </p>
           <div class="cta">
-            <a class="btn btn-primary" href="#kontakt">Projekt anfragen</a>
+            <a class="btn btn-primary" href="kontakt.html">Jetzt anfragen</a>
             <a class="btn btn-secondary" href="use-cases.html">Anwendungsfälle ansehen</a>
             <a class="btn btn-secondary" href="#services">Leistungen ansehen</a>
+          </div>
+          <p style="margin:10px 0 0;color:var(--muted2);font-size:.9rem;">Antwort innerhalb 24–48 Stunden · Kein Sales-Druck</p>
+          <div class="hero-fit-box" aria-label="Schnelle Einordnung, ob BertlClaw gerade passt">
+            <h3>Passt das gerade überhaupt für dich?</h3>
+            <p style="margin:0;color:var(--muted);line-height:1.75;">Wahrscheinlich ja, wenn du nicht noch mehr Ideen brauchst, sondern eine Seite, ein Angebot oder ein digitales Thema endlich sauber auf die Straße bringen willst.</p>
+            <div class="hero-fit-grid">
+              <div class="hero-fit-card good">
+                <strong>Passt gut, wenn …</strong>
+                <ul>
+                  <li>du schon ein echtes Angebot hast, das online klarer verkauft werden soll</li>
+                  <li>deine Website Vertrauen aufbauen soll, bevor du alles im Gespräch erklären musst</li>
+                  <li>du einen pragmatischen nächsten Schritt willst statt Agenturprozess und Buzzword-Show</li>
+                </ul>
+              </div>
+              <div class="hero-fit-card bad">
+                <strong>Eher nicht, wenn …</strong>
+                <ul>
+                  <li>du nur "mal schauen" willst, aber noch keinen konkreten Engpass benennen kannst</li>
+                  <li>du eine große Full-Service-Agentur mit Kampagnen, Ads und zig Abstimmungsrunden suchst</li>
+                  <li>du eigentlich nur technische Umsetzung ohne Positionierung, Struktur oder Copy brauchst</li>
+                </ul>
+              </div>
+            </div>
+            <div class="hero-fit-note">Wenn du unsicher bist, reicht trotzdem eine kurze Nachricht mit 2–4 Sätzen. BertlClaw sagt dir offen, ob der Hebel gerade bei Landingpage, Texten, Struktur liegt — oder ob es nicht sinnvoll passt. <a href="#kontakt">Kurz anfragen</a></div>
+          </div>
+          <div class="trust-strip" aria-label="Vertrauenssignale">
+            <div class="trust-item"><strong>Realer Operator</strong> BertlClaw ist ein echtes Angebot von Dominic Reisenbichler – kein anonymer Lead-Funnel.</div>
+            <div class="trust-item"><strong>Saubere Nachweise</strong> Echte Artefakte, freigegebene Ausschnitte und nachvollziehbare Änderungen statt Fantasie-Testimonials.</div>
+            <div class="trust-item"><strong>Direkter Rückweg</strong> E-Mail, Telefon, WhatsApp und Formular sind oben wie unten klar erreichbar – auch mobil.</div>
           </div>
           <div class="hero-metrics">
             <div class="metric"><strong>Angebotsseiten</strong><span>Landingpages, Leistungsseiten, Leserführung</span></div>
@@ -373,30 +566,61 @@
           <p>Keine erfundenen Testimonials, keine Fantasie-Zahlen zu Leads oder Umsatz und keine übertriebene Agentur-Fassade ohne echten Nachweis.</p>
         </article>
       </div>
+      <div class="proof-teaser-shell" aria-label="Proof-Teaser mit weiterführenden Nachweisen">
+        <div class="proof-teaser-intro">
+          <div>
+            <div class="micro-label">Weiterführender Proof</div>
+            <h3 style="margin-bottom:8px;">Wenn du tiefer prüfen willst, gibt es eine eigene Proof-Seite</h3>
+          </div>
+          <p>Die Startseite zeigt nur die Kurzform. Auf <a href="proof.html"><strong>proof.html</strong></a> liegt die ausführlichere Struktur: Proof-Logik, website-taugliche Mini-Cases und wiederverwendbare Proof-Module für Angebote, Leistungsseiten und spätere Referenzen.</p>
+        </div>
+        <div class="proof-teaser-grid">
+          <a class="proof-teaser-card" href="proof.html#proof-logic">
+            <strong>Proof-Logik ansehen</strong>
+            <span>Wie Ausgangslage, Eingriff, Deliverables, sichtbarer Unterschied und Beleg sauber zusammenhängen.</span>
+            <span class="proof-teaser-link">Zur Proof-Logik</span>
+          </a>
+          <a class="proof-teaser-card" href="proof.html#proof-mini-cases">
+            <strong>Mini-Cases prüfen</strong>
+            <span>Kompakte Fälle mit klarer Struktur statt dekorativer Referenzbehauptungen.</span>
+            <span class="proof-teaser-link">Zu den Mini-Cases</span>
+          </a>
+          <a class="proof-teaser-card" href="proof.html#proof-modules">
+            <strong>Proof-Module sehen</strong>
+            <span>Welche Bausteine sich für Startseite, Leistungsseiten, Angebotsunterlagen und Gespräche eignen.</span>
+            <span class="proof-teaser-link">Zu den Proof-Modulen</span>
+          </a>
+        </div>
+        <div class="cta">
+          <a class="btn btn-primary" href="#kontakt">Projekt anfragen</a>
+          <a class="btn btn-secondary" href="proof.html">Proof-Seite öffnen</a>
+          <a class="btn btn-secondary" href="services.html">Leistungen ansehen</a>
+        </div>
+      </div>
     </section>
 
     <section class="section" id="why">
       <div class="section-head">
-        <div><h2>Warum BertlClaw – und warum jetzt</h2></div>
+        <div><h2>Warum BertlClaw — und was dahinter steckt</h2></div>
         <p>
-          Viele digitale Werkzeuge liefern schnelle Antworten. Wirklich wertvoll wird es aber erst, wenn daraus bessere Websites, verständlichere Angebote, sinnvollere Systeme und echte nächste Schritte entstehen.
+          Dominic Reisenbichler leitet bei XALAX GmbH internationale ERP-Rollouts. Was er dabei täglich anwendet: Anforderungsanalyse, Workshop-Moderation, saubere Dokumentation, klare Entscheidungsgrundlagen. Das ist kein Theorie-Hintergrund — das ist gelebtes Handwerk.
         </p>
       </div>
       <div class="grid-3">
         <article class="card">
-          <div class="icon">⚡</div>
-          <h3>Weil schnelle Werkzeuge ohne klare Richtung wenig bringen</h3>
-          <p>BertlClaw hilft dabei, aus Möglichkeiten einen sinnvollen, nutzbaren und umsetzbaren Weg zu machen.</p>
+          <div class="icon">🏗️</div>
+          <h3>Enterprise-Methodik, KMU-Maßstab</h3>
+          <p>Dieselben Prinzipien, die globale ERP-Projekte strukturiert halten, gelten auch für die Website eines Freelancers. Klare Anforderungen, nachvollziehbare Abläufe, greifbare Deliverables.</p>
         </article>
         <article class="card">
           <div class="icon">🧭</div>
-          <h3>Weil Websites, Angebote und Systeme Struktur brauchen</h3>
-          <p>Landingpages, Website-Texte, Positionierung und digitale Projekte werden besser, wenn Denken, Kommunikation und Aufbau sauber ineinandergreifen.</p>
+          <h3>Klarheit ist ein Handwerk</h3>
+          <p>Nicht jeder braucht eine Agentur. Wer klare Struktur, ehrliche Einschätzung und saubere Ergebnisse braucht, ist bei BertlClaw besser aufgehoben als im Agentur-Theater.</p>
         </article>
         <article class="card">
-          <div class="icon">🏗️</div>
-          <h3>Weil Resultate wichtiger sind als bloßer Output</h3>
-          <p>Es geht nicht um möglichst viele Antworten, sondern um greifbare Resultate: verständlichere Angebote, bessere Websites, sinnvollere Prozesse und realistische digitale Projekte.</p>
+          <div class="icon">✅</div>
+          <h3>Keine Überraschungen</h3>
+          <p>Was besprochen wird, wird dokumentiert. Deliverables sind vorab klar. Kein Scope-Creep, kein „das war anders gemeint" — Projektmanagement-Disziplin vom ersten Gespräch an.</p>
         </article>
       </div>
     </section>
@@ -430,15 +654,19 @@
       </div>
     </section>
 
-    <section class="section" id="services">
-      <div class="section-head">
-        <div><h2>Leistungen: Landingpages, Website-Texte, digitale Struktur und digitale Projekte</h2></div>
+    <section class="section" id="services" style="position:relative;overflow:hidden;">
+      <div style="position:absolute;right:4%;top:34%;width:min(32vw,340px);opacity:.42;pointer-events:none;filter:drop-shadow(0 28px 72px rgba(0,0,0,.58));z-index:0;mix-blend-mode:screen;transform:rotate(-6deg);">
+        <img loading="lazy" src="bertlclaw-assets/crab-core.jpg" alt="" style="width:100%;height:auto;display:block;border-radius:28px;" />
+      </div>
+      <div class="section-head" style="position:relative;z-index:1;">
+        <div><h2>Leistungen klar getrennt: Services vs. Einsatzfälle</h2></div>
         <p>
-          Nicht nur Fähigkeiten, sondern konkrete Leistungen für Selbstständige, Dienstleister, Gründer und kleine Unternehmen.
-          Die Struktur ist so aufgebaut, dass daraus echte Zusammenarbeit, Projekte oder digitale Leistungen entstehen können.
+          Auf dieser Seite stehen die eigentlichen Leistungsbausteine: was BertlClaw konkret liefert. Die typischen Situationen,
+          in denen diese Leistungen sinnvoll werden, findest du separat unter <a href="use-cases.html" style="text-decoration:underline;">Anwendungsfälle</a>.
+          So bleibt klar getrennt: <strong>Was wird gemacht?</strong> und <strong>wann ist es der richtige Hebel?</strong>
         </p>
       </div>
-      <div class="grid-2">
+      <div class="grid-2" style="position:relative;z-index:1;">
         <article class="card">
           <div class="icon">🌐</div>
           <h3>Landingpages, Websites und digitale Präsenz</h3>
@@ -463,9 +691,9 @@
       <div class="service-mini-grid service-grid"></div>
       <div class="service-grid">
         <div class="service-mini"><strong>Landingpages</strong><span>für Angebote, Dienstleistungen und digitale Produkte</span></div>
+        <div class="service-mini"><strong>Website-Texte & Positionierung</strong><span>klare Nutzenkommunikation statt austauschbarer Branchenphrasen</span></div>
         <div class="service-mini"><strong>Digitale Struktur</strong><span>von Chaos zu Ordnung, Klarheit und Richtung</span></div>
-        <div class="service-mini"><strong>Digitale Produktideen & erste Umsetzungen</strong><span>digitale Startpunkte, Prototypen und Tool-Ideen</span></div>
-        <div class="service-mini"><strong>Dokumentation</strong><span>Wissen, SOPs, Prozesse und saubere Systeme</span></div>
+        <div class="service-mini"><strong>Dokumentation & Entscheidungsgrundlagen</strong><span>Wissen, SOPs, Prioritäten und saubere Systeme</span></div>
       </div>
       <div class="cta-band">
         <h3>Wofür BertlClaw am meisten Wert liefert</h3>
@@ -474,7 +702,9 @@
           eine App-Idee, eine erste Startversion, eine Positionierung oder ein System, das endlich klarer und besser werden soll. Genau dort liefert BertlClaw besonders viel Wert.
         </p>
         <div class="cta">
-          <a class="btn btn-primary" href="services.html">Leistungen ansehen</a>
+          <a class="btn btn-primary" href="#kontakt">Projekt anfragen</a>
+          <a class="btn btn-secondary" href="services.html">Leistungen ansehen</a>
+          <a class="btn btn-secondary" href="proof.html">Proof ansehen</a>
           <a class="btn btn-secondary" href="use-cases.html">Anwendungsfälle ansehen</a>
         </div>
       </div>
@@ -482,17 +712,22 @@
 
     <section class="section" id="offers">
       <div class="section-head">
-        <div><h2>Wie du mit BertlClaw starten kannst</h2></div>
+        <div>
+          <h2>Wie du mit BertlClaw starten kannst</h2>
+          <div style="display:inline-flex;align-items:center;gap:8px;margin-top:8px;padding:8px 14px;border-radius:999px;border:1px solid rgba(89,225,191,.28);background:rgba(89,225,191,.08);color:#c8fff4;font-size:.88rem;font-weight:700;">
+            <span>✦</span><span>Einstieg ab € 390</span>
+          </div>
+        </div>
         <p>
           Klare Einstiegsangebote machen BertlClaw leichter verständlich und greifbarer.
           Deshalb sind hier drei konkrete Startpunkte formuliert, die man sofort versteht und direkt anfragen kann.
         </p>
+        <a href="services.html" style="font-weight:700;color:#9db8ff;white-space:nowrap;">Alle Leistungen →</a>
       </div>
       <div class="offer-grid">
         <article class="offer-card featured">
           <div class="offer-kicker">Klarer Einstieg</div>
-          <h3>Landingpage Sprint</h3>
-          <p><a href="landingpage-sprint.html">Details zum Angebot ansehen</a></p>
+          <h3><a href="landingpage-sprint.html">Landingpage Sprint</a></h3>
           <p>Für Selbstständige, Dienstleister und kleine Unternehmen, die eine klarere, professionelle und überzeugende Angebotsseite brauchen.</p>
           <ul>
             <li>Landingpage-Struktur und Hero</li>
@@ -500,12 +735,11 @@
             <li>klare Handlungsführung und Seitenaufbau</li>
             <li>moderne Angebotsseite mit klarer Leserführung</li>
           </ul>
-          <div class="offer-result"><strong>Ergebnis:</strong> eine Landingpage, die dein Angebot verständlicher, stimmiger und anfrageorientierter macht.</div>
+          <div class="offer-result"><strong>Geschäftlicher Nutzen:</strong> eine Angebotsseite, die dein Angebot schneller verständlich macht, Einwände früher abräumt und qualifizierte Anfragen sauber vorbereitet.</div>
         </article>
         <article class="offer-card">
           <div class="offer-kicker">Für unklare Angebote</div>
-          <h3>Positionierung & Website-Texte</h3>
-          <p><a href="positionierung-website-texte.html">Details zum Angebot ansehen</a></p>
+          <h3><a href="positionierung-website-texte.html">Positionierung &amp; Website-Texte</a></h3>
           <p>Für Menschen, deren Angebot gut ist, aber auf der Website noch zu vage, zu schwach oder zu generisch klingt.</p>
           <ul>
             <li>Positionierung schärfen</li>
@@ -513,12 +747,11 @@
             <li>Website-Texte und Leistungsseiten verbessern</li>
             <li>klare Nutzenargumente und FAQ-Struktur</li>
           </ul>
-          <div class="offer-result"><strong>Ergebnis:</strong> eine verständlichere Außendarstellung, bessere Texte und mehr Vertrauen in dein Angebot.</div>
+          <div class="offer-result"><strong>Geschäftlicher Nutzen:</strong> eine klarere Außendarstellung, die Leistungen verständlicher verkauft, Rückfragen reduziert und Vertrauen vor dem Erstgespräch stärkt.</div>
         </article>
         <article class="offer-card">
           <div class="offer-kicker">Für mehr digitale Ordnung</div>
-          <h3>Digitale Ordnung & Klarheit</h3>
-          <p><a href="digital-clarity-setup.html">Details zum Angebot ansehen</a></p>
+          <h3><a href="digital-clarity-setup.html">Digitale Ordnung &amp; Klarheit</a></h3>
           <p>Für Selbstständige, Gründer und kleine Teams, die Ideen, Dateien, Projekte und Prozesse endlich in ein sauberes System bringen wollen.</p>
           <ul>
             <li>digitale Themen und Projekte ordnen</li>
@@ -526,7 +759,7 @@
             <li>Datei-/Dokulogik strukturieren</li>
             <li>klare Arbeits- und Umsetzungsbasis schaffen</li>
           </ul>
-          <div class="offer-result"><strong>Ergebnis:</strong> weniger Chaos, mehr Klarheit, bessere Entscheidungen und eine realistischere Umsetzung.</div>
+          <div class="offer-result"><strong>Geschäftlicher Nutzen:</strong> weniger Reibung im Alltag, klarere Prioritäten und ein Arbeitszustand, aus dem wieder echte Umsetzung statt Dauer-Improvisation entsteht.</div>
         </article>
       </div>
       <div class="cta-band">
@@ -534,11 +767,137 @@
         <p>
           Dadurch wird BertlClaw leichter verständlich: Menschen sehen sofort,
           welches Problem gelöst wird, für wen das Angebot gedacht ist und welches Ergebnis am Ende entsteht.
+          Wenn du noch unsicher bist, reichen 2–4 Sätze oder ein Link zur bestehenden Seite — auch mobil per WhatsApp.
         </p>
         <div class="cta">
-          <a class="btn btn-primary" href="mailto:dominic.reisenbichler@gmx.at">Projekt anfragen</a>
+          <a class="btn btn-primary" href="#kontakt">Projekt anfragen</a>
+          <a class="btn btn-secondary" href="proof.html">Proof ansehen</a>
           <a class="btn btn-secondary" href="services.html">Leistungen ansehen</a>
-          <a class="btn btn-secondary" href="use-cases.html">Anwendungsfälle ansehen</a>
+        </div>
+        <div class="cta-helper">Wenn du lieber mobil kurz starten willst: <a href="https://wa.me/436781299919" target="_blank" rel="noopener">WhatsApp öffnen</a>.</div>
+      </div>
+    </section>
+
+    <section class="section" id="fit-check" aria-labelledby="fit-check-heading">
+      <div class="section-head">
+        <div>
+          <div class="micro-label">Schneller Einstiegsfinder</div>
+          <h2 id="fit-check-heading">Unsicher, womit du starten sollst?</h2>
+        </div>
+        <p>Dann entscheide nicht im Kopf weiter. Wähle die Situation, die gerade am ehesten passt — BertlClaw setzt Thema und Nachricht unten im Formular schon sinnvoll vor, damit die Anfrage leichter rausgeht.</p>
+      </div>
+      <div class="fit-chooser">
+        <div class="fit-options" aria-label="Auswahl des passenden Einstiegsangebots">
+          <button class="fit-option is-active" type="button" data-fit-topic="Landingpage Sprint" data-fit-title="Landingpage Sprint" data-fit-result="Dein Angebot soll schneller verstanden werden und Besucher klarer zur Anfrage führen." data-fit-points="Hero und Kernbotschaft schärfen|Seitenaufbau und CTA logisch ordnen|Vertrauen früher sichtbar machen" data-fit-message="Ich habe bereits ein konkretes Angebot, aber meine Seite verkauft es noch nicht klar genug. Ich will die Landingpage verständlicher machen und mehr qualifizierte Anfragen vorbereiten." data-fit-entry="fit-chooser-landingpage">
+            <strong>Meine Website ist da — aber sie zieht noch nicht.</strong>
+            <span>Gut, wenn das Angebot schon steht, die Seite aber zu generisch wirkt, zu wenig Vertrauen aufbaut oder zu viel Nach-Erklärung braucht.</span>
+          </button>
+          <button class="fit-option" type="button" data-fit-topic="Positionierung &amp; Website-Texte" data-fit-title="Positionierung &amp; Website-Texte" data-fit-result="Dein Angebot wird sprachlich klarer, glaubwürdiger und leichter einordenbar." data-fit-points="Leistung verständlicher formulieren|Nutzen und Unterschiede verdichten|FAQ und Einwände früher abfangen" data-fit-message="Mein Angebot ist fachlich gut, aber auf der Website klingt es noch zu allgemein oder zu austauschbar. Ich brauche klarere Texte und eine stärkere Positionierung." data-fit-entry="fit-chooser-texte">
+            <strong>Mein Angebot ist gut — aber online noch zu vage.</strong>
+            <span>Gut, wenn Interessenten erst im Gespräch verstehen, was du eigentlich machst, oder wenn deine Texte nach Branche statt nach dir klingen.</span>
+          </button>
+          <button class="fit-option" type="button" data-fit-topic="Digitale Ordnung &amp; Klarheit" data-fit-title="Digitale Ordnung &amp; Klarheit" data-fit-result="Offene Themen werden sortiert, priorisiert und in einen arbeitsfähigen nächsten Schritt übersetzt." data-fit-points="Offene Baustellen strukturieren|Prioritäten und nächste Schritte festlegen|Dateien, Wissen oder Projektlogik ordnen" data-fit-message="Bei mir sind gerade zu viele digitale Themen parallel offen. Ich brauche Ordnung, Prioritäten und einen klaren nächsten sinnvollen Schritt statt Dauer-Improvisation." data-fit-entry="fit-chooser-ordnung">
+            <strong>Bei mir ist digital zu viel gleichzeitig offen.</strong>
+            <span>Gut, wenn Dateien, Ideen, Tools oder Projekte nebeneinander liegen, aber nichts sauber greift und echte Umsetzung dadurch stockt.</span>
+          </button>
+        </div>
+        <aside class="fit-preview" aria-live="polite">
+          <div class="micro-label">Empfohlener Start</div>
+          <h3 id="fitPreviewTitle" style="margin-bottom:10px;">Landingpage Sprint</h3>
+          <p id="fitPreviewResult">Dein Angebot soll schneller verstanden werden und Besucher klarer zur Anfrage führen.</p>
+          <div class="fit-meta">
+            <span>Kein perfektes Briefing nötig</span>
+            <span>2–4 Sätze reichen</span>
+            <span>Formular wird unten vorausgefüllt</span>
+          </div>
+          <ul id="fitPreviewPoints">
+            <li>Hero und Kernbotschaft schärfen</li>
+            <li>Seitenaufbau und CTA logisch ordnen</li>
+            <li>Vertrauen früher sichtbar machen</li>
+          </ul>
+          <div class="cta" style="margin-top:0;">
+            <a class="btn btn-primary" href="#kontakt" id="fitPreviewCta">Diesen Einstieg anfragen</a>
+            <a class="btn btn-secondary" href="services.html">Leistungen vergleichen</a>
+          </div>
+          <div class="cta-helper">Beim Klick wird unten im Formular das passende Thema gesetzt und eine Startnachricht vorbereitet. Du kannst sie danach natürlich noch anpassen.</div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="warum-bertlclaw" aria-labelledby="warum-bertlclaw-heading">
+      <div class="section-head">
+        <div>
+          <div class="micro-label">5 gute Gründe</div>
+          <h2 id="warum-bertlclaw-heading">Warum BertlClaw?</h2>
+        </div>
+        <p>Bevor die Frage aufkommt — hier sind die ehrlichen Antworten darauf, warum viele Selbstständige BertlClaw einer Agentur vorziehen.</p>
+      </div>
+      <div class="feature-strip" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
+        <div class="feature-tile" style="min-height:auto;">
+          <div style="font-size:1.5rem;margin-bottom:10px;">🚫</div>
+          <strong>Kein Agentur-Overhead</strong>
+          <p style="color:var(--muted);font-size:.95rem;line-height:1.7;margin:6px 0 0;">Du arbeitest direkt mit Dominic — keine Vermittler, keine aufgeblasenen Prozesse, kein Sales-Theater.</p>
+        </div>
+        <div class="feature-tile" style="min-height:auto;">
+          <div style="font-size:1.5rem;margin-bottom:10px;">📦</div>
+          <strong>Ergebnisse statt Stunden</strong>
+          <p style="color:var(--muted);font-size:.95rem;line-height:1.7;margin:6px 0 0;">Festpreise, klare Deliverables, keine Überraschungen. Du weißt vorher, was du bekommst.</p>
+        </div>
+        <div class="feature-tile" style="min-height:auto;">
+          <div style="font-size:1.5rem;margin-bottom:10px;">🏗️</div>
+          <strong>ERP-Hintergrund</strong>
+          <p style="color:var(--muted);font-size:.95rem;line-height:1.7;margin:6px 0 0;">Strukturiertes Denken aus Enterprise-Projekten — XALAX, proALPHA, Softline, Energy Services. Methodik, die wirklich funktioniert.</p>
+        </div>
+        <div class="feature-tile" style="min-height:auto;">
+          <div style="font-size:1.5rem;margin-bottom:10px;">🏎️</div>
+          <strong>Red Bull Ring</strong>
+          <p style="color:var(--muted);font-size:.95rem;line-height:1.7;margin:6px 0 0;">Referenzprojekte aus dem Spitzensport zeigen, was in komplexen Umgebungen möglich ist — und was das für dein Projekt bedeutet.</p>
+        </div>
+        <div class="feature-tile" style="min-height:auto;">
+          <div style="font-size:1.5rem;margin-bottom:10px;">🌍</div>
+          <strong>Remote für ganz DACH</strong>
+          <p style="color:var(--muted);font-size:.95rem;line-height:1.7;margin:6px 0 0;">Wien, Graz, Berlin, Zürich — alles möglich. Standort spielt keine Rolle, Ergebnis schon.</p>
+        </div>
+      </div>
+      <div class="cta-band" style="margin-top:18px;">
+        <p>Klingt das nach dem richtigen Ansatz für dein Projekt? Dann ist der nächste Schritt einfach.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="erstgespraech.html">Erstgespräch vereinbaren</a>
+          <a class="btn btn-secondary" href="#kontakt">Projekt anfragen</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="fuer-wen" aria-labelledby="fuer-wen-heading">
+      <div class="section-head">
+        <div>
+          <div class="micro-label">Zielgruppe</div>
+          <h2 id="fuer-wen-heading">Für wen ist BertlClaw?</h2>
+        </div>
+        <p>BertlClaw ist kein Angebot für alle. Aber für diese drei Gruppen passt es sehr gut.</p>
+      </div>
+      <div class="persona-grid">
+        <article class="persona-card">
+          <span class="persona-icon">🧑‍💻</span>
+          <h3>Selbstständige &amp; Freelancer</h3>
+          <p>Du hast ein gutes Angebot, aber deine Website kommuniziert das noch nicht klar genug. Du brauchst keine große Agentur — sondern jemanden, der schnell versteht, was du tust, und es verständlicher macht.</p>
+        </article>
+        <article class="persona-card">
+          <span class="persona-icon">🤝</span>
+          <h3>Dienstleister &amp; Berater</h3>
+          <p>Du bekommst Anfragen über Empfehlungen, aber deine Website hält dem Vergleich nicht stand. Interessenten schauen rein — und springen ab, weil das Angebot zu unklar oder zu generisch wirkt.</p>
+        </article>
+        <article class="persona-card">
+          <span class="persona-icon">🚀</span>
+          <h3>Gründer &amp; Projektmacher</h3>
+          <p>Du hast eine Idee oder ein Angebot, das du online sichtbar machen willst. Du brauchst einen klaren Start — ohne monatelangen Agenturprozess und ohne leere Buzzwords.</p>
+        </article>
+      </div>
+      <div class="cta-band" style="margin-top:18px;">
+        <p>Erkennst du dich in einer dieser Situationen? Dann ist BertlClaw wahrscheinlich der richtige nächste Schritt.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#kontakt">Projekt anfragen</a>
+          <a class="btn btn-secondary" href="services.html">Leistungen ansehen</a>
         </div>
       </div>
     </section>
@@ -569,11 +928,11 @@
       </div>
       <div class="grid-2" style="margin-top:18px;">
         <div class="visual-slab" style="min-height:300px;">
-          <img src="bertlclaw-assets/ai-core.jpg" alt="Brand-Bild" style="object-position:center center;" />
+          <img loading="lazy" src="bertlclaw-assets/ai-core.jpg" alt="Brand-Bild" style="object-position:center center;" />
           <div class="visual-caption"><strong>Substanz statt Fassade</strong><br />klare Arbeit mit praktischem Nutzen</div>
         </div>
         <div class="visual-slab" style="min-height:300px;">
-          <img src="bertlclaw-assets/interface.jpg" alt="Interface-Bild" style="object-position:center center;" />
+          <img loading="lazy" src="bertlclaw-assets/interface.jpg" alt="Interface-Bild" style="object-position:center center;" />
           <div class="visual-caption"><strong>Klare Struktur</strong><br />verständliche Abläufe und praktische Umsetzung</div>
         </div>
       </div>
@@ -594,6 +953,7 @@
           <p><strong>Situation:</strong> Ein Ein-Personen-Angebot hat bereits Website und Leistungen, wirkt online aber zu unklar.</p>
           <p><strong>Arbeit:</strong> Hero, Leistungsblöcke, FAQ, Vertrauenselemente und CTA logisch neu aufbauen.</p>
           <p><strong>Lieferbild:</strong> klarere Angebotsseite, bessere Leserführung und ein stimmigerer professioneller Auftritt.</p>
+          <p><strong>Greifbare Artefakte:</strong> Hero-Vorher/Nachher, neue Abschnittslogik, FAQ-/CTA-Block.</p>
         </article>
         <article class="card">
           <div class="icon">✍️</div>
@@ -601,6 +961,7 @@
           <p><strong>Situation:</strong> Gute Leistung, aber zu allgemeine Sprache und zu wenig Wiedererkennbarkeit.</p>
           <p><strong>Arbeit:</strong> Nutzenargumente schärfen, Leistungsseiten überarbeiten und typische Rückfragen vorwegnehmen.</p>
           <p><strong>Lieferbild:</strong> verständlichere Texte, klarere Positionierung und mehr Vertrauen vor dem Erstgespräch.</p>
+          <p><strong>Greifbare Artefakte:</strong> Headline-Set, Textvergleich alt/neu, FAQ- und Einwandbausteine.</p>
         </article>
         <article class="card">
           <div class="icon">🗂️</div>
@@ -608,7 +969,70 @@
           <p><strong>Situation:</strong> Viele Notizen, Dateien und Ideen sind vorhanden, aber ohne brauchbaren Zusammenhang.</p>
           <p><strong>Arbeit:</strong> Themen clustern, Prioritäten festlegen, Arbeitsstruktur aufbauen und nächste Schritte definieren.</p>
           <p><strong>Lieferbild:</strong> ein nutzbarer Arbeitsrahmen statt losem Herumdenken und dauernder Kontextwechsel.</p>
+          <p><strong>Greifbare Artefakte:</strong> Themen-Cluster, Prioritätenliste, Dokumentations- oder Board-Struktur.</p>
         </article>
+      </div>
+    </section>
+
+    <section class="section" id="ablauf">
+      <div class="section-head">
+        <div><h2>Wie eine Anfrage konkret abläuft</h2></div>
+        <p>
+          Der nächste Schritt soll nicht nach Agentur-Theater wirken. Deshalb ist der Ablauf bewusst direkt, verständlich und auf echte Entscheidungshilfe ausgelegt.
+        </p>
+      </div>
+      <div class="process-grid">
+        <article class="process-step">
+          <div class="step-no">1</div>
+          <h3>Kurz senden statt lang vorbereiten</h3>
+          <p>2–4 Sätze, ein Link oder ein Screenshot reichen. Du musst kein perfektes Briefing bauen, um eine sinnvolle erste Rückmeldung zu bekommen.</p>
+        </article>
+        <article class="process-step">
+          <div class="step-no">2</div>
+          <h3>Engpass sauber einordnen</h3>
+          <p>Es wird eingeordnet, ob gerade eher Angebotsseite, Website-Texte, Positionierung oder digitale Struktur der stärkste wirtschaftliche Hebel ist.</p>
+        </article>
+        <article class="process-step">
+          <div class="step-no">3</div>
+          <h3>Klarer nächster Schritt</h3>
+          <p>Du bekommst kein diffuses „Man könnte mal reden“, sondern eine klare Richtung: sinnvoller Startpunkt, Rückfrage oder ehrliche Absage, wenn es nicht passt.</p>
+        </article>
+      </div>
+      <div class="proof-badges" aria-label="Zusätzliche Vertrauenssignale für die Anfrage">
+        <div class="proof-badge">Direkter Kontakt mit Dominic Reisenbichler</div>
+        <div class="proof-badge">Kein Callcenter, kein Vermittler</div>
+        <div class="proof-badge">Auch mobil: WhatsApp, Telefon oder Formular</div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="section-head">
+        <div><h2>Typische Fragen vor der Anfrage</h2></div>
+        <p>
+          Diese Einwände tauchen oft auf, bevor jemand schreibt. Genau deshalb stehen sie hier offen auf der Seite — damit der Einstieg leichter wird.
+        </p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Ich habe noch kein sauberes Briefing — kann ich trotzdem schreiben?</summary>
+          <div class="faq-answer">Ja. Genau dafür ist der Einstieg so gebaut. Ein grober Stand, ein Screenshot oder 2–4 Sätze reichen völlig, wenn der Kern des Problems erkennbar ist.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Ich habe schon eine Website. Geht es eher um Verbesserung als um Neubau?</summary>
+          <div class="faq-answer">Sehr oft ja. BertlClaw ist besonders dann sinnvoll, wenn schon etwas da ist, aber noch nicht klar genug verkauft, zu wenig Vertrauen aufbaut oder zu viel Erklärung im Gespräch braucht.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Was, wenn ich noch nicht weiß, welches Angebot passt?</summary>
+          <div class="faq-answer">Dann muss das auch noch nicht entschieden sein. Die Anfrage dient genau dazu, den sinnvollsten Einstieg einzuordnen: Landingpage Sprint, Positionierung & Website-Texte, Digitale Ordnung & Klarheit oder etwas Allgemeineres.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Ist das eher für kleine Unternehmen und Selbstständige gedacht?</summary>
+          <div class="faq-answer">Ja. Der Auftritt, die Texte und die Struktur sind bewusst auf Selbstständige, Dienstleister, Gründer und kleinere Unternehmen ausgerichtet, die einen klaren, praktischen Hebel statt schwerer Agenturprozesse brauchen.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Was passiert, wenn es fachlich oder wirtschaftlich nicht passt?</summary>
+          <div class="faq-answer">Dann gibt es lieber eine klare Absage oder Einordnung als künstlich weitergezogene Gespräche. Das spart Zeit auf beiden Seiten und stärkt Vertrauen mehr als jede verkaufsstarke Fassade.</div>
+        </details>
       </div>
     </section>
 
@@ -623,6 +1047,22 @@
       <div class="contact-shell">
         <article class="contact-form">
           <h3>Kontaktformular</h3>
+          <div class="contact-intro">
+            <div class="contact-proof"><strong>Direkter Draht, klare Rückmeldung.</strong> Du schreibst direkt an Dominic Reisenbichler. Kein anonymer Funnel, kein Sales-Zirkus, kein Pflicht-Call vor einer Einordnung.</div>
+            <div>
+              <strong style="display:block;margin-bottom:8px;">Wenn du magst, starte mit einer dieser Kurzvorlagen:</strong>
+              <div class="message-starters" aria-label="Kurze Nachrichtenvorlagen für schnelleren Start">
+                <button class="starter-chip" type="button" data-starter="Ich habe bereits eine Website, aber sie erklärt mein Angebot noch nicht klar genug. Ich will schneller Vertrauen aufbauen und mehr qualifizierte Anfragen vorbereiten.">Bestehende Website schärfen</button>
+                <button class="starter-chip" type="button" data-starter="Ich brauche eine klarere Landingpage für ein konkretes Angebot. Aktuell ist die Seite noch zu diffus und ich will den nächsten Schritt für Besucher leichter machen.">Landingpage verbessern</button>
+                <button class="starter-chip" type="button" data-starter="Bei mir sind gerade zu viele digitale Themen offen. Ich brauche Ordnung, Prioritäten und einen klaren nächsten sinnvollen Schritt.">Digitale Ordnung herstellen</button>
+              </div>
+            </div>
+          </div>
+          <div class="quick-start-grid" aria-label="Schneller Start mit BertlClaw">
+            <div class="quick-start-item"><strong>1. Kurz schildern</strong>2–4 Sätze, Link oder Screenshot reichen für den Einstieg.</div>
+            <div class="quick-start-item"><strong>2. Saubere Einordnung</strong>BertlClaw ordnet ein, welcher Hebel gerade wirtschaftlich am meisten bringt.</div>
+            <div class="quick-start-item"><strong>3. Nächster Schritt</strong>Du bekommst eine klare Rückmeldung statt unverbindlichem Herumreden.</div>
+          </div>
           <form id="contactForm" action="https://formspree.io/f/xnjoapve" method="POST">
             <div class="form-grid">
               <div class="field">
@@ -638,7 +1078,14 @@
                 <input id="phone" name="phone" type="text" inputmode="tel" autocomplete="tel" placeholder="+43 … für Rückruf oder WhatsApp" />
               </div>
               <input type="hidden" name="_subject" value="Neue BertlClaw Anfrage" />
-              <input type="hidden" name="_next" value="https://bertlclaw.github.io/bertlclaw/danke.html" />
+              <input type="hidden" name="_language" value="de" />
+              <input type="hidden" name="page_path" id="hdn_page_path" value="" />
+              <input type="hidden" name="page_title" id="hdn_page_title" value="" />
+              <input type="hidden" name="referrer" id="hdn_referrer" value="" />
+              <input type="hidden" name="utm_source" id="hdn_utm_source" value="" />
+              <input type="hidden" name="utm_medium" id="hdn_utm_medium" value="" />
+              <input type="hidden" name="utm_campaign" id="hdn_utm_campaign" value="" />
+              <input type="hidden" name="lead_entry" id="hdn_lead_entry" value="direct" />
               <div class="field full">
                 <label for="topic">Thema</label>
                 <select id="topic" name="topic">
@@ -649,7 +1096,7 @@
                 </select>
               </div>
               <div class="field full">
-                <label for="contactPreference">Bevorzugter Rückweg</label>
+                <label for="contactPreference">Bevorzugte Rückmeldung</label>
                 <select id="contactPreference" name="contact_preference">
                   <option>E-Mail</option>
                   <option>Telefon</option>
@@ -662,25 +1109,32 @@
                 <textarea id="message" name="message" placeholder="2–4 Sätze genügen: Worum geht es, was blockiert gerade und was soll besser werden?" required></textarea>
               </div>
             </div>
+            <label class="privacy-check">
+              <input type="checkbox" name="privacy_ack" required />
+              <span>Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> zur Kenntnis genommen. Mit dem Absenden werden meine Angaben zur Bearbeitung meiner Anfrage an <strong>Formspree</strong> übertragen und von Dominic Reisenbichler weiterverarbeitet.</span>
+            </label>
             <div class="cta">
               <button class="btn btn-primary" type="submit">Projekt anfragen</button>
-              <a class="btn btn-secondary" href="mailto:dominic.reisenbichler@gmx.at">Projekt anfragen</a>
+              <a class="btn btn-secondary" href="mailto:dominic.reisenbichler@gmx.at">E-Mail</a>
             </div>
             <div class="form-note">
-              2–4 Sätze genügen. Wenn du lieber kurz per WhatsApp oder Telefon starten willst, geht das genauso.
+              2–4 Sätze genügen. Wenn du lieber kurz per WhatsApp oder Telefon starten willst, geht das genauso. Für vertrauliche oder sensible Inhalte ist E-Mail meist der bessere Erstweg als WhatsApp.
             </div>
+            <div class="response-box"><strong>Was danach passiert:</strong> keine anonyme Vertriebsschleife, kein Callcenter, kein unnötiges Sales-Theater. Du landest direkt bei Dominic Reisenbichler und bekommst eine ehrliche Rückmeldung: sinnvoller Startpunkt, Rückfrage oder klare Absage, wenn es nicht passt.</div>
+            <div class="form-status" id="contactFormStatus" role="status" aria-live="polite"></div>
           </form>
         </article>
         <article class="card">
           <h3>Was du senden kannst</h3>
           <ul class="contact-list">
-            <li><strong>Eine Idee ohne klare Form</strong></li>
-            <li><strong>Eine Website, die professioneller und verständlicher werden soll</strong></li>
-            <li><strong>Ein System, das Ordnung und Struktur braucht</strong></li>
-            <li><strong>Eine App-, Produkt- oder Service-Idee, die Richtung braucht</strong></li>
+            <li><strong>Eine Idee ohne klare Form</strong><br />2–4 Sätze reichen für eine erste Einordnung.</li>
+            <li><strong>Eine Website, die professioneller und verständlicher werden soll</strong><br />Ein Link oder ein Screenshot genügt.</li>
+            <li><strong>Ein System, das Ordnung und Struktur braucht</strong><br />Auch ein grober Überblick über Dateien, Themen oder offene Baustellen reicht.</li>
+            <li><strong>Eine App-, Produkt- oder Service-Idee, die Richtung braucht</strong><br />Unfertig ist okay — Hauptsache, der Kern ist erkennbar.</li>
             <li><strong>E-Mail</strong><br /><a href="mailto:dominic.reisenbichler@gmx.at">dominic.reisenbichler@gmx.at</a></li>
             <li><strong>Telefon</strong><br /><a href="tel:+436781299919">+43 678 1299919</a></li>
             <li><strong>WhatsApp</strong><br /><a href="https://wa.me/436781299919" target="_blank" rel="noopener">Chat auf WhatsApp öffnen</a></li>
+            <li><strong>Vertrauenspunkt</strong><br />Du landest direkt bei Dominic Reisenbichler — kein Callcenter, kein Vermittler, kein anonymer Vertrieb.</li>
           </ul>
         </article>
       </div>
@@ -689,21 +1143,74 @@
         <p>
           Wenn du eine Landingpage verbessern, Website-Texte schärfen, ein Angebot verständlicher machen oder digitale Ordnung in ein offenes Thema bringen willst,
           reichen 2–4 Sätze zur Ausgangslage. Danach folgt eine ehrliche Einordnung: sinnvoller Startpunkt, passende Rückfrage oder klare Absage, wenn es nicht passt.
+          Lieber ein kurzer echter Erstkontakt als ein überperfektes Briefing, das nie abgeschickt wird.
         </p>
         <div class="cta">
-          <a class="btn btn-primary" href="mailto:dominic.reisenbichler@gmx.at?subject=BertlClaw%20Anfrage">Projekt anfragen</a>
-          <a class="btn btn-secondary" href="https://wa.me/436781299919" target="_blank" rel="noopener">WhatsApp öffnen</a>
+          <a class="btn btn-primary" href="#kontakt">Projekt anfragen</a>
+          <a class="btn btn-secondary" href="proof.html">Proof ansehen</a>
           <a class="btn btn-secondary" href="services.html">Leistungen ansehen</a>
-          <a class="btn btn-secondary" href="use-cases.html">Anwendungsfälle ansehen</a>
         </div>
+        <div class="cta-helper">WhatsApp bleibt als schneller Mobil-Start verfügbar: <a href="https://wa.me/436781299919" target="_blank" rel="noopener">kurz auf WhatsApp schreiben</a>.</div>
       </div>
     </section>
       <section class="section"><div class="section-head"><div><h2>Weitere Themen</h2></div><p>Zusätzliche thematische Seiten, die gezielt auf Suchanfragen rund um Landingpages, Positionierung, digitale Startversionen und digitale Struktur ausgerichtet sind.</p></div><div class="grid-3"><article class="card"><h3><a href="landingpages.html">Landingpages erstellen lassen</a></h3><p>Für Angebote, Dienstleistungen und digitale Produkte mit klarer Leserführung.</p></article><article class="card"><h3><a href="website-texte-positionierung.html">Website-Texte & Positionierung</a></h3><p>Für verständlichere Leistungen, bessere Kommunikation und klare Nutzenargumente.</p></article><article class="card"><h3><a href="ki-fuer-selbststaendige.html">Digitale Unterstützung für Selbstständige</a></h3><p>Für Websites, Struktur, Angebote und digitale Ordnung im Arbeitsalltag.</p></article><article class="card"><h3><a href="mvp-digitale-produktideen.html">Digitale Produktideen & erste Umsetzungen</a></h3><p>Für App-Ideen, Prototypen und realistische erste Schritte.</p></article><article class="card"><h3><a href="digitale-struktur-systeme.html">Digitale Struktur & Systeme</a></h3><p>Für Wissen, Dokumentation, Prozesse und arbeitsfähige Zustände.</p></article><article class="card"><h3><a href="datenschutz.html">Datenschutz</a></h3><p>Für die rechtliche und vertrauensbildende Basis der Website.</p></article></div></section>
+    <section class="section" aria-labelledby="mehr-lesen-heading">
+      <div class="section-head">
+        <div>
+          <div class="micro-label">Weiterlesen</div>
+          <h2 id="mehr-lesen-heading">Mehr lesen</h2>
+        </div>
+        <p>Praxisnahe Themen rund um Selbstständigkeit, Positionierung, Landingpages und digitale Sichtbarkeit für Freelancer und Dienstleister im DACH-Raum.</p>
+      </div>
+      <div class="grid-3">
+        <article class="card">
+          <h3><a href="selbststaendige-mehr-kunden.html" style="color:var(--text);text-decoration:underline;text-underline-offset:3px;">Mehr Kunden als Selbstständiger finden</a></h3>
+          <p>Wie Selbstständige mehr qualifizierte Anfragen gewinnen und welche Hebel dabei wirklich funktionieren.</p>
+        </article>
+        <article class="card">
+          <h3><a href="freelancer-positionierung-schritt-fuer-schritt.html" style="color:var(--text);text-decoration:underline;text-underline-offset:3px;">Positionierung als Freelancer</a></h3>
+          <p>Schritt für Schritt zu einer klaren Positionierung, die Anfragen leichter macht und Vertrauen aufbaut.</p>
+        </article>
+        <article class="card">
+          <h3><a href="was-kostet-eine-landingpage.html" style="color:var(--text);text-decoration:underline;text-underline-offset:3px;">Was kostet eine Landingpage?</a></h3>
+          <p>Kosten, Einflussfaktoren und eine realistische Einordnung für Landingpage-Projekte.</p>
+        </article>
+        <article class="card">
+          <h3><a href="freelancer-website-optimieren.html" style="color:var(--text);text-decoration:underline;text-underline-offset:3px;">Freelancer Website optimieren</a></h3>
+          <p>Wie du deine Freelancer-Website klarer, überzeugender und anfragenstärker machst.</p>
+        </article>
+        <article class="card">
+          <h3><a href="nische-finden-selbststaendige.html" style="color:var(--text);text-decoration:underline;text-underline-offset:3px;">Nische finden als Selbstständiger</a></h3>
+          <p>Wie du als Selbstständiger eine klare Nische findest, besetzt und daraus ein schärferes Angebot machst.</p>
+        </article>
+      </div>
+    </section>
   </main>
 
-  <footer class="footer wrap"><div class="footer-links" style="display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-bottom:14px;font-size:.92rem;"><a href="index.html">Startseite</a><a href="services.html">Leistungen</a><a href="use-cases.html">Anwendungsfälle</a><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div>
-    BertlClaw · klar aufgebaut und praktisch nutzbar.
+  <footer class="footer wrap">
+    <div class="footer-links" style="display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-bottom:14px;font-size:.92rem;"><a href="index.html">Startseite</a><a href="services.html">Leistungen</a><a href="use-cases.html">Anwendungsfälle</a><a href="proof.html">Proof</a><a href="ueber-bertlclaw.html">Über BertlClaw</a><a href="arbeitsweise.html">Arbeitsweise</a><a href="faq.html">FAQ</a><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a><a href="agb.html">AGB</a></div>
+    <div style="margin:14px 0 10px;font-size:.82rem;color:rgba(175,186,220,.55);text-transform:uppercase;letter-spacing:.08em;font-weight:600;">Regionen</div>
+    <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:16px;font-size:.87rem;">
+      <a href="landingpage-wien.html" style="color:rgba(175,186,220,.7);">Wien</a>
+      <a href="landingpage-graz.html" style="color:rgba(175,186,220,.7);">Graz</a>
+      <a href="landingpage-linz.html" style="color:rgba(175,186,220,.7);">Linz</a>
+      <a href="landingpage-salzburg.html" style="color:rgba(175,186,220,.7);">Salzburg</a>
+      <a href="landingpage-innsbruck.html" style="color:rgba(175,186,220,.7);">Innsbruck</a>
+      <span style="color:rgba(175,186,220,.25);">·</span>
+      <a href="landingpage-berlin.html" style="color:rgba(175,186,220,.7);">Berlin</a>
+      <a href="landingpage-muenchen.html" style="color:rgba(175,186,220,.7);">München</a>
+      <a href="landingpage-hamburg.html" style="color:rgba(175,186,220,.7);">Hamburg</a>
+      <span style="color:rgba(175,186,220,.25);">·</span>
+      <a href="landingpage-zuerich.html" style="color:rgba(175,186,220,.7);">Zürich</a>
+      <a href="landingpage-genf.html" style="color:rgba(175,186,220,.7);">Genf</a>
+    </div>
+    BertlClaw · klar aufgebaut, praktisch nutzbar und einem realen Betreiber zugeordnet.
   </footer>
+
+  <div class="mobile-contact-bar" aria-label="Schneller mobiler Kontakt">
+    <a class="btn btn-primary" href="#kontakt">Projekt anfragen</a>
+    <a class="btn btn-secondary" href="https://wa.me/436781299919" target="_blank" rel="noopener" aria-label="WhatsApp als sekundärer mobiler Kontakt">WhatsApp</a>
+  </div>
 
   <button class="chatbot-toggle" id="chatbotToggle" aria-expanded="false" aria-controls="chatbotPanel"><span class="chatbot-dot"></span><span>Frag BertlClaw</span></button>
   <aside class="chatbot-panel" id="chatbotPanel" aria-hidden="true">
@@ -713,7 +1220,7 @@
     </div>
     <div class="chatbot-body" id="chatbotBody">
       <div class="chatbot-msg bot">Hi — ich bin der BertlClaw-Website-Chat. Ich beantworte typische Rückfragen zu BertlClaw, den Angeboten und dem nächsten sinnvollen Schritt.</div>
-      <div class="chatbot-msg bot">Du kannst direkt etwas schreiben oder eine Schnellfrage auswählen. Wenn du magst, übernehme ich deine Nachricht gleich ins Kontaktformular.</div>
+      <div class="chatbot-msg bot">Ich bin ein Website-Assistent, nicht Dominic selbst. Wenn du deine Nachricht übernimmst oder Kontakt aufnimmst, landet sie direkt bei Dominic Reisenbichler.</div>
       <div class="chatbot-quick">
         <button type="button" data-answer="start">Wie kann ich starten?</button>
         <button type="button" data-answer="landingpage">Was ist der Landingpage Sprint?</button>
@@ -744,6 +1251,28 @@
       const input=document.getElementById('chatbotMessage');
       const ask=document.getElementById('chatbotAsk');
       const toForm=document.getElementById('chatbotToForm');
+      const fitOptions=Array.from(document.querySelectorAll('.fit-option'));
+      const fitPreviewTitle=document.getElementById('fitPreviewTitle');
+      const fitPreviewResult=document.getElementById('fitPreviewResult');
+      const fitPreviewPoints=document.getElementById('fitPreviewPoints');
+      const fitPreviewCta=document.getElementById('fitPreviewCta');
+      (function(){
+        var p = document.getElementById('hdn_page_path');
+        var t = document.getElementById('hdn_page_title');
+        var r = document.getElementById('hdn_referrer');
+        var us = document.getElementById('hdn_utm_source');
+        var um = document.getElementById('hdn_utm_medium');
+        var uc = document.getElementById('hdn_utm_campaign');
+        if(p) p.value = window.location.pathname;
+        if(t) t.value = document.title;
+        if(r) r.value = document.referrer || '';
+        var params = new URLSearchParams(window.location.search);
+        if(us) us.value = params.get('utm_source') || '';
+        if(um) um.value = params.get('utm_medium') || '';
+        if(uc) uc.value = params.get('utm_campaign') || '';
+      })();
+      const contactForm=document.getElementById('contactForm');
+      const contactFormStatus=document.getElementById('contactFormStatus');
       const params=new URLSearchParams(window.location.search);
       const prefillMessage=params.get('chat');
       const knowledge=[
@@ -758,14 +1287,25 @@
         { keys:['warum bertlclaw','warum nicht agentur','warum du','warum ihr'], answer:'BertlClaw ist besonders dann stark, wenn kein großes Agenturprojekt gebraucht wird, sondern ein klarer, schneller und sinnvoller Einstieg. Der Vorteil liegt in der Kombination aus Verständlichkeit, Struktur, digitalem Denken und praktischer Umsetzung. Gerade für kleinere Unternehmen und Selbstständige ist das oft deutlich passender als schwerere Agenturprozesse.' },
         { keys:['kein budget','zu teuer','zu kostspielig','unsicher','lohnt sich das','rentiert sich das'], answer:'Die entscheidende Frage ist meist nicht, ob man irgendetwas macht, sondern ob der nächste Schritt wirtschaftlich Sinn ergibt. Genau deshalb ist ein klarer Einstieg wichtig: lieber gezielt dort ansetzen, wo mehr Anfragen, bessere Verständlichkeit oder weniger digitale Reibung entstehen können, statt Zeit und Geld diffus zu verteilen.' },
         { keys:['ich habe schon eine website','bestehende website','website bringt nichts','konvertiert nicht'], answer:'Wenn schon eine Website da ist, aber sie zu wenig Vertrauen aufbaut oder zu wenig Anfragen vorbereitet, ist das oft ein sehr guter Ausgangspunkt. Meist liegt der Hebel nicht darin, alles neu zu machen, sondern Angebot, Struktur, Texte und Leserführung gezielt zu schärfen.' },
-        { keys:['mehr anfragen','kunden gewinnen','verkaufen','conversion'], answer:'Wenn mehr qualifizierte Anfragen entstehen sollen, muss vor allem eines klar werden: Was genau wird angeboten, warum ist es relevant und warum sollte man jetzt #kontakt. Genau dort setzt BertlClaw an — mit klareren Angeboten, besserer Kommunikation und einer sinnvollen digitalen Struktur.' },
-        { keys:['bertlclaw','was ist bertlclaw','wer ist bertlclaw'], answer:'BertlClaw ist ein Angebot von Dominic Reisenbichler für Landingpages, Website-Texte, Positionierung und digitale Struktur. Im Kern geht es darum, Angebote verständlicher zu machen, Abläufe zu klären und Menschen schneller zu einem sinnvollen nächsten Schritt zu bringen.' },
+        { keys:['mehr anfragen','kunden gewinnen','verkaufen','conversion'], answer:'Wenn mehr qualifizierte Anfragen entstehen sollen, muss vor allem eines klar werden: Was genau wird angeboten, warum ist es relevant und warum sollte man jetzt Kontakt aufnehmen. Genau dort setzt BertlClaw an — mit klareren Angeboten, besserer Kommunikation und einer sinnvollen digitalen Struktur.' },
+        { keys:['bertlclaw','was ist bertlclaw','wer ist bertlclaw'], answer:'BertlClaw ist die Projektmarke von Dominic Reisenbichler, MSc. für Landingpages, Website-Texte, Positionierung, digitale Struktur und KI-Unterstützung. Im Kern geht es darum, Angebote verständlicher zu machen, digitale Reibung zu senken und Menschen schneller zu einem sinnvollen nächsten Schritt zu bringen.' },
         { keys:['kosten','preis','teuer','budget'], answer:'Statt pauschal etwas zu versprechen, ist es sinnvoller, kurz auf die Ausgangslage zu schauen. Dann lässt sich deutlich besser einordnen, welches Angebot passt und welcher Schritt wirtschaftlich am meisten bringt.' }
       ];
       function setOpen(open){ panel.classList.toggle('open',open); panel.setAttribute('aria-hidden', String(!open)); toggle.setAttribute('aria-expanded', String(open)); }
       function addMsg(text, cls){ const div=document.createElement('div'); div.className='chatbot-msg '+cls; div.textContent=text; body.appendChild(div); body.scrollTop=body.scrollHeight; }
       function getAnswer(question){ const q=(question||'').toLowerCase().replace(/[?!.,]/g,' ').replace(/\s+/g,' ').trim(); if(q.includes('was kannst du alles') || q.includes('kannst du alles')) return 'BertlClaw hilft dabei, Angebote klarer zu zeigen, Websites verständlicher zu machen und digitale Struktur so aufzubauen, dass daraus echte Fortschritte entstehen. Konkret geht es um Landingpages, Website-Texte, Positionierung, digitale Ordnung und erste digitale Projekte. Wenn ein Angebot gut ist, aber online noch nicht stark genug wirkt, ist das oft genau der Punkt, an dem BertlClaw am meisten bringt.'; for(const item of knowledge){ if(item.keys.some(k => q.includes(k))) return item.answer; } return 'Dazu habe ich hier noch keine ganz genaue Detailantwort hinterlegt. Wenn du willst, kannst du deine Situation kurz beschreiben, dann lässt sich der passende Einstieg meist trotzdem gut einordnen — oder du übernimmst die Frage direkt ins Kontaktformular.'; }
       function submitQuestion(text){ const q=(text||'').trim(); if(!q) return; addMsg(q,'user'); addMsg(getAnswer(q),'bot'); }
+      function setFormStatus(message, isError=false){
+        if(!contactFormStatus) return;
+        contactFormStatus.textContent=message;
+        contactFormStatus.classList.add('is-visible');
+        contactFormStatus.classList.toggle('is-error', Boolean(isError));
+      }
+      function clearFormStatus(){
+        if(!contactFormStatus) return;
+        contactFormStatus.textContent='';
+        contactFormStatus.classList.remove('is-visible','is-error');
+      }
       function moveQuestionToContact(text){
         const message=(text||input.value||'').trim() || 'Hallo, ich habe eine Frage zu BertlClaw.';
         const form=document.getElementById('contactForm');
@@ -773,14 +1313,88 @@
         if(textarea){
           textarea.value=message;
           textarea.focus();
+          textarea.setSelectionRange(textarea.value.length, textarea.value.length);
           location.hash='kontakt';
           return;
         }
         window.location.href='index.html?chat='+encodeURIComponent(message)+'#kontakt';
       }
+      function applyStarterMessage(message, topicOverride, leadEntry){
+        const form=document.getElementById('contactForm');
+        const textarea=form ? form.querySelector('textarea[name="message"]') : null;
+        const topic=form ? form.querySelector('select[name="topic"]') : null;
+        const leadEntryField=document.getElementById('hdn_lead_entry');
+        if(textarea){
+          textarea.value=message;
+          textarea.focus();
+          textarea.setSelectionRange(textarea.value.length, textarea.value.length);
+          location.hash='kontakt';
+        }
+        if(topicOverride && topic){
+          topic.value=topicOverride;
+        }else if(topic){
+          if(message.toLowerCase().includes('landingpage')) topic.value='Landingpage Sprint';
+          else if(message.toLowerCase().includes('website')) topic.value='Positionierung & Website-Texte';
+          else if(message.toLowerCase().includes('ordnung') || message.toLowerCase().includes('prioritäten')) topic.value='Digitale Ordnung & Klarheit';
+        }
+        if(leadEntryField && leadEntry){
+          leadEntryField.value=leadEntry;
+        }
+        clearFormStatus();
+      }
+      function updateFitPreview(option){
+        if(!option) return;
+        fitOptions.forEach(btn => btn.classList.toggle('is-active', btn===option));
+        if(fitPreviewTitle) fitPreviewTitle.textContent=option.dataset.fitTitle || option.dataset.fitTopic || 'Passender Einstieg';
+        if(fitPreviewResult) fitPreviewResult.textContent=option.dataset.fitResult || '';
+        if(fitPreviewPoints){
+          fitPreviewPoints.innerHTML='';
+          (option.dataset.fitPoints || '').split('|').filter(Boolean).forEach(point => {
+            const li=document.createElement('li');
+            li.textContent=point;
+            fitPreviewPoints.appendChild(li);
+          });
+        }
+        if(fitPreviewCta){
+          fitPreviewCta.onclick=(event)=>{
+            event.preventDefault();
+            applyStarterMessage(option.dataset.fitMessage || '', option.dataset.fitTopic || '', option.dataset.fitEntry || 'fit-chooser');
+          };
+        }
+      }
       toggle.addEventListener('click',()=>setOpen(!panel.classList.contains('open')));
       close.addEventListener('click',()=>setOpen(false));
       ask.addEventListener('click',()=>submitQuestion(input.value));
+      if(contactForm){
+        contactForm.addEventListener('submit', async (event)=>{
+          event.preventDefault();
+          clearFormStatus();
+          const submitButton=contactForm.querySelector('button[type="submit"]');
+          const originalLabel=submitButton ? submitButton.textContent : '';
+          if(submitButton){
+            submitButton.disabled=true;
+            submitButton.textContent='Wird gesendet…';
+          }
+          try{
+            const response=await fetch(contactForm.action, {
+              method:'POST',
+              body:new FormData(contactForm),
+              headers:{ 'Accept':'application/json' }
+            });
+            if(!response.ok){
+              throw new Error('Form submit failed');
+            }
+            window.location.href=new URL('danke.html', window.location.href).toString();
+          }catch(error){
+            setFormStatus('Das Senden hat gerade nicht sauber funktioniert. Bitte versuche es noch einmal oder nutze direkt WhatsApp / E-Mail als Backup.', true);
+          }finally{
+            if(submitButton){
+              submitButton.disabled=false;
+              submitButton.textContent=originalLabel;
+            }
+          }
+        });
+      }
       if(prefillMessage){
         const form=document.getElementById('contactForm');
         const textarea=form ? form.querySelector('textarea[name="message"]') : null;
@@ -790,6 +1404,17 @@
       input.addEventListener('keydown',e=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); submitQuestion(input.value); } });
       toForm.addEventListener('click',()=>moveQuestionToContact(input.value));
       document.querySelectorAll('[data-answer]').forEach(btn=>{ btn.addEventListener('click',()=>submitQuestion(btn.textContent)); });
+      document.querySelectorAll('[data-starter]').forEach(btn=>{ btn.addEventListener('click',()=>applyStarterMessage(btn.getAttribute('data-starter') || btn.textContent)); });
+      fitOptions.forEach(option=>{
+        option.addEventListener('click',()=>updateFitPreview(option));
+        option.addEventListener('keydown',(event)=>{
+          if(event.key==='Enter' || event.key===' '){
+            event.preventDefault();
+            updateFitPreview(option);
+          }
+        });
+      });
+      if(fitOptions.length) updateFitPreview(fitOptions[0]);
     })();
   </script>
 
