@@ -22,7 +22,26 @@ profession_map = {
         'h1': 'Landingpage für Berater in {city_label}',
         'problem': 'Wenn Beratungsleistungen korrekt beschrieben sind, aber noch nicht schnell genug verständlich, differenzierend oder anschlussfähig wirken.',
         'deliverable': 'verständlicheres Angebot, bessere Website-Texte, saubere Struktur und klarere Conversion-Logik',
-    }
+    },
+
+    'it-berater': {
+        'title': 'IT-Berater in {city_label}',
+        'h1': 'Landingpage für IT-Berater in {city_label}',
+        'problem': 'Wenn IT-nahe Beratungsleistungen fachlich stark sind, online aber noch nicht verständlich, vertrauenswürdig oder klar genug positioniert werden.',
+        'deliverable': 'klare Positionierung, bessere Leistungsdarstellung und stärkere Anfrageführung für IT-nahe Beratungsangebote',
+    },
+    'ki-berater': {
+        'title': 'KI-Berater in {city_label}',
+        'h1': 'Landingpage für KI-Berater in {city_label}',
+        'problem': 'Wenn KI-Angebote interessant sind, aber online noch zu abstrakt, zu technisch oder zu wenig anschlussfähig für echte Interessenten wirken.',
+        'deliverable': 'verständlicheres KI-Angebot, bessere Nutzenkommunikation und klarere Conversion-Logik',
+    },
+    'interim-manager': {
+        'title': 'Interim Manager in {city_label}',
+        'h1': 'Landingpage für Interim Manager in {city_label}',
+        'problem': 'Wenn Führung auf Zeit, Restrukturierung oder operative Verantwortung online noch nicht klar genug als seriöses Angebot sichtbar wird.',
+        'deliverable': 'stärkerer Vertrauensrahmen, klarere Leistungsdarstellung und bessere Anfragefähigkeit für Interim-Management-Angebote',
+    },
 }
 city_labels = {
     'wien':'Wien','graz':'Graz','linz':'Linz','salzburg':'Salzburg','innsbruck':'Innsbruck','klagenfurt':'Klagenfurt','st-poelten':'St. Pölten','wiener-neustadt':'Wiener Neustadt',
@@ -46,7 +65,14 @@ for cluster in first_batch:
     city=cluster['city']
     for path in cluster['paths']:
         slug=path.removeprefix('/landingpage-').removesuffix('.html')
-        profession='-'.join(slug.split('-')[1:]) if '-' in slug else 'berater'
+        profession='berater'
+        city=slug
+        for candidate in sorted(profession_map.keys(), key=len, reverse=True):
+            suffix='-' + candidate
+            if slug.endswith(suffix):
+                profession=candidate
+                city=slug[:-len(suffix)]
+                break
         # only support the first production professions cleanly
         if profession not in profession_map:
             continue
