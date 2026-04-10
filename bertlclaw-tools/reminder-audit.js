@@ -55,7 +55,9 @@ function slotFor(date) {
 
 const argv = process.argv.slice(2);
 const hoursFlag = argv.find(arg => arg.startsWith('--hours='));
+const graceFlag = argv.find(arg => arg.startsWith('--grace-minutes='));
 const hoursToCheck = Math.max(1, Number(hoursFlag ? hoursFlag.split('=')[1] : 6) || 6);
+const graceMinutes = Math.max(0, Number(graceFlag ? graceFlag.split('=')[1] : 20) || 20);
 const now = new Date();
 const currentSlotDate = new Date(now);
 currentSlotDate.setMinutes(0, 0, 0);
@@ -76,12 +78,17 @@ for (const line of logLines) {
   if (dailyMatch) dailySeen.add(dailyMatch[1]);
 }
 
-const missingHourlySlots = expectedSlots.filter(slot => !hourlySeen.has(slot));
+const currentVienna = nowVienna(now);
+const currentMinutesIntoHour = Number(currentVienna.minute || '0');
+const effectiveExpectedSlots = currentMinutesIntoHour < graceMinutes ? expectedSlots.slice(0, -1) : expectedSlots;
+const missingHourlySlots = effectiveExpectedSlots.filter(slot => !hourlySeen.has(slot));
 const state = readJson(statePath, null);
 const report = {
   generated_at: nowVienna().stamp,
   audit_window_hours: hoursToCheck,
+  grace_minutes: graceMinutes,
   expected_hourly_slots: expectedSlots,
+  effective_expected_hourly_slots: effectiveExpectedSlots,
   missing_hourly_slots: missingHourlySlots,
   last_daily_slot_seen_in_log: Array.from(dailySeen).sort().slice(-1)[0] || null,
   state_snapshot: state,
