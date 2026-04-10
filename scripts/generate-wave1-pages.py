@@ -42,6 +42,19 @@ profession_map = {
         'problem': 'Wenn Führung auf Zeit, Restrukturierung oder operative Verantwortung online noch nicht klar genug als seriöses Angebot sichtbar wird.',
         'deliverable': 'stärkerer Vertrauensrahmen, klarere Leistungsdarstellung und bessere Anfragefähigkeit für Interim-Management-Angebote',
     },
+
+    'seo-berater': {
+        'title': 'SEO-Berater in {city_label}',
+        'h1': 'Landingpage für SEO-Berater in {city_label}',
+        'problem': 'Wenn SEO-Leistungen fachlich stark sind, online aber noch zu technisch, zu allgemein oder zu wenig vertrauenswürdig wirken.',
+        'deliverable': 'klarere Leistungsdarstellung, verständlichere Angebotskommunikation und stärkere Anfrageführung für SEO-nahe Beratungsangebote',
+    },
+    'hr-berater': {
+        'title': 'HR-Berater in {city_label}',
+        'h1': 'Landingpage für HR-Berater in {city_label}',
+        'problem': 'Wenn HR-, Recruiting- oder People-Themen zwar fachlich kompetent sind, online aber noch nicht klar genug in ein starkes Beratungsangebot übersetzt werden.',
+        'deliverable': 'stärkere Positionierung, klarere Nutzenkommunikation und ein vertrauenswürdigerer Auftritt für HR-nahe Beratung',
+    },
 }
 city_labels = {
     'wien':'Wien','graz':'Graz','linz':'Linz','salzburg':'Salzburg','innsbruck':'Innsbruck','klagenfurt':'Klagenfurt','st-poelten':'St. Pölten','wiener-neustadt':'Wiener Neustadt',
