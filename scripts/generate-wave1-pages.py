@@ -136,6 +136,31 @@ profession_map = {
         'problem': 'Wenn Transformationsberatung online noch zu abstrakt, zu strategisch oder zu wenig greifbar kommuniziert wird.',
         'deliverable': 'klarere Positionierung, verständlichere Nutzenübersetzung und stärkerer Vertrauensaufbau für Transformationsberatung',
     },
+
+    'digitalisierungsberater': {
+        'title': 'Digitalisierungsberater in {city_label}',
+        'h1': 'Landingpage für Digitalisierungsberater in {city_label}',
+        'problem': 'Wenn Digitalisierungsberatung online noch zu abstrakt, zu breit oder zu wenig vertrauenswürdig kommuniziert wird.',
+        'deliverable': 'klarere Positionierung, verständlichere Leistungsdarstellung und stärkere Anfrageführung für Digitalisierungsberatung',
+    },
+    'organisationsberater': {
+        'title': 'Organisationsberater in {city_label}',
+        'h1': 'Landingpage für Organisationsberater in {city_label}',
+        'problem': 'Wenn Organisationsberatung zwar relevant ist, online aber noch nicht schnell genug verständlich macht, wo der geschäftliche Hebel liegt.',
+        'deliverable': 'stärkere Nutzenkommunikation und ein vertrauenswürdigerer Auftritt für organisationsnahe Beratung',
+    },
+    'change-manager': {
+        'title': 'Change Manager in {city_label}',
+        'h1': 'Landingpage für Change Manager in {city_label}',
+        'problem': 'Wenn Change-, Wandel- oder Transformationsleistungen online noch nicht konkret genug als belastbares Angebot erscheinen.',
+        'deliverable': 'klarere Positionierung, bessere Struktur und stärkere Anfragefähigkeit für Change-Management-Angebote',
+    },
+    'operations-manager': {
+        'title': 'Operations Manager in {city_label}',
+        'h1': 'Landingpage für Operations Manager in {city_label}',
+        'problem': 'Wenn operative Verantwortung, Umsetzungsstärke und Struktur online noch nicht klar genug in ein professionelles Angebot übersetzt werden.',
+        'deliverable': 'stärkerer Vertrauensrahmen und verständlichere Leistungsdarstellung für operationsnahe Angebote',
+    },
 }
 city_labels = {
     'wien':'Wien','graz':'Graz','linz':'Linz','salzburg':'Salzburg','innsbruck':'Innsbruck','klagenfurt':'Klagenfurt','st-poelten':'St. Pölten','wiener-neustadt':'Wiener Neustadt',
