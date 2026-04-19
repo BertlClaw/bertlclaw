@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BertlClaw, Landingpages und Website-Texte für mehr Anfragen</title>
-  <meta name="description" content="BertlClaw baut klare Landingpages, Website-Texte und digitale Struktur für Selbstständige, Dienstleister und kleine Unternehmen mit Fokus auf Anfragen und Vertrauen." />
+  <title>BertlClaw, mehr Anfragen durch klare Websites und Landingpages</title>
+  <meta name="description" content="BertlClaw macht Websites klarer, vertrauenswürdiger und anfrage-stärker. Für Selbstständige und kleine Unternehmen, die mehr passende Leads wollen." />
   <link rel="canonical" href="https://bertlclaw.at/" />
   <link rel="alternate" hreflang="de" href="https://bertlclaw.at/" />
   <link rel="alternate" hreflang="x-default" href="https://bertlclaw.at/" />
-  <meta property="og:title" content="BertlClaw, klare Websites für mehr Anfragen" />
-  <meta property="og:description" content="BertlClaw verbessert Landingpages, Website-Texte und digitale Struktur für Selbstständige, Dienstleister und kleine Unternehmen." />
+  <meta property="og:title" content="BertlClaw, mehr Anfragen durch klare Websites" />
+  <meta property="og:description" content="Klare Botschaft, stärkere CTAs und mehr Vertrauen. BertlClaw optimiert Websites für mehr passende Anfragen." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://bertlclaw.at/" />
   <meta property="og:image" content="https://bertlclaw.at/bertlclaw-assets/og-card.jpg" />
@@ -17,8 +17,8 @@
   <meta property="og:locale" content="de_AT" />
   <meta name="twitter:image" content="https://bertlclaw.at/bertlclaw-assets/og-card.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="BertlClaw, klare Websites für mehr Anfragen" />
-  <meta name="twitter:description" content="BertlClaw verbessert Landingpages, Website-Texte und digitale Struktur für mehr Vertrauen und mehr Anfragen." />
+  <meta name="twitter:title" content="BertlClaw, mehr Anfragen durch klare Websites" />
+  <meta name="twitter:description" content="Klare Botschaft, stärkere CTAs und mehr Vertrauen. BertlClaw optimiert Websites für mehr passende Anfragen." />
   <link rel="icon" href="favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" href="bertlclaw-assets/logo-32.png" />
   <link rel="apple-touch-icon" href="bertlclaw-assets/logo-180.png" />
@@ -73,9 +73,13 @@
     h3{font-size:1.16rem}
     p{margin:0 0 14px}
     .lead{font-size:1.08rem;color:var(--muted);max-width:60ch}
-    .hero-proof{display:grid;gap:14px;margin:22px 0}
-    .hero-proof .trust-card{padding:18px 20px;background:var(--panel-soft)}
-    .hero-proof strong{display:block;margin-bottom:6px}
+    .hero-proof{display:grid;gap:12px;margin:18px 0}
+    .hero-proof .trust-card{padding:16px 18px;background:var(--panel-soft)}
+    .hero-proof strong{display:block;margin-bottom:4px}
+    .hero-quick-points{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+    .quick-point{padding:14px 16px;border-radius:18px;border:1px solid var(--border);background:rgba(255,255,255,.04)}
+    .quick-point strong{display:block;margin-bottom:4px;font-size:1rem}
+    .quick-point span{color:var(--muted);font-size:.95rem}
     .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
     .btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:14px 18px;border-radius:14px;font-weight:800;border:1px solid transparent;cursor:pointer}
     .btn-primary{background:var(--button);color:var(--button-text)}
@@ -101,6 +105,8 @@
     .proof-stack{display:grid;gap:16px}
     .proof-card,.contact-card{padding:24px;background:var(--panel-soft)}
     .proof-card p,.contact-card p{color:var(--muted)}
+    .mini-proof-list{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+    .mini-proof-list li{padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.04);color:var(--muted);border:1px solid var(--border)}
     .proof-badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
     .proof-badge{font-weight:600}
     .cta-section{background:linear-gradient(180deg,var(--bg-cta) 0%, #0f3159 100%)}
@@ -125,7 +131,7 @@
     .footer-links{grid-template-columns:repeat(3,auto);gap:10px 16px}
     .muted{color:var(--muted)}
     .mobile-contact-bar{display:none}
-    @media (max-width:1080px){.hero-card,.problem-grid,.service-grid,.trust-grid,.cta-shell,.form-grid,.footer-grid{grid-template-columns:1fr}.hero-card{padding:28px}.footer-links{grid-template-columns:repeat(2,auto)}}
+    @media (max-width:1080px){.hero-card,.problem-grid,.service-grid,.trust-grid,.cta-shell,.form-grid,.footer-grid,.hero-quick-points{grid-template-columns:1fr}.hero-card{padding:28px}.footer-links{grid-template-columns:repeat(2,auto)}}
     @media (max-width:720px){body{padding-bottom:108px}.nav-inner{align-items:flex-start;flex-direction:column}.nav-links{display:none}.section{padding:44px 0}.hero{padding-top:24px}.hero-card,.panel-card,.service-card,.proof-card,.cta-shell,.contact-card{padding:22px}.cta .btn,.cookie-actions .btn{width:100%}.cookie-inner{flex-direction:column;align-items:flex-start}.mobile-contact-bar{position:fixed;left:12px;right:12px;bottom:12px;z-index:180;display:grid;grid-template-columns:1fr auto;gap:10px;padding:8px;border-radius:18px;border:1px solid var(--border);background:rgba(6,17,32,.94);box-shadow:var(--shadow)}.mobile-contact-bar .btn{min-height:50px}}
   </style>
   <script type="application/ld+json">
@@ -273,29 +279,28 @@
     <div class="wrap">
       <div class="hero-card">
         <section aria-labelledby="hero-heading">
-          <span class="eyebrow">Landingpages, Website-Texte und digitale Struktur für Selbstständige</span>
-          <h1 id="hero-heading">Mehr Anfragen durch eine klare Website, die sofort Vertrauen aufbaut.</h1>
-          <p class="lead">BertlClaw schärft Angebot, Botschaft und Seitenstruktur für Selbstständige, Dienstleister und kleine Unternehmen. Damit Besucher schneller verstehen, warum sie anfragen sollen.</p>
+          <span class="eyebrow">Websites und Landingpages für mehr passende Anfragen</span>
+          <h1 id="hero-heading">Wenn deine Website nicht klar verkauft, gehen dir Anfragen verloren.</h1>
+          <p class="lead">BertlClaw macht dein Angebot sofort verständlich, stärkt Vertrauen und führt Besucher klar zur Anfrage. Ohne Agentur-Blabla, ohne unnötige Schleifen.</p>
           <div class="hero-proof">
             <div class="trust-card">
-              <strong>Direkter Ansprechpartner</strong>
-              <p>Du arbeitest direkt mit Dominic Reisenbichler, MSc. Keine Vermittler, kein Sales-Team, keine Agenturkulisse.</p>
+              <strong>Direkt mit Dominic</strong>
+              <p>Keine Vermittler, kein Sales-Team, kein Umweg.</p>
             </div>
             <div class="trust-card">
-              <strong>Klare Ergebnisse statt vager Beratung</strong>
-              <p>Landingpage-Struktur, Texte, Trust-Elemente, CTA-Logik und konkrete nächste Schritte, die sofort nutzbar sind.</p>
+              <strong>Schnell klarer</strong>
+              <p>Mehr Klarheit in Botschaft, CTA und Struktur, damit mehr passende Leads anfragen.</p>
             </div>
           </div>
           <div class="cta">
-            <a class="btn btn-primary" href="#kontakt">Kostenlose Ersteinschätzung anfragen</a>
-            <a class="btn btn-secondary" href="#proof">Proof ansehen</a>
-            <a class="btn btn-secondary" href="services.html">Leistungen ansehen</a>
+            <a class="btn btn-primary" href="#kontakt">Kostenlose Ersteinschätzung starten</a>
+            <a class="btn btn-secondary" href="#contactForm">Direkt Formular öffnen</a>
           </div>
-          <ul class="hero-list" aria-label="Kurze Vertrauensargumente">
-            <li>Antwort in 24 bis 48 Stunden</li>
-            <li>2 bis 4 Sätze reichen für den Start</li>
-            <li>Auch mobil einfach anfragen</li>
-          </ul>
+          <div class="hero-quick-points" aria-label="Kurze Vertrauensargumente">
+            <div class="quick-point"><strong>Antwort in 24 bis 48h</strong><span>Kein langer Vorlauf.</span></div>
+            <div class="quick-point"><strong>2 bis 4 Sätze reichen</strong><span>Auch ohne Briefing starten.</span></div>
+            <div class="quick-point"><strong>Für Selbstständige und KMU</strong><span>Klar, pragmatisch, verkaufsnah.</span></div>
+          </div>
         </section>
         <aside class="hero-aside">
           <div class="hero-visual hero-card" style="padding:0;min-height:100%;">
@@ -311,26 +316,26 @@
       <div class="wrap">
         <div class="section-header">
           <span class="micro-label">Problem und Lösung</span>
-          <h2>Viele gute Angebote scheitern nicht an der Leistung, sondern an der Website.</h2>
-          <p class="muted">Wenn die Botschaft zu breit ist, CTAs fehlen und Vertrauen zu spät kommt, springen Besucher ab. BertlClaw baut die Seite so auf, dass Nutzen, Beweise und nächster Schritt sofort klar sind.</p>
+          <h2>Viele Websites sind nicht schlecht. Sie sind nur nicht klar genug, um Anfragen auszulösen.</h2>
+          <p class="muted">Wenn Nutzen, Vertrauen und nächster Schritt nicht sofort klar sind, springen gute Besucher ab. BertlClaw schärft genau diese Stellen.</p>
         </div>
         <div class="problem-grid">
           <article class="panel-card" aria-labelledby="problem-list-heading">
             <h3 id="problem-list-heading">Typische Probleme</h3>
             <ul class="problem-list">
-              <li>Die Startseite ist zu lang und überfordert statt zu führen.</li>
-              <li>Es gibt keine klare CTA-Struktur für mobile und Desktop.</li>
-              <li>Vertrauen entsteht erst spät oder gar nicht.</li>
-              <li>Texte erklären zu viel, verkaufen aber zu wenig.</li>
+              <li>Zu viel Text, zu wenig Führung.</li>
+              <li>CTAs sind schwach oder verstreut.</li>
+              <li>Besucher verstehen den Nutzen nicht sofort.</li>
+              <li>Vertrauen kommt zu spät.</li>
             </ul>
           </article>
           <article class="panel-card" aria-labelledby="solution-list-heading">
             <h3 id="solution-list-heading">Was BertlClaw verbessert</h3>
             <ul class="problem-list">
-              <li>Klare Hero-Botschaft mit direkter Handlungsaufforderung.</li>
-              <li>Saubere Seitenlogik mit kurzen, mobilen Abschnitten.</li>
-              <li>Proof, Referenzlogik und Vertrauenselemente an den richtigen Stellen.</li>
-              <li>Semantisch klare Inhalte, die auch für KI-Systeme leichter auslesbar sind.</li>
+              <li>Klare Botschaft im ersten Bildschirm.</li>
+              <li>Stärkere CTAs an den richtigen Stellen.</li>
+              <li>Mehr Vertrauen vor der Anfrage.</li>
+              <li>Kürzere, klarere Texte mit sauberer Struktur.</li>
             </ul>
           </article>
         </div>
@@ -341,35 +346,35 @@
       <div class="wrap">
         <div class="section-header">
           <span class="micro-label">Leistungen</span>
-          <h2>Drei Hebel, mit denen aus einer Website wieder ein echter Vertriebspunkt wird.</h2>
-          <p class="muted">Klare Leistungen, einfache Sprache und sauber getrennte Nutzenargumente für Menschen und generative Suchsysteme.</p>
+          <h2>Die drei Hebel, mit denen aus Besuchern eher Anfragen werden.</h2>
+          <p class="muted">Weniger Gerede, mehr Klarheit in Angebot, Vertrauen und nächstem Schritt.</p>
         </div>
         <div class="service-grid">
           <article class="service-card">
             <h3>Landingpage Sprint</h3>
-            <p class="muted">Für Angebotsseiten, die sofort verständlich sein müssen.</p>
+            <p class="muted">Wenn deine Seite schneller auf den Punkt kommen muss.</p>
             <ul>
-              <li>Hero, CTA und Leserführung neu aufbauen</li>
-              <li>Struktur für schnelle Anfrageentscheidung</li>
-              <li>Mobile Conversion direkt mitdenken</li>
+              <li>Hero und CTA schärfen</li>
+              <li>Leser schneller zur Anfrage führen</li>
+              <li>Mobil direkt mitoptimieren</li>
             </ul>
           </article>
           <article class="service-card">
             <h3>Website-Texte und Positionierung</h3>
-            <p class="muted">Für Angebote, die online zu generisch oder zu weich wirken.</p>
+            <p class="muted">Wenn dein Angebot online zu austauschbar wirkt.</p>
             <ul>
-              <li>Nutzen klar formulieren</li>
-              <li>Einwände und FAQ früh abfangen</li>
-              <li>Vertrauen durch klare Sprache stärken</li>
+              <li>Nutzen glasklar formulieren</li>
+              <li>Einwände früher abfangen</li>
+              <li>Mehr Vertrauen durch klarere Sprache</li>
             </ul>
           </article>
           <article class="service-card">
             <h3>Digitale Struktur und Klarheit</h3>
-            <p class="muted">Für offene digitale Themen, die priorisiert und geordnet werden müssen.</p>
+            <p class="muted">Wenn deine Website oder dein Angebot digital zu unklar geworden ist.</p>
             <ul>
-              <li>Ordnung in Inhalte, Seiten und Prozesse bringen</li>
-              <li>Nächste Schritte sauber definieren</li>
-              <li>Saubere Basis für spätere Umsetzung schaffen</li>
+              <li>Struktur in Inhalte und Seiten bringen</li>
+              <li>Nächste Schritte klar festlegen</li>
+              <li>Eine saubere Basis für Umsetzung schaffen</li>
             </ul>
           </article>
         </div>
@@ -384,32 +389,32 @@
       <div class="wrap">
         <div class="section-header">
           <span class="micro-label">Trust und Proof</span>
-          <h2>Vertrauen entsteht hier nicht durch Show, sondern durch nachvollziehbare Belege.</h2>
-          <p class="muted">Keine erfundenen Testimonials, keine Fantasiezahlen. Stattdessen klare Arbeitsweise, sichtbare Deliverables und professionelle Projekterfahrung.</p>
+          <h2>Warum BertlClaw Vertrauen schafft und nicht nur Aufmerksamkeit.</h2>
+          <p class="muted">Klare Arbeitsweise, direkte Zusammenarbeit und echte Projekterfahrung statt leerer Versprechen.</p>
         </div>
         <div class="trust-grid">
           <div class="proof-stack">
             <article class="proof-card">
-              <h3>Reale Projekterfahrung</h3>
-              <p>Dominic Reisenbichler leitet internationale ERP-Rollouts bei XALAX GmbH. Diese Strukturkompetenz fließt in Angebotsseiten, Website-Texte und digitale Systeme ein.</p>
+              <h3>Direkte Zusammenarbeit</h3>
+              <p>Du arbeitest direkt mit Dominic Reisenbichler. Schnell, klar und ohne Agentur-Umwege.</p>
             </article>
             <article class="proof-card">
-              <h3>Greifbare Ergebnisse</h3>
-              <p>BertlClaw liefert Struktur, Texte, FAQ-Blöcke, CTA-Logik, Prioritäten und direkt nutzbare Artefakte statt bloßer Beratung.</p>
+              <h3>Erfahrung mit komplexen Projekten</h3>
+              <p>Internationale ERP-Rollouts und strukturierte Umsetzungen sorgen für einen pragmischen, sauberen Blick auf digitale Klarheit.</p>
             </article>
             <article class="proof-card">
-              <h3>Ehrliche Einordnung</h3>
-              <p>Wenn ein Projekt fachlich oder wirtschaftlich nicht passt, wird das klar gesagt. Das spart Zeit und stärkt Vertrauen.</p>
+              <h3>Konkrete Ergebnisse</h3>
+              <p>Du bekommst klarere Seiten, stärkere CTAs, bessere Texte und einen nachvollziehbaren nächsten Schritt.</p>
             </article>
           </div>
           <aside class="contact-card">
             <span class="top-badge">Schneller Vertrauenscheck</span>
-            <h3>Warum Menschen anfragen</h3>
-            <ul class="trust-list">
+            <h3>Warum Menschen eher anfragen</h3>
+            <ul class="mini-proof-list">
               <li>Direkter Kontakt statt Agentur-Overhead</li>
-              <li>Festpreise und klare Deliverables</li>
-              <li>Pragmatischer Start ohne Pflicht-Call</li>
-              <li>Proof-Seite mit vertiefender Nachweislogik</li>
+              <li>Klare Deliverables statt vager Beratung</li>
+              <li>Start auch ohne perfektes Briefing</li>
+              <li>Saubere, ehrliche Einordnung wenn etwas nicht passt</li>
             </ul>
             <div class="proof-badges">
               <span class="proof-badge">Österreichisches Impressum</span>
@@ -417,8 +422,8 @@
               <span class="proof-badge">DACH-weit remote</span>
             </div>
             <div class="cta">
-              <a class="btn btn-primary" href="proof.html">Proof-Seite öffnen</a>
-              <a class="btn btn-secondary" href="#kontakt">Direkt anfragen</a>
+              <a class="btn btn-primary" href="#kontakt">Jetzt Anfrage starten</a>
+              <a class="btn btn-secondary" href="proof.html">Mehr Proof ansehen</a>
             </div>
           </aside>
         </div>
@@ -431,13 +436,13 @@
           <div>
             <div class="section-header" style="margin-bottom:18px;">
               <span class="micro-label">Kontakt und CTA</span>
-              <h2>Der nächste Schritt ist einfach. Schreib kurz, was gerade blockiert.</h2>
-              <p class="muted">2 bis 4 Sätze reichen. Du bekommst eine ehrliche Einschätzung, einen sinnvollen Startpunkt oder eine klare Absage, wenn es nicht passt.</p>
+              <h2>Schreib kurz, was gerade nicht funktioniert. Ich sage dir, wie man mehr Anfragen daraus macht.</h2>
+              <p class="muted">2 bis 4 Sätze reichen. Du bekommst eine klare Einschätzung und den sinnvollsten nächsten Schritt.</p>
             </div>
             <div class="proof-stack">
               <article class="contact-card">
                 <h3>Was du schicken kannst</h3>
-                <p>Link zur Website, Screenshot, kurzer Beschreibungstext oder das Problem in Alltagssprache. Kein perfektes Briefing nötig.</p>
+                <p>Website-Link, Screenshot oder 2 bis 4 Sätze zum Problem. Mehr braucht es nicht.</p>
               </article>
               <article class="contact-card">
                 <h3>Alternative Kontaktwege</h3>
@@ -445,13 +450,13 @@
               </article>
             </div>
             <div class="cta">
-              <a class="btn btn-primary" href="#contactForm">Formular ausfüllen</a>
-              <a class="btn btn-secondary" href="https://wa.me/436781299919" target="_blank" rel="noopener">Per WhatsApp starten</a>
-              <a class="btn btn-secondary" href="mailto:dominic.reisenbichler@gmx.at">Per E-Mail schreiben</a>
+              <a class="btn btn-primary" href="#contactForm">Kostenlose Ersteinschätzung anfragen</a>
+              <a class="btn btn-secondary" href="https://wa.me/436781299919" target="_blank" rel="noopener">Per WhatsApp anfragen</a>
+              <a class="btn btn-secondary" href="mailto:dominic.reisenbichler@gmx.at">Per E-Mail anfragen</a>
             </div>
           </div>
           <article class="contact-card">
-            <h3>Sichtbares Kontaktformular</h3>
+            <h3>Jetzt Anfrage senden</h3>
             <form class="contact-form" id="contactForm" action="https://formspree.io/f/xnjoapve" method="POST">
               <div class="form-grid">
                 <div class="field">
