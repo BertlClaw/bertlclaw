@@ -123,6 +123,14 @@
     .mini-proof-list li{padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.04);color:var(--muted);border:1px solid var(--border)}
     .proof-badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
     .proof-badge{font-weight:600}
+    .compare-grid,.scenario-grid,.steps-grid,.before-after-grid{display:grid;gap:18px}
+    .compare-grid{grid-template-columns:repeat(4,1fr)}
+    .scenario-grid,.steps-grid,.before-after-grid{grid-template-columns:repeat(2,1fr)}
+    .compare-card,.scenario-card,.step-card,.before-after-card{padding:24px;border-radius:22px;border:1px solid var(--border);background:var(--panel-soft);box-shadow:var(--shadow)}
+    .compare-card.highlight{border-color:var(--border-strong);background:linear-gradient(180deg,rgba(142,197,255,.14),rgba(11,23,44,.88))}
+    .compare-card ul,.scenario-card ul,.before-after-card ul{margin:14px 0 0;padding-left:18px;display:grid;gap:8px;color:var(--muted)}
+    .step-card{display:flex;gap:14px;align-items:flex-start}
+    .step-number{width:34px;height:34px;border-radius:999px;display:grid;place-items:center;border:1px solid var(--border-strong);background:rgba(142,197,255,.1);font-weight:800;color:var(--accent-strong);flex:0 0 auto}
     .cta-section{background:linear-gradient(180deg,var(--bg-cta) 0%, #0f3159 100%)}
     .cta-shell{padding:32px;display:grid;grid-template-columns:1fr .95fr;gap:22px;background:rgba(7,18,34,.9)}
     .contact-form{display:grid;gap:14px}
@@ -145,7 +153,7 @@
     .footer-links{grid-template-columns:repeat(3,auto);gap:10px 16px}
     .muted{color:var(--muted)}
     .mobile-contact-bar{display:none}
-    @media (max-width:1080px){.hero-card,.problem-grid,.service-grid,.trust-grid,.cta-shell,.form-grid,.footer-grid,.hero-quick-points{grid-template-columns:1fr}.hero-card{padding:28px}.footer-links{grid-template-columns:repeat(2,auto)}}
+    @media (max-width:1080px){.hero-card,.problem-grid,.service-grid,.trust-grid,.cta-shell,.form-grid,.footer-grid,.hero-quick-points,.compare-grid,.scenario-grid,.steps-grid,.before-after-grid{grid-template-columns:1fr}.hero-card{padding:28px}.footer-links{grid-template-columns:repeat(2,auto)}}
     @media (max-width:720px){body{padding-bottom:108px}.nav-inner{align-items:flex-start;flex-direction:column}.nav-links{display:none}.section{padding:44px 0}.hero{padding-top:24px}.hero-card,.panel-card,.service-card,.proof-card,.cta-shell,.contact-card{padding:22px}.cta .btn,.cookie-actions .btn{width:100%}.cookie-inner{flex-direction:column;align-items:flex-start}.mobile-contact-bar{position:fixed;left:12px;right:12px;bottom:12px;z-index:180;display:grid;grid-template-columns:1fr auto;gap:10px;padding:8px;border-radius:18px;border:1px solid var(--border);background:rgba(6,17,32,.94);box-shadow:var(--shadow)}.mobile-contact-bar .btn{min-height:50px}}
   </style>
   <script type="application/ld+json">
@@ -268,11 +276,12 @@
         <a href="services.html">Leistungen</a>
         <a href="#fuer-wen">Für wen</a>
         <a href="#probleme">Probleme</a>
+        <a href="#vergleich">Vergleich</a>
         <a href="#ablauf">Ablauf</a>
         <a href="#faq">FAQ</a>
       </div>
       <div class="nav-actions">
-        <a class="mini-btn nav-cta" href="#kontakt">Projekt anfragen</a>
+        <a class="mini-btn nav-cta" href="#kontakt">Jetzt kostenlose Einschätzung sichern</a>
       </div>
     </div>
   </nav>
@@ -282,7 +291,7 @@
       <div class="hero-card">
         <section aria-labelledby="hero-heading">
           <span class="eyebrow">Für Unternehmen, die mehr Kunden gewinnen und klarer arbeiten wollen</span>
-          <h1 id="hero-heading">BertlClaw hilft Unternehmen, mehr Anfragen zu gewinnen, Prozesse zu vereinfachen und digitale Lösungen umzusetzen.</h1>
+          <h1 id="hero-heading">Mehr Anfragen, klarere Abläufe und digitale Lösungen, die wirklich helfen.</h1>
           <div class="video-block" aria-label="Kurze Leistungsbeschreibung als Video">
             <div class="video-shell">
               <button class="video-poster" type="button" aria-label="Hero-Video abspielen: Kurze Leistungsbeschreibung BertlClaw" data-video-embed="https://www.youtube-nocookie.com/embed/ahEUOZ7Ba4Q?autoplay=1&rel=0&modestbranding=1&playsinline=1&mute=1" data-video-title="Kurze Leistungsbeschreibung BertlClaw" style="background-image:url('bertlclaw-assets/video-poster-hero.jpg');">
@@ -296,7 +305,7 @@
               <a class="btn btn-primary" href="#kontakt">Kostenlose Einschätzung sichern</a>
             </div>
           </div>
-          <p class="lead">Kurz gesagt: BertlClaw hilft Unternehmen, mehr Anfragen zu gewinnen, Abläufe zu vereinfachen und Digitalisierung so umzusetzen, dass sie im Alltag wirklich nützt.</p>
+          <p class="lead">Du bekommst eine klare Website, weniger Chaos im Alltag und einen einfachen nächsten Schritt, statt Agentur-Gerede, Einzelkämpfer-Risiko oder internem Stillstand.</p>
           <div class="hero-proof">
             <div class="trust-card">
               <strong>Was macht BertlClaw?</strong>
@@ -312,10 +321,10 @@
             </div>
           </div>
           <div class="cta">
-            <a class="btn btn-primary" href="#kontakt">Kostenlose Einschätzung sichern</a>
-            <a class="btn btn-secondary" href="services.html">Leistungen ansehen</a>
+            <a class="btn btn-primary" href="#kontakt">Jetzt kostenlose Einschätzung sichern</a>
+            <a class="btn btn-secondary" href="services.html">Leistungen mit klarem Nutzen ansehen</a>
           </div>
-          <p class="muted" style="margin-top:10px;">Ein Link oder kurzer Text reicht. Keine Vorbereitung nötig. Kleine erste Anfrage genügt.</p>
+          <p class="muted" style="margin-top:10px;">Kein langes Briefing nötig. Kurze Nachricht reicht. Unverbindlich.</p>
           <div class="hero-quick-points" aria-label="Direkt extrahierbare Kernaussagen">
             <div class="quick-point"><strong>Mehr Kunden gewinnen</strong><span>Klare Seiten und klare Angebote bringen mehr qualifizierte Anfragen.</span></div>
             <div class="quick-point"><strong>Prozesse vereinfachen</strong><span>Weniger Reibung, weniger Rückfragen, mehr Zeit fürs Wesentliche.</span></div>
@@ -366,8 +375,8 @@
           </article>
         </div>
         <div class="cta">
-          <a class="btn btn-primary" href="#kontakt">Jetzt Anfrage stellen</a>
-          <a class="btn btn-secondary" href="#kontakt">Kostenlose Einschätzung sichern</a>
+          <a class="btn btn-primary" href="#kontakt">Jetzt kostenlose Einschätzung sichern</a>
+          <a class="btn btn-secondary" href="#kontakt">In 24h klare Antwort erhalten</a>
         </div>
       </div>
     </section>
@@ -427,24 +436,17 @@
           <h2>So läuft ein Projekt mit BertlClaw ab</h2>
           <p class="muted">Der Ablauf ist einfach. Du weißt sofort, was passiert.</p>
         </div>
-        <div class="service-grid">
-          <article class="proof-card">
-            <h3>1. Anfrage</h3>
-            <p>Du schickst einen Link, einen Screenshot oder ein kurzes Problem. Das reicht.</p>
-          </article>
-          <article class="proof-card">
-            <h3>2. Einordnung</h3>
-            <p>BertlClaw prüft, was auf der Website stört. Dann kommt ein klarer erster Schritt.</p>
-          </article>
-          <article class="proof-card">
-            <h3>3. Umsetzung</h3>
-            <p>Kommunikation, Abläufe oder digitale Lösungen werden so verbessert, dass der nächste Schritt klarer und einfacher wird.</p>
-          </article>
+        <div class="steps-grid">
+          <article class="step-card"><div class="step-number">1</div><div><h3>Anfrage senden</h3><p>Du schickst einen Link, Screenshot oder kurzen Text. Mehr braucht es nicht.</p></div></article>
+          <article class="step-card"><div class="step-number">2</div><div><h3>Kurze Einordnung</h3><p>Du bekommst eine ehrliche Einschätzung, wo gerade der größte Hebel liegt.</p></div></article>
+          <article class="step-card"><div class="step-number">3</div><div><h3>Konkreter Vorschlag</h3><p>Wenn es passt, folgt ein klarer nächster Schritt statt eines langen Verkaufsgesprächs.</p></div></article>
+          <article class="step-card"><div class="step-number">4</div><div><h3>Saubere Umsetzung</h3><p>Danach wird genau das verbessert, was mehr Anfragen oder bessere Abläufe bringt.</p></div></article>
         </div>
         <div class="cta">
-          <a class="btn btn-primary" href="#kontakt">Jetzt Anfrage stellen</a>
-          <a class="btn btn-secondary" href="#kontakt">Kurz prüfen lassen</a>
+          <a class="btn btn-primary" href="#kontakt">Jetzt kostenlose Einschätzung sichern</a>
+          <a class="btn btn-secondary" href="#kontakt">In 24h klare Antwort erhalten</a>
         </div>
+        <p class="muted" style="margin-top:10px;">Kurze Nachricht reicht. Kein langes Briefing nötig. Unverbindlich.</p>
       </div>
     </section>
 
@@ -589,20 +591,19 @@
               <p>Die Website erklärt zu viel und verkauft zu wenig. Angebote wirken unklar. Prozesse kosten unnötig Zeit. Digitalisierung ist gewollt, aber es fehlt ein einfacher Start.</p>
             </article>
             <article class="proof-card">
-              <h3>Vorher</h3>
-              <p>Besucher verstehen nicht schnell genug, was angeboten wird. Im Team gibt es zu viele Rückfragen. Wichtige Themen bleiben liegen, weil der nächste Schritt nicht klar ist.</p>
+              <h3>Vorher und nachher</h3>
+              <div class="before-after-grid">
+                <div class="before-after-card"><strong>Vorher</strong><ul><li>unklare Website</li><li>zu wenig passende Anfragen</li><li>Chaos bei Prioritäten und Abläufen</li></ul></div>
+                <div class="before-after-card"><strong>Nachher</strong><ul><li>klare Struktur und klare Botschaft</li><li>einfacherer Weg zur Anfrage</li><li>bessere Abläufe und klare nächste Schritte</li></ul></div>
+              </div>
             </article>
             <article class="proof-card">
-              <h3>Nachher</h3>
-              <p>Das Angebot wird schneller verstanden. Die Anfrage wird einfacher. Abläufe sind klarer. Es ist sichtbar, was zuerst getan werden sollte und was warten kann.</p>
-            </article>
-            <article class="proof-card">
-              <h3>Konkretes Beispiel</h3>
-              <p>Ein Unternehmen hat Leistungen auf der Website, aber Besucher verstehen nicht sofort, warum sie relevant sind. Nach der Überarbeitung sind Nutzen, Vertrauen und Kontaktweg klarer. Das führt oft zu besseren Gesprächen statt zu bloßen Klicks.</p>
-            </article>
-            <article class="proof-card">
-              <h3>Was sich danach verändert hat</h3>
-              <p>Weniger Unklarheit, weniger unnötige Rückfragen und mehr Sicherheit, weil Website, Abläufe oder Digitalisierung verständlicher und greifbarer geworden sind.</p>
+              <h3>Konkrete Mini-Szenarien</h3>
+              <div class="scenario-grid">
+                <article class="scenario-card"><h3>Handwerksbetrieb</h3><p><strong>Ausgangssituation:</strong> gute Arbeit, aber online zu wenig passende Anfragen.</p><p><strong>Problem:</strong> Leistungen und Einsatzgebiet waren auf der Website zu unklar.</p><p><strong>Ergebnis:</strong> klarere Erstgespräche und weniger unnötige Rückfragen.</p></article>
+                <article class="scenario-card"><h3>Lokaler Dienstleister</h3><p><strong>Ausgangssituation:</strong> die Leistung war stark, wirkte online aber austauschbar.</p><p><strong>Problem:</strong> Besucher haben den Unterschied zu spät verstanden.</p><p><strong>Ergebnis:</strong> mehr Vertrauen und bessere Anfragequalität.</p></article>
+                <article class="scenario-card"><h3>KMU mit vielen Baustellen</h3><p><strong>Ausgangssituation:</strong> Website, Prozesse und Digitalisierung hingen gleichzeitig fest.</p><p><strong>Problem:</strong> niemand wusste, was zuerst angegangen werden soll.</p><p><strong>Ergebnis:</strong> klarere Prioritäten und weniger Stillstand.</p></article>
+              </div>
             </article>
           </div>
           <aside class="contact-card">
@@ -614,8 +615,8 @@
               <li><strong>Dienstleister:</strong> Ausgangssituation: Angebot war gut, wirkte aber austauschbar. Problem: Nutzen wurde zu spät verstanden. Verändert wurde: klarere Sprache und stärkere Angebotslogik. Ergebnis: mehr Verständnis und bessere Anfragequalität.</li>
             </ul>
             <div class="cta">
-              <a class="btn btn-primary" href="#kontakt">Jetzt Anfrage stellen</a>
-              <a class="btn btn-secondary" href="#kontakt">Kostenlose Einschätzung sichern</a>
+              <a class="btn btn-primary" href="#kontakt">Jetzt kostenlose Einschätzung sichern</a>
+              <a class="btn btn-secondary" href="#kontakt">In 24h klare Antwort erhalten</a>
             </div>
           </aside>
         </div>
@@ -685,15 +686,20 @@
                 <p>Website-Link, Screenshot oder 2 bis 4 Sätze zum Problem. Das reicht für den Start.</p>
               </article>
               <article class="contact-card">
-                <h3>Alternative Kontaktwege</h3>
-                <p><a href="mailto:dominic.reisenbichler@gmx.at">dominic.reisenbichler@gmx.at</a><br /><a href="tel:+436781299919">+43 678 1299919</a><br /><a href="https://wa.me/436781299919" target="_blank" rel="noopener">WhatsApp öffnen</a></p>
+                <h3>Was passiert nach deiner Anfrage?</h3>
+                <div class="proof-stack">
+                  <article class="step-card"><div class="step-number">1</div><div><strong>Kurze Sichtung</strong><p>Ich schaue mir deine Anfrage an und prüfe, wo gerade der größte Hebel liegt.</p></div></article>
+                  <article class="step-card"><div class="step-number">2</div><div><strong>Klare Rückmeldung</strong><p>Du bekommst eine ehrliche Antwort, ob und wie BertlClaw dir sinnvoll helfen kann.</p></div></article>
+                  <article class="step-card"><div class="step-number">3</div><div><strong>Nächster sinnvoller Schritt</strong><p>Wenn es passt, starten wir klein und klar, statt dich in ein großes Projekt zu ziehen.</p></div></article>
+                  <article class="step-card"><div class="step-number">4</div><div><strong>Saubere Umsetzung</strong><p>Danach wird genau das verbessert, was mehr Anfragen oder bessere Abläufe bringt.</p></div></article>
+                </div>
               </article>
             </div>
             <div class="cta">
               <a class="btn btn-primary" href="#contactForm">Kostenlose Einschätzung sichern</a>
               <a class="btn btn-secondary" href="https://wa.me/436781299919" target="_blank" rel="noopener">Jetzt per WhatsApp anfragen</a>
             </div>
-            <p class="muted" style="margin-top:10px;">Ein Link oder kurzer Text reicht. Keine Vorbereitung nötig. Kleine erste Anfrage genügt.</p>
+            <p class="muted" style="margin-top:10px;">Kein langes Briefing nötig. Kurze Nachricht reicht. Unverbindlich.</p>
           </div>
           <article class="contact-card">
             <h3>Jetzt Anfrage senden, ohne großen Aufwand</h3>
@@ -732,7 +738,7 @@
                 <span>Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Anfrage über Formspree zu.</span>
               </label>
               <div class="cta">
-                <button class="btn btn-primary" type="submit">Projekt anfragen</button>
+                <button class="btn btn-primary" type="submit">Jetzt kostenlose Einschätzung sichern</button>
               </div>
               <div class="form-status" id="contactFormStatus" role="status" aria-live="polite"></div>
             </form>
@@ -760,8 +766,8 @@
   </footer>
 
   <div class="mobile-contact-bar" aria-label="Mobiler Schnellkontakt">
-    <a class="btn btn-primary" href="#contactForm">Jetzt Anfrage stellen</a>
-    <a class="btn btn-secondary" href="#kontakt">Kostenlose Einschätzung sichern</a>
+    <a class="btn btn-primary" href="#contactForm">Jetzt kostenlose Einschätzung sichern</a>
+    <a class="btn btn-secondary" href="#kontakt">In 24h klare Antwort erhalten</a>
   </div>
 
   <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Cookie Hinweis">
