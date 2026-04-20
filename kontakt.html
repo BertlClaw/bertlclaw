@@ -159,6 +159,9 @@
     .field select option{color:#0b1020;background:#ffffff}
     .field select:focus{color:#eef3ff}
     .field textarea{min-height:160px;resize:vertical}
+    .field-hint{margin-top:8px;color:var(--muted2);font-size:.88rem;line-height:1.65}
+    .message-helper{margin-top:10px;padding:12px 14px;border-radius:14px;border:1px solid rgba(124,156,255,.16);background:rgba(124,156,255,.06);color:var(--muted2);font-size:.9rem;line-height:1.68}
+    .message-helper strong{color:var(--text)}
     .form-note{margin-top:12px;color:var(--muted2);font-size:.92rem;line-height:1.7}
     .privacy-check{margin-top:14px;display:flex;gap:10px;align-items:flex-start;color:var(--muted2);font-size:.92rem;line-height:1.7}
     .privacy-check input{margin-top:4px;accent-color:var(--accent)}
@@ -297,6 +300,8 @@
               <input type="hidden" name="utm_source" id="hdn_utm_source" value="" />
               <input type="hidden" name="utm_medium" id="hdn_utm_medium" value="" />
               <input type="hidden" name="utm_campaign" id="hdn_utm_campaign" value="" />
+              <input type="hidden" name="utm_term" id="hdn_utm_term" value="" />
+              <input type="hidden" name="utm_content" id="hdn_utm_content" value="" />
               <input type="hidden" name="lead_entry" id="hdn_lead_entry" value="kontakt-page" />
               <div class="field full">
                 <label for="topic">Thema</label>
@@ -306,6 +311,7 @@
                   <option>Digitale Ordnung &amp; Klarheit</option>
                   <option>Allgemeine Anfrage</option>
                 </select>
+                <div class="field-hint">Unsicher? <strong>Allgemeine Anfrage</strong> ist völlig okay — die erste Einordnung passiert gemeinsam.</div>
               </div>
               <div class="field full">
                 <label for="contactPreference">Bevorzugte Rückmeldung</label>
@@ -319,6 +325,7 @@
               <div class="field full">
                 <label for="message">Nachricht</label>
                 <textarea id="message" name="message" placeholder="2–4 Sätze genügen: Worum geht es, was blockiert gerade und was soll besser werden?" required></textarea>
+                <div class="message-helper" id="messageHelper"><strong>Einfacher Start:</strong> Beschreib kurz dein Angebot, was online gerade nicht klar genug funktioniert und was stattdessen besser werden soll. Kein Briefing nötig.</div>
               </div>
             </div>
             <label class="privacy-check">
@@ -494,18 +501,68 @@
       var us = document.getElementById('hdn_utm_source');
       var um = document.getElementById('hdn_utm_medium');
       var uc = document.getElementById('hdn_utm_campaign');
+      var ut = document.getElementById('hdn_utm_term');
+      var uct = document.getElementById('hdn_utm_content');
       if(r) r.value = document.referrer || '';
       var params = new URLSearchParams(window.location.search);
       if(us) us.value = params.get('utm_source') || '';
       if(um) um.value = params.get('utm_medium') || '';
       if(uc) uc.value = params.get('utm_campaign') || '';
+      if(ut) ut.value = params.get('utm_term') || '';
+      if(uct) uct.value = params.get('utm_content') || '';
+
+      var topic = document.getElementById('topic');
+      var subjectField = document.querySelector('input[name="_subject"]');
+      var leadEntryField = document.getElementById('hdn_lead_entry');
+      var messageField = document.getElementById('message');
+      var messageHelper = document.getElementById('messageHelper');
+      var topicContentMap = {
+        'Landingpage Sprint': {
+          subject: 'Neue BertlClaw Anfrage – Landingpage Sprint',
+          leadEntry: 'kontakt-page-landingpage-sprint',
+          placeholder: '2–4 Sätze genügen: Welches Angebot soll die Landingpage verkaufen, was ist aktuell zu unklar und was soll für Besucher leichter werden?',
+          helper: '<strong>Schneller Start für Landingpages:</strong> Was ist das konkrete Angebot, für wen ist es gedacht und wo springen Interessenten aktuell eher ab oder fragen nicht an?'
+        },
+        'Positionierung & Website-Texte': {
+          subject: 'Neue BertlClaw Anfrage – Positionierung & Website-Texte',
+          leadEntry: 'kontakt-page-positionierung-texte',
+          placeholder: '2–4 Sätze genügen: Was bietest du an, wem hilfst du und wo wirkt die aktuelle Website noch zu diffus oder austauschbar?',
+          helper: '<strong>Schneller Start für Positionierung & Texte:</strong> Beschreib kurz dein Angebot, deine Zielgruppe und wo deine Website noch nicht klar genug erklärt, warum man gerade dir vertrauen sollte.'
+        },
+        'Digitale Ordnung & Klarheit': {
+          subject: 'Neue BertlClaw Anfrage – Digitale Ordnung & Klarheit',
+          leadEntry: 'kontakt-page-digitale-ordnung',
+          placeholder: '2–4 Sätze genügen: Welche digitalen Themen liegen gerade offen, was fühlt sich chaotisch an und wobei brauchst du zuerst Klarheit?',
+          helper: '<strong>Schneller Start für digitale Ordnung:</strong> Welche Baustellen laufen parallel, was blockiert dich gerade am meisten und wobei wäre ein klarer nächster Schritt sofort hilfreich?'
+        },
+        'Allgemeine Anfrage': {
+          subject: 'Neue BertlClaw Anfrage – Kontaktseite',
+          leadEntry: 'kontakt-page-general',
+          placeholder: '2–4 Sätze genügen: Worum geht es, was blockiert gerade und was soll besser werden?',
+          helper: '<strong>Einfacher Start:</strong> Beschreib kurz dein Angebot, was online gerade nicht klar genug funktioniert und was stattdessen besser werden soll. Kein Briefing nötig.'
+        }
+      };
+
+      function syncTopicState(selectedTopic){
+        var cfg = topicContentMap[selectedTopic] || topicContentMap['Allgemeine Anfrage'];
+        if(subjectField) subjectField.value = cfg.subject;
+        if(leadEntryField) leadEntryField.value = cfg.leadEntry;
+        if(messageField && !messageField.value.trim()) messageField.placeholder = cfg.placeholder;
+        if(messageHelper) messageHelper.innerHTML = cfg.helper;
+      }
+
+      if(topic){
+        syncTopicState(topic.value);
+        topic.addEventListener('change', function(){
+          syncTopicState(topic.value);
+        });
+      }
 
       // Starter chip
       document.querySelectorAll('[data-starter]').forEach(function(btn){
         btn.addEventListener('click', function(){
           var msg = btn.getAttribute('data-starter') || btn.textContent;
           var textarea = document.querySelector('#kontaktForm textarea[name="message"]');
-          var topic = document.querySelector('#kontaktForm select[name="topic"]');
           if(textarea){
             textarea.value = msg;
             textarea.focus();
@@ -515,6 +572,7 @@
             if(msg.toLowerCase().includes('landingpage')) topic.value = 'Landingpage Sprint';
             else if(msg.toLowerCase().includes('website')) topic.value = 'Positionierung & Website-Texte';
             else if(msg.toLowerCase().includes('ordnung') || msg.toLowerCase().includes('prioritäten')) topic.value = 'Digitale Ordnung & Klarheit';
+            syncTopicState(topic.value);
           }
           document.getElementById('formular').scrollIntoView({behavior:'smooth', block:'start'});
         });
@@ -542,11 +600,19 @@
         });
       }
 
-      // Prefill from URL ?chat=
-      var prefill = new URLSearchParams(window.location.search).get('chat');
+      // Prefill from URL ?chat= and optional ?topic=
+      var qs = new URLSearchParams(window.location.search);
+      var prefill = qs.get('chat');
+      var topicPrefill = qs.get('topic');
+      if(topicPrefill && topic && topicContentMap[topicPrefill]){
+        topic.value = topicPrefill;
+        syncTopicState(topic.value);
+      }
       if(prefill){
         var ta = form ? form.querySelector('textarea[name="message"]') : null;
         if(ta && !ta.value.trim()) ta.value = prefill;
+      }
+      if(prefill || topicPrefill){
         history.replaceState(null, '', window.location.pathname + window.location.hash);
       }
     })();
